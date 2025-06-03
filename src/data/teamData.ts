@@ -114,6 +114,7 @@ const ProgrammerTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Programmer",
   },
   {
     title: "Programmer",
@@ -122,6 +123,7 @@ const ProgrammerTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Programmer",
   },
   {
     title: "Programmer",
@@ -130,6 +132,7 @@ const ProgrammerTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Programmer",
   },
   {
     title: "Programmer",
@@ -138,6 +141,7 @@ const ProgrammerTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Programmer",
   },
 ];
 
