@@ -6,6 +6,7 @@ const ManagementTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Management",
   },
   {
     title: "Project manager",
@@ -14,6 +15,7 @@ const ManagementTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Management",
   },
   {
     title: "Release manager",
@@ -22,6 +24,7 @@ const ManagementTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Management",
   },
 ];
 
@@ -33,6 +36,7 @@ const DesignTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Design",
   },
   {
     title: "Generalist designer",
@@ -41,6 +45,7 @@ const DesignTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Design",
   },
   {
     title: "Gameplay & Level designer",
@@ -49,6 +54,7 @@ const DesignTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Design",
   },
 ];
 
@@ -60,6 +66,7 @@ const ArtTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Art",
   },
   {
     title: "Environment artist",
@@ -68,6 +75,7 @@ const ArtTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Art",
   },
   {
     title: "Prop & Character artist",
@@ -76,6 +84,7 @@ const ArtTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Art",
   },
   {
     title: "General game artist",
@@ -84,6 +93,7 @@ const ArtTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Art",
   },
   {
     title: "VFX artist",
@@ -92,6 +102,7 @@ const ArtTeamData = [
     discord: "discord",
     website: "website",
     games: [],
+    team: "Art",
   },
 ];
 
