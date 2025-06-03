@@ -7,6 +7,7 @@ const ManagementTeamData = [
     website: "website",
     games: [],
     team: "Management",
+    image: ""
   },
   {
     title: "Project manager",
@@ -16,6 +17,7 @@ const ManagementTeamData = [
     website: "website",
     games: [],
     team: "Management",
+    image: ""
   },
   {
     title: "Release manager",
@@ -25,6 +27,7 @@ const ManagementTeamData = [
     website: "website",
     games: [],
     team: "Management",
+    image: ""
   },
 ];
 
@@ -37,6 +40,7 @@ const DesignTeamData = [
     website: "website",
     games: [],
     team: "Design",
+    image: ""
   },
   {
     title: "Generalist designer",
@@ -46,6 +50,7 @@ const DesignTeamData = [
     website: "website",
     games: [],
     team: "Design",
+    image: ""
   },
   {
     title: "Gameplay & Level designer",
@@ -55,6 +60,7 @@ const DesignTeamData = [
     website: "website",
     games: [],
     team: "Design",
+    image: ""
   },
 ];
 
@@ -67,6 +73,7 @@ const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
+    image: ""
   },
   {
     title: "Environment artist",
@@ -76,6 +83,7 @@ const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
+    image: ""
   },
   {
     title: "Prop & Character artist",
@@ -85,6 +93,7 @@ const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
+    image: ""
   },
   {
     title: "General game artist",
@@ -94,6 +103,7 @@ const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
+    image: ""
   },
   {
     title: "VFX artist",
@@ -103,6 +113,7 @@ const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
+    image: ""
   },
 ];
 
@@ -115,6 +126,7 @@ const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
+    image: ""
   },
   {
     title: "Programmer",
@@ -124,6 +136,7 @@ const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
+    image: ""
   },
   {
     title: "Programmer",
@@ -133,6 +146,7 @@ const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
+    image: ""
   },
   {
     title: "Programmer",
@@ -142,6 +156,7 @@ const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
+    image: ""
   },
 ];
 
