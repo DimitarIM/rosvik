@@ -1,4 +1,4 @@
-const ManagementTeamData = [
+export const ManagementTeamData = [
   {
     title: "Producer",
     name: "Axel Lindberg",
@@ -31,7 +31,7 @@ const ManagementTeamData = [
   },
 ];
 
-const DesignTeamData = [
+export const DesignTeamData = [
   {
     title: "PO/Gameplay & Tech designer",
     name: "Daniel Karlberg",
@@ -64,7 +64,7 @@ const DesignTeamData = [
   },
 ];
 
-const ArtTeamData = [
+export const ArtTeamData = [
   {
     title: "Art director",
     name: "Andreas “Ato” Holewa",
@@ -117,7 +117,7 @@ const ArtTeamData = [
   },
 ];
 
-const ProgrammerTeamData = [
+export const ProgrammerTeamData = [
   {
     title: "Programmer",
     name: "Anton Lanning",
@@ -160,17 +160,9 @@ const ProgrammerTeamData = [
   },
 ];
 
-const allMembers = [
+export const allMembers = [
   ...ManagementTeamData,
   ...DesignTeamData,
   ...ArtTeamData,
   ...ProgrammerTeamData,
 ];
-
-export default {
-  ManagementTeamData,
-  DesignTeamData,
-  ArtTeamData,
-  ProgrammerTeamData,
-  allMembers,
-};
