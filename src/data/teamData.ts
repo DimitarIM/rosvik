@@ -95,7 +95,7 @@ const ArtTeamData = [
   },
 ];
 
-const ProgrammersData = [
+const ProgrammerTeamData = [
   {
     title: "Programmer",
     name: "Anton Lanning",
@@ -134,13 +134,13 @@ const allMembers = [
   ...ManagementTeamData,
   ...DesignTeamData,
   ...ArtTeamData,
-  ...ProgrammersData,
+  ...ProgrammerTeamData,
 ];
 
 export default {
   ManagementTeamData,
   DesignTeamData,
   ArtTeamData,
-  ProgrammersData,
+  ProgrammerTeamData,
   allMembers,
 };
