@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { allMembers } from "../../data/teamData";
 import { TeamColumnProps } from "../../types/types";
+import { slugify } from "../../utils/utils";
 
 const TeamColumn = ({ team }: TeamColumnProps) => {
   const filteredTeam = allMembers.filter(
@@ -15,7 +17,11 @@ const TeamColumn = ({ team }: TeamColumnProps) => {
         {filteredTeam.map((member, index) => (
           <div key={index}>
             <p className="text-xl font-bold">{member.title}</p>
-            <p className="text-xl underline cursor-pointer">{member.name}</p>
+            <Link href={`/about/${slugify(member.name.toLowerCase())}`}
+              className="text-xl underline cursor-pointer hover:text-primary transition"
+            >
+              {member.name}
+            </Link>
           </div>
         ))}
       </div>
