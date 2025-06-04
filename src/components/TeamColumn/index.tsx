@@ -17,7 +17,7 @@ const TeamColumn = ({ team }: TeamColumnProps) => {
         {filteredTeam.map((member, index) => (
           <div key={index}>
             <p className="text-xl font-bold">{member.title}</p>
-            <Link href={`/about/${slugify(member.name.toLowerCase())}`}
+            <Link href={`/about/${slugify(member.name)}`}
               className="text-xl underline cursor-pointer hover:text-primary transition"
             >
               {member.name}

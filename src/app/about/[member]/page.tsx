@@ -1,10 +1,11 @@
 import { allMembers } from "../../../data/teamData";
+import { MemberParamsProps } from "../../../types/types";
 import { slugify } from "../../../utils/utils";
 
-const MemberPage = ({ params }: { params: { member: string } }) => {
+const MemberPage = ({ params }: MemberParamsProps) => {
   const slugname = params.member;
   const member = allMembers.find(
-    (person) => slugify(person.name.toLowerCase()) === slugname
+    (person) => slugify(person.name) === slugname
   );
 
   if (!member) {
