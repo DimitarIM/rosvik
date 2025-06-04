@@ -1,3 +1,4 @@
+/* formatting name to slug in href */
 export const slugify = (str: string) =>
   str
     .normalize("NFD")
