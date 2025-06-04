@@ -67,7 +67,7 @@ export const DesignTeamData = [
 export const ArtTeamData = [
   {
     title: "Art director",
-    name: "Andreas “Ato” Holewa",
+    name: `Andreas "Ato" Holewa`,
     linkedin: "linkedin",
     discord: "discord",
     website: "website",
