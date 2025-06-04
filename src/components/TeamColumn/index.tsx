@@ -15,7 +15,7 @@ const TeamColumn = ({ team }: TeamColumnProps) => {
         {filteredTeam.map((member, index) => (
           <div key={index}>
             <p className="text-xl font-bold">{member.title}</p>
-            <p className="text-xl underline">{member.name}</p>
+            <p className="text-xl underline cursor-pointer">{member.name}</p>
           </div>
         ))}
       </div>
