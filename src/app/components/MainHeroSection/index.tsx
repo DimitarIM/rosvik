@@ -1,10 +1,15 @@
-import Image from "next/image";
+
 import Logo from "../Logo";
 import DownloadButton from "../DownloadButton";
+import Header from "../Header";
 
 const MainHeroSection = () => { 
     return(
-        <div className={`bg-[url('/img/bg_2.png')] flex flex-col items-center py-3.5 md:p-20 lg:p-60 `}>
+        <>       
+       
+        <div className={`bg-[url('/img/bg_2.png')]  `}>
+              <Header/>
+           <div className="flex flex-col items-center py-3.5 md:p-20 lg:p-60">  
             <Logo />
             <div className="text-2xl flex flex-row gap-5 lg:gap-15 text-center text-[#D7D3CD4D] 
                             lg:text-[46px] sm:text-[40px] md:text-[30px] 
@@ -15,8 +20,11 @@ const MainHeroSection = () => {
             </div>
              <div className="w-3xs mt-10">
                 <DownloadButton/>
-            </div>   
+            </div> 
+            </div>  
          </div>   
+         </>
+
     );
 }
 
