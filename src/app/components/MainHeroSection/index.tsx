@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Logo from "../Logo";
 import DownloadButton from "../DownloadButton";
-import { MainHeroSectionProps } from "@/utils/types";
 
-const MainHeroSection = ({image}: MainHeroSectionProps) => { 
+const MainHeroSection = () => { 
     return(
         <div className={`bg-[url('/img/bg_2.png')] flex flex-col items-center py-3.5 md:p-20 lg:p-60 `}>
             <Logo />
