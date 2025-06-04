@@ -10,7 +10,7 @@ const MemberPage = ({ params }: MemberParamsProps) => {
 
   if (!member) {
     return (
-      <div className="p-10 text-red-500 font-labrada"> Member not found</div>
+      <div className="p-10font-labrada">Member not found</div>
     );
   }
 
