@@ -8,7 +8,7 @@ const TeamColumn = ({ team }: TeamColumnProps) => {
 
   return (
     <div className="flex flex-col w-full h-full font-labrada space-y-1">
-      <h1 className="text-4xl p-2">
+      <h1 className="text-4xl p-2 text-center">
         {team.charAt(0).toUpperCase() + team.slice(1)}
       </h1>
       <div className="flex-1 space-y-8 p-7 bg-foreground rounded-[10px]">
