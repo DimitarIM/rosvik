@@ -18,8 +18,8 @@ const MemberPage = ({ params }: MemberParamsProps) => {
   return (
     <div className="p-10 space-y-4 font-labrada">
       <Link href="/about" className="bg-green-800 p-2 rounded-lg">Mock back button</Link>
-      <h1 className="text-4xl font-bold">{member.name}</h1>
-      <p className="text-xl">{member.title}</p>
+      <p className="text-[40px]">{member.name}</p>
+      <p className="text-[40px]">{member.title}</p>
       <p className="text-sm italic text-muted-foreground">{member.team} Team</p>
 
       <div className="space-y-2">
