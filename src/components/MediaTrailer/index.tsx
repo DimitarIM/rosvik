@@ -25,7 +25,7 @@ const MediaTrailer = () => {
             style={{
                 backgroundImage: "url('/img/bg_1.png')",
                 backgroundSize: 'cover',
-                backgroundPosition: 'center',
+              backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 position: 'relative',
                 left: '50%',
@@ -43,7 +43,7 @@ const MediaTrailer = () => {
                 </h2>
 
                 <div className="hidden md:block">
-                    <div className="main-trailer w-full max-w-4xl mx-auto cursor-pointer">
+         <div className="main-trailer w-full max-w-4xl mx-auto cursor-pointer">
                         <a href="https://www.youtube.com/watch?v=gQwgbpyIuEc" target="_blank" rel="noopener noreferrer">
                             <div className="relative group">
                                 <Image 
