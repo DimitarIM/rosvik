@@ -1,8 +1,12 @@
 export type MainHeroSectionProps = {
     image: string
-   
 }
 
-export interface LogoProps {
+export type LogoProps = {
     image: string
+}
+
+export type FullScreenMenuProps = {
+  isOpen: boolean;
+  onClose: () => void;
 }
