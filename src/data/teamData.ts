@@ -7,7 +7,7 @@ export const ManagementTeamData = [
     website: "website",
     games: [],
     team: "Management",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Project manager",
@@ -17,7 +17,7 @@ export const ManagementTeamData = [
     website: "website",
     games: [],
     team: "Management",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Release manager",
@@ -27,7 +27,7 @@ export const ManagementTeamData = [
     website: "website",
     games: [],
     team: "Management",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
 ];
 
@@ -40,7 +40,7 @@ export const DesignTeamData = [
     website: "website",
     games: [],
     team: "Design",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Generalist designer",
@@ -50,7 +50,7 @@ export const DesignTeamData = [
     website: "website",
     games: [],
     team: "Design",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Gameplay & Level designer",
@@ -60,7 +60,7 @@ export const DesignTeamData = [
     website: "website",
     games: [],
     team: "Design",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
 ];
 
@@ -73,7 +73,7 @@ export const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Environment artist",
@@ -83,7 +83,7 @@ export const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Prop & Character artist",
@@ -93,7 +93,7 @@ export const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "General game artist",
@@ -103,7 +103,7 @@ export const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "VFX artist",
@@ -113,7 +113,7 @@ export const ArtTeamData = [
     website: "website",
     games: [],
     team: "Art",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
 ];
 
@@ -126,7 +126,7 @@ export const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Programmer",
@@ -136,7 +136,7 @@ export const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Programmer",
@@ -146,7 +146,7 @@ export const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
   {
     title: "Programmer",
@@ -156,7 +156,7 @@ export const ProgrammerTeamData = [
     website: "website",
     games: [],
     team: "Programmer",
-    image: ""
+    image: "/img/team-members/profile.png"
   },
 ];
 

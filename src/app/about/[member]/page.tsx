@@ -25,8 +25,8 @@ const MemberPage = ({ params }: MemberParamsProps) => {
           </div>
           <div className="w-[90px] md:w-[150px] lg:w-[290px] aspect-square overflow-hidden rounded-full">
             <img
-              src="/img/profile.png"
-              alt="profile picture"
+              src={member.image}
+              alt={member.name}
               width={100}
               height={100}
               className="w-full h-full object-cover object-center"
