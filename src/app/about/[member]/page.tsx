@@ -13,11 +13,8 @@ const MemberPage = ({ params }: MemberParamsProps) => {
 
   return (
     <div className="font-labrada flex flex-col items-center">
-      <Link href="/about" className="bg-green-800 p-2 rounded-lg">
-        Back (delete later)
-      </Link>
-      <div className="flex w-full lg:w-[60%] justify-between items-center">
-        {/* Left box */}
+      <div className="flex w-full justify-between items-center gap-15">
+        {/* First column box */}
         <div className="flex flex-col gap-10">
           <div>
             <p className="text-xl lg:text-[40px]">{member.name}</p>
@@ -33,32 +30,25 @@ const MemberPage = ({ params }: MemberParamsProps) => {
             />
           </div>
         </div>
-        {/* Right box */}
-        <div>
-          <a
-            href={member.linkedin}
-            target="_blank"
-            className="text-blue-500 underline"
-          >
-            LinkedIn
-          </a>
-          <br />
-          <a
-            href={member.website}
-            target="_blank"
-            className="text-blue-500 underline"
-          >
-            Website
-          </a>
-          <br />
-          <a
-            href={member.discord}
-            target="_blank"
-            className="text-blue-500 underline"
-          >
-            Discord
-          </a>
-        </div>
+        {/* Second column box */}
+        <section className="flex flex-col text-color-primary space-y-[50px] pt-[140px]">
+          <div className="p-[55px] flex-1 bg-foreground text-[26px] rounded-[10px]">
+            <span>{member.quote}</span>
+          </div>
+          <div className="underline flex justify-start items-center gap-15 text-[26px]">
+            <a href={member.linkedin} target="_blank">
+              LinkedIn
+            </a>
+            <br />
+            <a href={member.website} target="_blank">
+              Website
+            </a>
+            <br />
+            <a href={member.discord} target="_blank">
+              Discord
+            </a>
+          </div>
+        </section>
       </div>
     </div>
   );

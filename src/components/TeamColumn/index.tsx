@@ -9,11 +9,11 @@ const TeamColumn = ({ team }: TeamColumnProps) => {
   );
 
   return (
-    <div className="flex flex-col w-full h-full font-labrada space-y-1">
+    <div className="flex flex-col items-center h-full font-labrada space-y-1 w-full">
       <h1 className="text-[40px] p-2 text-center">
         {team.charAt(0).toUpperCase() + team.slice(1)}
       </h1>
-      <div className="flex-1 space-y-8 p-7 bg-foreground rounded-[10px]">
+      <div className="flex-1 space-y-8 p-7 bg-foreground rounded-[10px] w-full">
         {filteredTeam.map((member, index) => (
           <div key={index}>
             <p className="text-xl font-bold">{member.title}</p>
