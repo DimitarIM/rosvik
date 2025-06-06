@@ -1,4 +1,6 @@
-export const ManagementTeamData = [
+import { Member } from "@/types/types";
+
+export const ManagementTeamData: Member[] = [
   {
     title: "Producer",
     name: "Axel Lindberg",
@@ -8,7 +10,8 @@ export const ManagementTeamData = [
     games: [],
     team: "Management",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Project manager",
@@ -19,7 +22,8 @@ export const ManagementTeamData = [
     games: [],
     team: "Management",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Release manager",
@@ -30,11 +34,12 @@ export const ManagementTeamData = [
     games: [],
     team: "Management",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
 ];
 
-export const DesignTeamData = [
+export const DesignTeamData: Member[] = [
   {
     title: "PO/Gameplay & Tech designer",
     name: "Daniel Karlberg",
@@ -44,7 +49,8 @@ export const DesignTeamData = [
     games: [],
     team: "Design",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Generalist designer",
@@ -55,7 +61,8 @@ export const DesignTeamData = [
     games: [],
     team: "Design",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Gameplay & Level designer",
@@ -66,11 +73,12 @@ export const DesignTeamData = [
     games: [],
     team: "Design",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
 ];
 
-export const ArtTeamData = [
+export const ArtTeamData: Member[] = [
   {
     title: "Art director",
     name: `Andreas "Ato" Holewa`,
@@ -80,7 +88,8 @@ export const ArtTeamData = [
     games: [],
     team: "Art",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Environment artist",
@@ -91,7 +100,8 @@ export const ArtTeamData = [
     games: [],
     team: "Art",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Prop & Character artist",
@@ -102,7 +112,8 @@ export const ArtTeamData = [
     games: [],
     team: "Art",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "General game artist",
@@ -113,7 +124,8 @@ export const ArtTeamData = [
     games: [],
     team: "Art",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "VFX artist",
@@ -124,11 +136,12 @@ export const ArtTeamData = [
     games: [],
     team: "Art",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
 ];
 
-export const ProgrammerTeamData = [
+export const ProgrammerTeamData: Member[] = [
   {
     title: "Programmer",
     name: "Anton Lanning",
@@ -138,7 +151,8 @@ export const ProgrammerTeamData = [
     games: [],
     team: "Programmer",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Programmer",
@@ -149,7 +163,8 @@ export const ProgrammerTeamData = [
     games: [],
     team: "Programmer",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Programmer",
@@ -160,7 +175,8 @@ export const ProgrammerTeamData = [
     games: [],
     team: "Programmer",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
   {
     title: "Programmer",
@@ -171,7 +187,8 @@ export const ProgrammerTeamData = [
     games: [],
     team: "Programmer",
     image: "/img/team-members/profile.png",
-    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit"
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
   },
 ];
 

@@ -2,10 +2,11 @@ import Link from "next/link";
 import { allMembers } from "../../../data/teamData";
 import { MemberParamsProps } from "../../../types/types";
 import { slugify } from "../../../utils/utils";
+import SlideShow from "@/components/slideshow";
 
 const MemberPage = ({ params }: MemberParamsProps) => {
   const slugname = params.member;
-  const member = allMembers.find((person) => slugify(person.name) === slugname);
+  const member = allMembers.find((person) => person.name ? slugify(person.name) === slugname : null);
 
   if (!member) {
     return <div className="p-10font-labrada">Member not found</div>;
@@ -50,6 +51,7 @@ const MemberPage = ({ params }: MemberParamsProps) => {
           </div>
         </section>
       </div>
+      <SlideShow work = {member.work}/>
     </div>
   );
 };
