@@ -11,9 +11,3 @@ export type SingleMemberProps = {
   website: string;
   discord: string;
 };
-
-export type MemberPageProps = {
-  params: {
-    slug: string;
-  };
-}
