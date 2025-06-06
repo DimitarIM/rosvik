@@ -1,22 +1,13 @@
 export type TeamColumnProps = {
-  team: string,
-}
+  team: string;
+};
 
-export type MemberParamsProps = {
-  params: {
-    member: string
-  }
-}
-
-export type Member = {
-  title?: string,
-  name?: string,
-  linkedin?: string,
-  discord?: string,
-  website?: string,
-  games?: string[],
-  team?: string,
-  image?: string,
-  quote?: string,
-  work?: string[],
-}
+export type SingleMemberProps = {
+  name: string;
+  title: string;
+  image: string;
+  quote: string;
+  linkedin: string;
+  website: string;
+  discord: string;
+};
