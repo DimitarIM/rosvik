@@ -1,12 +1,16 @@
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
-import { MemberPageProps } from "../../../types/types";
 import { slugify } from "../../../utils/utils";
-import { notFound } from "next/navigation";
+import { notFound } from 'next/navigation';
+
+interface MemberPageProps {
+  params: {
+    slug: string;
+  };
+}
 
 const MemberPage = async ({ params }: MemberPageProps) => {
   const { slug } = params;
-
   const member = allMembers.find((person) => slugify(person.name) === slug);
 
   if (!member) {
