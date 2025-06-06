@@ -1,13 +1,8 @@
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
+import { MemberPageProps } from "../../../types/types";
 import { slugify } from "../../../utils/utils";
 import { notFound } from 'next/navigation';
-
-interface MemberPageProps {
-  params: {
-    slug: string;
-  };
-}
 
 const MemberPage = async ({ params }: MemberPageProps) => {
   const { slug } = params;
