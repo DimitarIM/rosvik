@@ -1,5 +1,6 @@
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
+import { SingleMemberProps } from "../../../types/types";
 import { slugify } from "../../../utils/utils";
 
 export async function generateStaticParams() {
@@ -8,7 +9,7 @@ export async function generateStaticParams() {
   }));
 }
 
-const MemberPage = ({ params }: { params: { member: string } }) => {
+const MemberPage = ({ params }: { params: Promise<{ member: string }> }) => {
   const slugname = params.member;
 
   const member = allMembers.find(
