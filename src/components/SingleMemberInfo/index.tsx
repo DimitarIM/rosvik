@@ -1,14 +1,8 @@
 import { SingleMemberProps } from "../../types/types";
 
-const SingleMemberInfo = ({
-  name,
-  title,
-  image,
-  quote,
-  linkedin,
-  website,
-  discord,
-}: SingleMemberProps) => {
+const SingleMemberInfo = (member: SingleMemberProps) => {
+  const { title, image, name, quote, linkedin, website, discord } = member;
+
   return (
     <div className="w-full font-labrada flex flex-col items-center">
       <div className="w-full flex flex-col lg:flex-row justify-center gap-0 lg:gap-15">
