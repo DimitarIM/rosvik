@@ -1,30 +1,25 @@
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
-import { SingleMemberProps } from "../../../types/types";
+import { MemberPageProps } from "../../../types/types";
 import { slugify } from "../../../utils/utils";
+import { notFound } from "next/navigation";
 
-export async function generateStaticParams() {
-  return allMembers.map((member) => ({
-    member: slugify(member.name),
-  }));
-}
+const MemberPage = async ({ params }: MemberPageProps) => {
+  const { slug } = params;
 
-const MemberPage = ({ params }: { params: Promise<{ member: string }> }) => {
-  const slugname = params.member;
-
-  const member = allMembers.find(
-    (person) => slugify(person.name) === slugname
-  );
+  const member = allMembers.find((person) => slugify(person.name) === slug);
 
   if (!member) {
-    return <div className="p-2 font-labrada">Member not found</div>;
+    notFound();
   }
 
-  return (
-    <>
-      <SingleMemberInfo {...member} />
-    </>
-  );
+  return <SingleMemberInfo {...member} />;
 };
 
 export default MemberPage;
+
+export async function generateStaticParams() {
+  return allMembers.map((member) => ({
+    slug: slugify(member.name),
+  }));
+}
