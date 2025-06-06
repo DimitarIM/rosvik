@@ -4,7 +4,7 @@ export default function MemberPageLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="w-full min-h-screen bg-[url(/img/bg_2.png)] bg-cover bg-center">
+    <div>
       {children}
     </div>
   );
