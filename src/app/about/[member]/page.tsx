@@ -1,12 +1,17 @@
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
-import { SingleMemberProps } from "../../../types/types";
 import { slugify } from "../../../utils/utils";
+
+export async function generateStaticParams() {
+  return allMembers.map((member) => ({
+    member: slugify(member.name),
+  }));
+}
 
 const MemberPage = ({ params }: { params: { member: string } }) => {
   const slugname = params.member;
-  
-  const member: SingleMemberProps | undefined = allMembers.find(
+
+  const member = allMembers.find(
     (person) => slugify(person.name) === slugname
   );
 
@@ -17,7 +22,6 @@ const MemberPage = ({ params }: { params: { member: string } }) => {
   return (
     <>
       <SingleMemberInfo {...member} />
-      {/* slideshow */}
     </>
   );
 };

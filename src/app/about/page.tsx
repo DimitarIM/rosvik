@@ -9,7 +9,7 @@ const AboutPage = () => {
         <TeamColumn team="art" />
         <TeamColumn team="programmer" />
       </div>
-     {/* T9 placeholder */}
+      {/* T9 placeholder */}
     </>
   );
 };
