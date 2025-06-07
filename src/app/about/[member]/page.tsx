@@ -1,4 +1,3 @@
-
 import SlideShow from "@/components/SlideShow";
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
@@ -25,13 +24,11 @@ const MemberPage = async ({
     return <div className="p-2 font-labrada">Member not found</div>;
   }
 
-  const images = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png","/img/slideshow-img_3.png","/img/slideshow-img_4.png","/img/slideshow-img_5.png","/img/slideshow-img_6.png",]
-
   return (
-    <div>
-      <SingleMemberInfo {...selectedMember} />;
-      <section className="w-full h-full flex flex-col justify-center items-center">
-          <SlideShow imageUrls={images} />
+    <div className="flex flex-col">
+      <SingleMemberInfo {...selectedMember} />
+      <section className="w-full flex flex-col justify-center items-center">
+          <SlideShow/>
       </section>
     </div>
   )
