@@ -1,3 +1,4 @@
+
 import SlideShow from "@/components/SlideShow";
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
