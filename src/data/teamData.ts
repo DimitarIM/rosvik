@@ -1,6 +1,4 @@
-import { Member } from "@/types/types";
-
-export const ManagementTeamData: Member[] = [
+export const ManagementTeamData= [
   {
     title: "Producer",
     name: "Axel Lindberg",
@@ -39,7 +37,7 @@ export const ManagementTeamData: Member[] = [
   },
 ];
 
-export const DesignTeamData: Member[] = [
+export const DesignTeamData = [
   {
     title: "PO/Gameplay & Tech designer",
     name: "Daniel Karlberg",
@@ -78,7 +76,7 @@ export const DesignTeamData: Member[] = [
   },
 ];
 
-export const ArtTeamData: Member[] = [
+export const ArtTeamData = [
   {
     title: "Art director",
     name: `Andreas "Ato" Holewa`,
@@ -141,7 +139,7 @@ export const ArtTeamData: Member[] = [
   },
 ];
 
-export const ProgrammerTeamData: Member[] = [
+export const ProgrammerTeamData = [
   {
     title: "Programmer",
     name: "Anton Lanning",
