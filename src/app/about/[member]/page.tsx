@@ -1,4 +1,4 @@
-import SlideShow from "@/components/SlideShow";
+import SlideShow from "@/components/slideshow";
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
 import { slugify } from "../../../utils/utils";
