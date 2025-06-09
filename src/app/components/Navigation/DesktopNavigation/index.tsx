@@ -4,7 +4,7 @@ import LanguageSwitch from '../../LanguageSwitch'
 
 const DesktopNavigation: React.FC = () => {
     return(
-        <nav className='flex items-center justify-center w-full '>
+        <nav className='flex items-center justify-between w-full '>
            <HeaderLogo/>
            <NavigationItems/>
            <LanguageSwitch/>
