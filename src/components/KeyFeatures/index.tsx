@@ -1,6 +1,7 @@
-import { keyfeatures } from "@/types/types";
 
-const KeyFeatures = () => {
+import { keyfeaturesProps } from "@/types/types";
+
+const KeyFeatures = ({ keyfeatures }: keyfeaturesProps) => {
   return (
     <section className="flex flex-col items-center justify-center py-12 px-4 font-labrada overflow-hidden">
       
@@ -14,10 +15,10 @@ const KeyFeatures = () => {
               key={index}
               className="flex items-center justify-start space-x-3 gap-4 text-[24px] md:text-[24px]"
             >
-              <span className="text-[var(--font-labrada)] text-xs block md:hidden">◆</span>
+              <span className="font-labrada text-xs block md:hidden">◆</span>
               <span>{feature}</span>
               {index < keyfeatures.length - 1 && (
-                <span className="text-xs hidden md:inline ml-4 text-[var(--font-labrada)]">◆</span>
+                <span className="text-xs hidden md:inline ml-4 font-labrada">◆</span>
               )}
             </div>
           ))}

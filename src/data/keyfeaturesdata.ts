@@ -1,4 +1,4 @@
-export const keyfaetures = [
+export const keyfeaturesData: string[] = [
     "Scavenge & survive",
     "Navigate wilderness",
     "Unlock mystical relics",
