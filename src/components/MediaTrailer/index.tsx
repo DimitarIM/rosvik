@@ -5,7 +5,7 @@ import placeholder1 from "/public/img/main_placeholder_1.png";
 import placeholder2 from "/public/img/main_placeholder_2.png";
 import leftArrow from "/public/btn/arrow-btn_left.png";
 import rightArrow from "/public/btn/arrow-btn_right.png";
-import { use, useState } from "react";
+import { useState } from "react";
 
 const MediaTrailer = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
