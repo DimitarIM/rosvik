@@ -27,9 +27,8 @@ const MemberPage = async ({
   return (
     <div className="flex flex-col">
       <SingleMemberInfo {...selectedMember} />
-      <section className="w-full flex flex-col justify-center items-center">
-          <SlideShow/>
-      </section>
+      <SlideShow/>
+
     </div>
   )
 };
