@@ -1,3 +1,8 @@
+
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
+
 export type TeamColumnProps = {
   team: string;
 };
@@ -11,3 +16,4 @@ export type SingleMemberProps = {
   website: string;
   discord: string;
 };
+

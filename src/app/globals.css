@@ -6,6 +6,8 @@
   --background-button: rgba(124, 131, 133, 0.5);
   --background-hover: rgba(214, 231, 149, 0.6);
   --font-primary: rgba(215, 211, 205, 1);
+  --text-feature: #D7D3CD;
+  
 }
 
 @theme inline {
@@ -15,10 +17,12 @@
   --color-button-hover: var(--background-hover);
   --color-color-primary: var(--font-primary);
   --font-labrada: var(--font-labrada);
+  --color-feature: var(--text-feature);
 }
 
 body {
   background: var(--background);
   color: var(--font-primary);
   font-family: var(--font-labrada);
+  
 }
