@@ -1,7 +1,7 @@
 'use client'
 import LanguageSwitch from "../../LanguageSwitch"
-import burgerLight from "../../../../../public/btn/menu-button_light.png"
-import burgerDark from "../../../../../public/btn/menu-button_dark.png"
+import burgerLight from "../../../../public/btn/menu-button_light.png"
+import burgerDark from "../../../../public/btn/menu-button_dark.png"
 import HeaderLogo from "../../HeaderLogo"
 import Image from "next/image"
 import { useState } from "react"

@@ -1,8 +1,8 @@
 'use client'
 import { useState } from "react"
 import { languages } from "@/data"
-import enImage from "../../../../public/btn/en-btn.png"
-import svImage from "../../../../public/btn/sv-btn.png"
+import enImage from "../../../public/btn/en-btn.png"
+import svImage from "../../../public/btn/sv-btn.png"
 import Image from "next/image"
 const LanguageSwitch = () => {
     const [language, setLanguage] = useState(languages.en)

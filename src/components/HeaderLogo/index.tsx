@@ -1,5 +1,5 @@
 import Image from "next/image"
-import HeaderLogoImage from '../../../../public/btn/logo_2.png'
+import HeaderLogoImage from '../../../public/btn/logo_2.png'
 const HeaderLogo = () => {
     return(
         <button className='opacity-30 hover:bg-[var(--color-sunny)]' >

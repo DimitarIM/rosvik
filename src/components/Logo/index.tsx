@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RosvikLogo from '../../../../public/img/rosvik_logo.png'
+import RosvikLogo from '../../../public/img/rosvik_logo.png'
 
 const Logo = () => {
     return (
