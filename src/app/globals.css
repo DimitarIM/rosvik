@@ -1,22 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-labrada: "Labrada", serif;
-  --pageTitle-color: #5C5A5C;
-  --color-game-text: rgba(215, 211, 205, 1);
-
-  
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-labrada: var(--font-labrada);
-  --color-text-color: var(--color-game-text);
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,13 +22,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-labrada);
-}
-
-.pageTitle {
-  color: var(--pageTitle-color);
-  font-family: var(--font-labrada);
-}
-
-.list-square {
-  list-style-type: square;
 }

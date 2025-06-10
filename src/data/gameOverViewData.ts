@@ -1,7 +1,6 @@
 import { GameOverViewProps } from "@/types/types";
 
 export const gameOverViewData: GameOverViewProps = {
-    bgImageSrc: "/img/DescriptionPageBgImage.png",
     bgImageAlt: "Bg Image",
     pageTitle: "About the game",
     aboutText: [

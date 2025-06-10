@@ -1,5 +1,4 @@
 export type GameOverViewProps = {
-    bgImageSrc: string;
     bgImageAlt: string;
     pageTitle: string;
     aboutText: string[];
