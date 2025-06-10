@@ -44,7 +44,7 @@ const MediaTrailer = () => {
 
                 <div className="hidden md:block">
          <div className="main-trailer w-full max-w-4xl mx-auto cursor-pointer">
-                        <a href="https://www.youtube.com/watch?v=gQwgbpyIuEc" target="_blank" rel="noopener noreferrer">
+                        <a href="https://changemakereducation-my.sharepoint.com/personal/andreas_holewa_edu_futuregames_se/_layouts/15/stream.aspx?id=%2Fpersonal%2Fandreas%5Fholewa%5Fedu%5Ffuturegames%5Fse%2FDocuments%2FDocuments%2FGP3%2FEXPORT%2FTESTGREJER%2FFogstyle%5Ftest%5F4%5Fhigh%5F2%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E822cf7be%2Db8a4%2D4bdd%2Dac31%2D218587e91148" target="_blank" rel="noopener noreferrer">
                             <div className="relative group">
                                 <Image 
                                     src={mainTrailer} 
