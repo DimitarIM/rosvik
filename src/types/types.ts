@@ -17,7 +17,8 @@ export type SingleMemberProps = {
 };
 
 export type FooterLogoProps = {
-  image: string;
+  logo: string;
+  description: string;
 }
 
 

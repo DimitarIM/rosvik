@@ -1,13 +1,26 @@
-import Image from "next/image"
-import { FooterLogoProps } from "@/types/types"
-import  ftrgames_logo from "../../../public/img/ftrgames_logo.png"
+import Image from "next/image";
+import { FooterLogoProps } from "@/types/types";
 
-const FooterLogoSection = ({image}: FooterLogoProps) => {
+const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
   return (
-    <div>
-      <Image src={ftrgames_logo} alt="ftrgames_logo" width={1440}  height={1543} / >
-    </div>
-  )
-}
+    <section className="flex flex-col md:flex-row items-center justify-center gap-6 px-4 py-10 max-w-6xl mx-auto">
+      <div className="w-40 sm:w-60 md:w-80 lg:w-[412px] flex justify-center">
+        <Image
+          src={logo}
+          alt="ftrgames_logo"
+          width={412}
+          height={394}
+          className="object-contain rounded-full w-full h-auto"
+          priority
+        />
+      </div>
+      <div className="hidden md:flex flex-col justify-center bg-foreground text-color-primary p-6 rounded-[10px] w-[627px] h-[394px] top-[806px] left-[628px] shadow-lg  max-w-xl">
+        <p className="text-center leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl font-labrada">
+          {description}
+        </p>
+      </div>
+    </section>
+  );
+};
 
-export default FooterLogoSection
+export default FooterLogoSection;
