@@ -1,4 +1,3 @@
-
 export type keyfeaturesProps = {
   keyfeatures: string[];
 };
@@ -16,4 +15,10 @@ export type SingleMemberProps = {
   website: string;
   discord: string;
 };
+
+export type FooterLogoProps = {
+  image: string;
+}
+
+
 
