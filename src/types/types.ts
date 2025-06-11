@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type keyfeaturesProps = {
   keyfeatures: string[];
 };
@@ -18,7 +20,7 @@ export type SingleMemberProps = {
 
 export type FooterLogoProps = {
   logo: string;
-  description: string;
+  description: string | ReactNode;
 }
 
 
