@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { menuItems } from "@/data"
+import { menuItems } from "@/data/data"
 const NavigationItems: React.FC = () => {
     return(
         <div className='flex  space-x-6 text-white'>

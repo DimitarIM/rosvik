@@ -24,3 +24,8 @@ export type FullScreenMenuProps = {
   isOpen: boolean;
   onClose: () => void;
 }
+
+export type HeaderLogoProps = {
+  image: string
+  alt: string
+}

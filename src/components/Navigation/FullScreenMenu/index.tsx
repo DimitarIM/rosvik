@@ -1,5 +1,5 @@
 'use client'
-import { menuItems } from "@/data"
+import { menuItems } from "@/data/data"
 import Image from "next/image"
 import LanguageSwitch from "../../LanguageSwitch"
 import Link from "next/link"

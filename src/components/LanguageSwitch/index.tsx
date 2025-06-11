@@ -1,6 +1,6 @@
 'use client'
 import { useState } from "react"
-import { languages } from "@/data"
+import { languages } from "@/data/data"
 import enImage from "../../../public/btn/en-btn.png"
 import svImage from "../../../public/btn/sv-btn.png"
 import Image from "next/image"
