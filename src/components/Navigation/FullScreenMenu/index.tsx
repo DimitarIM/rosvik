@@ -12,13 +12,13 @@ const FullScreenMenu = ({isOpen, onClose}:FullScreenMenuProps ) => {
         <nav className='fixed inset-0 bg-black text-text flex flex-col items-center justify-center'>
             <div className='absolute top-4 left-6'>
                <Link href='/'>
-                 <Image src={headerlogoimage} alt='headerlogo' width={133} height={133}/>
+                 <Image src={headerlogoimage} alt='headerlogo' width={75.39} height={75.39}/>
                </Link>
             </div>
             {/* language switch + close button on the right*/}
             <div className='absolute top-4 right-6 flex items-center space-x-4'>
                 <LanguageSwitch/>
-                <button onClick={onClose}>
+                <button onClick={onClose} className="transition duration-200 active:invert active:sepia active:hue-rotate-[10deg] active:saturate-[500%] active:brightness-[1.1]">
                    <Image src={closebutton}alt='close'/>
                 </button>
             </div>

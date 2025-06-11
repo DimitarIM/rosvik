@@ -19,8 +19,8 @@ const MobileNavigation: React.FC = () => {
         <Image 
            src={open ? burgerDark : burgerLight}
            alt= 'menu'
-           width={40}
-           height={29}/>
+           width={47}
+           height={44}/>
         </button>
         {/* Full-screen menu */}
         <FullScreenMenu isOpen={open} onClose={()=> setOpen(false)}/>    
