@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { LogoProps } from "@/type/types";
+import { LogoProps } from "@/types/types";
 
 const Logo = ({image,alt}: LogoProps) => {
     return (

@@ -1,12 +1,12 @@
 import Logo from "../Logo";
 import DownloadButton from "../DownloadButton";
-import { MainHeroSectionProps } from "@/type/types";
+import { MainHeroSectionProps } from "@/types/types";
 
 const MainHeroSection = ({firstText, secondText, thirdText}: MainHeroSectionProps) => { 
     return(
         <div className={`bg-[url('/img/bg_2.png')] flex flex-col items-center py-3.5 md:p-20 lg:p-60 `}>
             <Logo image='/img/rosvik_logo.png' alt= 'alt'/>
-            <div className="text-2xl flex flex-row gap-5 lg:gap-15 text-center text-[#D7D3CD4D] 
+            <div className="text-2xl flex flex-row gap-5 lg:gap-15 text-center text-span-text 
                             lg:text-[46px] sm:text-[40px] md:text-[30px] 
                             font-labrada font-normal lg:mt-[-10px] g:mr-10">
                 <span>{firstText}</span>

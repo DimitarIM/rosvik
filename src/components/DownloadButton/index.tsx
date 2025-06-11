@@ -1,9 +1,9 @@
-import { DownloadButtonProps } from "@/type/types";
+import { DownloadButtonProps } from "@/types/types";
 import Image from "next/image";
 
 const DownloadButton = ({image, alt}: DownloadButtonProps) => {
     return (
-        <button className="lg:w-[340px] md:w-[290px] sm:w-[200px] lg:h-[60px] rounded-[30px] flex justify-center  hover:bg-[var(--color-sunny)] text-[var(--color-text-neutral-50)]">
+        <button className="lg:w-[340px] md:w-[290px] sm:w-[200px] lg:h-[60px] rounded-[30px] flex justify-center  hover:bg-download-button text-download-text">
             <Image src={image} alt={alt} width={369} height={60} />
         </button>
     );
