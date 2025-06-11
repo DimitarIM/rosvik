@@ -3,7 +3,7 @@ import { menuItems } from "@/data"
 import Image from "next/image"
 import LanguageSwitch from "../../LanguageSwitch"
 import Link from "next/link"
-import { FullScreenMenuProps } from "@/type/types"
+import { FullScreenMenuProps } from "@/types/types"
 import headerlogoimage from '../../../../public/btn/logo_3.png'
 import closebutton from '../../../../public/btn/close-button_dark.png'
 const FullScreenMenu = ({isOpen, onClose}:FullScreenMenuProps ) => {
