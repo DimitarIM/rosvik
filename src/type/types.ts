@@ -1,8 +1,15 @@
 export type MainHeroSectionProps = {
-    image: string
-   
+    firstText: string
+    secondText: string
+    thirdText: string
 }
 
-export interface LogoProps {
+export type DownloadButtonProps = {
     image: string
+    alt: string
+}
+
+export type LogoProps = {
+    image: string
+    alt: string
 }

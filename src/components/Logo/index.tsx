@@ -1,10 +1,10 @@
 import Image from "next/image";
-import RosvikLogo from '../../../public/img/rosvik_logo.png'
+import { LogoProps } from "@/type/types";
 
-const Logo = () => {
+const Logo = ({image,alt}: LogoProps) => {
     return (
         <div className="opacity-30 ">
-          <Image src={RosvikLogo} alt="Logo"  />
+          <Image src={image} alt={alt} width={704} height={275.12} />
         </div>
     );
 };
