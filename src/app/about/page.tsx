@@ -11,7 +11,7 @@ const AboutPage = () => {
         <TeamColumn team="programmer" />
       </div>
       
-      <main className="min-h-screen lg:p-25 flex justify-center items-center">
+      <div className="min-h-screen lg:p-25 flex justify-center items-center">
       <FooterLogoSection
         logo="/img/ftrgames_logo.png"
         description={
@@ -23,7 +23,7 @@ const AboutPage = () => {
         </div>
         }
       />
-    </main>
+    </div>
     </>
   );
 };
