@@ -1,5 +1,4 @@
 'use client'
-import LanguageSwitch from "../../LanguageSwitch"
 import burgerLight from "../../../../public/btn/menu-button_light.png"
 import burgerDark from "../../../../public/btn/menu-button_dark.png"
 import HeaderLogo from "../../HeaderLogo"
@@ -13,7 +12,7 @@ const MobileNavigation: React.FC = () => {
     return(
       <div className="flex items-center space-x-4 " >
          <HeaderLogo/>
-         <LanguageSwitch/>
+         {/* <LanguageSwitch/> */}
          {/* Burger Menu Button */}
         <button onClick={()=> setOpen(!open)} className='justify-center'>
         <Image 

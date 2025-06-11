@@ -1,3 +1,5 @@
+import LanguageSwitch from "@/components/LanguageSwitch";
+
 export type TeamColumnProps = {
   team: string;
 };
@@ -28,4 +30,8 @@ export type FullScreenMenuProps = {
 export type HeaderLogoProps = {
   image: string
   alt: string
+}
+
+export type LanguageSwitchProps = {
+  isMobile?: boolean; 
 }
