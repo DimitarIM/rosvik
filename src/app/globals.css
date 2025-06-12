@@ -23,6 +23,7 @@
   --color-button-hover: var(--background-hover);
   --color-color-primary: var(--font-primary);
   --font-labrada: var(--font-labrada);
+<<<<<<< HEAD
   --color-button-color: var(--button-color);
   --color-pageTitle-color: var(--pageTitle-color)
   --color-feature: var(--text-feature);
@@ -31,6 +32,10 @@
   --color-span-text: var(--color-span);
   --color-fullscreen-bg: var(--fullscreenbg)   
 
+=======
+  --color-fullscreen-bg: var(--fullscreenbg);   
+  --color-span-text: var(--color-span);
+>>>>>>> t1/feature/hp-header
 } 
 
 

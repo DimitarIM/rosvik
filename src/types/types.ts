@@ -41,6 +41,7 @@ export type MainHeroSectionProps = {
 }
 
 export type DownloadButtonHpProps = {
+    href: string
     image: string
     alt: string
 }
