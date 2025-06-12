@@ -1,5 +1,4 @@
 'use client'
-// import { menuItems } from "@/data/data"
 import aboutUsImage from '../../../../public/btn/pop_up_abouts_us.png'
 import aboutGameImage from '../../../../public/btn/pop_up_about_the_game.png';
 import demoImage from '../../../../public/btn/pop_up_demo.png';
@@ -18,7 +17,6 @@ const FullScreenMenu = ({isOpen, onClose}:FullScreenMenuProps ) => {
                  <Image src={headerlogoimage} alt='headerlogo' width={75.39} height={75.39}/>
                </Link>
             </div>
-            {/* language switch + close button on the right*/}
             <div className='absolute top-8 right-6 flex items-center space-x-4'>
                 <LanguageSwitch/>
                 <button onClick={onClose} className="transition duration-200 active:invert active:sepia active:hue-rotate-[10deg] active:saturate-[500%] active:brightness-[1.1] top-4 right-6">

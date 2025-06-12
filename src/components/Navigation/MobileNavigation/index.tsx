@@ -6,15 +6,14 @@ import Image from "next/image"
 import { useState } from "react"
 import FullScreenMenu from "../FullScreenMenu"
 
-const MobileNavigation: React.FC = () => {
+const MobileNavigation = () => {
      const [open, setOpen] = useState(false)
 
     return(
       <div className="flex items-center w-full" >
         <div className='grow'>
-         <HeaderLogo/>
+         <HeaderLogo image='btn/logo_btn.svg' alt='header-logo'/>
          </div>
-         {/* <LanguageSwitch/> */}
          {/* Burger Menu Button */}
         <button onClick={()=> setOpen(!open)} >
         <Image 

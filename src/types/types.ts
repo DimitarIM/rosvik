@@ -35,3 +35,4 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
+
