@@ -16,6 +16,10 @@ export type DownloadButtonProps = {
     downloadButtonLink: string;
 }
 
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
+
 export type TeamColumnProps = {
   team: string;
 };
@@ -61,3 +65,4 @@ export type LanguageSwitchProps = {
 }
 
  
+
