@@ -11,8 +11,7 @@ const Demo = () => {
           <a href="http://itch.io"
            target="_blank"
            rel="noopener noreferrer" 
-           className="inline-block border-b-2 border-white transition"
-          >
+           className="inline-block border-b-2 border-white transition">
             Download to enter Røsvik
           </a>
           </h1>
