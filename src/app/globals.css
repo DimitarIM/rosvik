@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 :root {
+  --color-sunny: #f0ce79;
+  --color-text-neutral-50: #FAFAFA;
+  --color-span:#D7D3CD4D;
   --background: #000000;
   --foreground: rgba(124, 131, 133, 0.2);
   --background-button: rgba(124, 131, 133, 0.5);
@@ -10,7 +13,7 @@
   
 }
 
-@theme inline {
+ @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-button-base: var(--background-button);
@@ -18,7 +21,10 @@
   --color-color-primary: var(--font-primary);
   --font-labrada: var(--font-labrada);
   --color-feature: var(--text-feature);
-}
+  --color-download-button: var(--color-sunny);
+  --color-download-text: var(--color-text-neutral-50);
+  --color-span-text: var(--color-span);
+ }  
 
 body {
   background: var(--background);
