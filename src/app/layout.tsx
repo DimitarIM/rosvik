@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Labrada } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const labrada = Labrada({
   variable: "--font-labrada",
@@ -20,7 +21,7 @@ export default function RootLayout({
    <html lang="en" className={`h-screen ${labrada.variable}`}>
    
       <body>
-        
+        <Header/>
         {children}
       </body>
     </html>
