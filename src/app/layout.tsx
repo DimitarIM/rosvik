@@ -20,6 +20,7 @@ export default function RootLayout({
    <html lang="en" className={`h-screen ${labrada.variable}`}>
    
       <body>
+        
         {children}
       </body>
     </html>
