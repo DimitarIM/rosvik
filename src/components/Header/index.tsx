@@ -9,7 +9,7 @@ const Header = () => {
         <DesktopNavigation/>
         </div>
         {/* mobile navigation */}
-        <div className="md:hidden flex items-center space-x-4">
+        <div className="md:hidden flex items-center w-full justify-between">
             <MobileNavigation/>
         </div>
       </header>

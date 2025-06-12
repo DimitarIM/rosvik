@@ -6,6 +6,7 @@
   --background-button: rgba(124, 131, 133, 0.5);
   --background-hover: rgba(214, 231, 149, 0.6);
   --font-primary: rgba(215, 211, 205, 1);
+  --fullscreenbg: #0c100c;
 }
 
  @theme inline {
@@ -17,6 +18,7 @@
   --font-labrada: var(--font-labrada);
     --color-sunny: #f0ce79;
      --color-text-neutral-50: #FAFAFA;
+  --color-fullscreen-bg: var(--fullscreenbg)   
 
 } 
 

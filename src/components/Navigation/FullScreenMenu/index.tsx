@@ -3,7 +3,6 @@
 import aboutUsImage from '../../../../public/btn/pop_up_abouts_us.png'
 import aboutGameImage from '../../../../public/btn/pop_up_about_the_game.png';
 import demoImage from '../../../../public/btn/pop_up_demo.png';
-
 import Image from "next/image"
 import LanguageSwitch from "../../LanguageSwitch"
 import Link from "next/link"
@@ -13,7 +12,7 @@ import closebutton from '../../../../public/btn/close-button_dark.png'
 const FullScreenMenu = ({isOpen, onClose}:FullScreenMenuProps ) => {
     if(!isOpen) return null;
     return(
-        <nav className='fixed inset-0 z-50 bg-[#0c100c] text-text flex flex-col items-center justify-center'>
+        <nav className='fixed inset-0 z-50 bg-fullscreen-bg text-text flex flex-col items-center justify-center'>
             <div className='absolute top-4 left-6'>
                <Link href='/'>
                  <Image src={headerlogoimage} alt='headerlogo' width={75.39} height={75.39}/>
@@ -27,30 +26,21 @@ const FullScreenMenu = ({isOpen, onClose}:FullScreenMenuProps ) => {
                 </button>
             </div>
             {/* centered menu */}
-            {/* <div className="flex flex-col space-y-6 text-lg text-amber-50"> */}
-                {/* {menuItems.map((item, index) => (
-                    <div key= {index}> 
-                       <Link href={item.path} onClick={onClose}>
-                         {item.name}
-                       </Link>
-                    </div>
-                ))} */}
-                <div className="absolute top-[200px] left-[135px] ">
-                  <Link href="/about-us" onClick={onClose}>
-                     <Image src={aboutUsImage} alt="About Us" width= {130} height={130}/>
-                  </Link>
-                </div>
-                <div className='absolute top-[286px] left-[106px]'>
-                  <Link href="/about-game" onClick={onClose}>
-                    <Image src={aboutGameImage} alt="About the Game" width= {200} height={200} />
-                  </Link>
-                </div>
-                <div className='absolute top-[376px] left-[165px] '>
+            <div className="absolute top-[200px] left-[135px] ">
+                <Link href="/about-us" onClick={onClose}>
+                    <Image src={aboutUsImage} alt="About Us" width= {130} height={130}/>
+                </Link>
+            </div>
+            <div className='absolute top-[286px] left-[106px]'>
+                <Link href="/about-game" onClick={onClose}>
+                   <Image src={aboutGameImage} alt="About the Game" width= {200} height={200} />
+                </Link>
+            </div>
+            <div className='absolute top-[376px] left-[165px] '>
                 <Link href="/demo" onClick={onClose} >
                    <Image src={demoImage} alt="Demo" width={80} height={80}/>
                 </Link>
-                </div>
-            {/* </div> */}
+            </div>
         </nav>
     )
 }

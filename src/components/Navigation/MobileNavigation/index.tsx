@@ -10,11 +10,13 @@ const MobileNavigation: React.FC = () => {
      const [open, setOpen] = useState(false)
 
     return(
-      <div className="flex items-center space-x-4 " >
+      <div className="flex items-center w-full" >
+        <div className='grow'>
          <HeaderLogo/>
+         </div>
          {/* <LanguageSwitch/> */}
          {/* Burger Menu Button */}
-        <button onClick={()=> setOpen(!open)} className='justify-center'>
+        <button onClick={()=> setOpen(!open)} >
         <Image 
            src={open ? burgerDark : burgerLight}
            alt= 'menu'
