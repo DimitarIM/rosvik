@@ -1,4 +1,8 @@
 
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
+
 export type TeamColumnProps = {
   team: string;
 };
