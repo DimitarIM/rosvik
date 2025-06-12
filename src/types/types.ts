@@ -16,8 +16,6 @@ export type SingleMemberProps = {
   website: string;
   discord: string;
 };
-<<<<<<< HEAD
-=======
 
 export type MainHeroSectionProps = {
     firstText: string
@@ -34,4 +32,3 @@ export type LogoProps = {
     image: string
     alt: string
 }
->>>>>>> 7dbad6caca5927d1cc3bb98b62b78eeeeec9c84f
