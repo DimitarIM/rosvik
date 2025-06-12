@@ -2,8 +2,7 @@ const Demo = () => {
   return (
     <>
     <div className="relative min-h-screen font-labrada">
-      <div className="bg-no-repeat md:bg-center md:bg-cover bg-bottom bg-[url(/img/forest_bg.png)] opacity-70
-      bg-[length:250%_auto] ">
+      <div className="bg-no-repeat md:bg-center md:bg-cover bg-bottom bg-[url(/img/forest_bg.png)] opacity-150 bg-[length:100%_100%] ">
       <div className="relative z-10 flex flex-col justify-start text-center h-screen px-8 pt-30 md:pt-38">
         <div className="font-labrada text-[14px] md:text-[40px] text-feature mb-20 md:mb-16">
           <h3>Do you think you could survive?</h3>
