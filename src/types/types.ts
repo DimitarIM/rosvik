@@ -11,7 +11,7 @@ export type GameOverViewProps = {
     managementBoxText:string[];
 }
 
-export type DownloadButtonProps = {
+export type DownLoadButtonProps = {
     downloadButtonText: string;
     downloadButtonLink: string;
 }
@@ -30,3 +30,18 @@ export type SingleMemberProps = {
   discord: string;
 };
 
+export type MainHeroSectionProps = {
+    firstText: string
+    secondText: string
+    thirdText: string
+}
+
+export type DownloadButtonProps = {
+    image: string
+    alt: string
+}
+
+export type LogoProps = {
+    image: string
+    alt: string
+}

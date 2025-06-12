@@ -1,7 +1,7 @@
 import { GameOverViewProps } from "@/types/types"
 import GameLoopList from "./GameLoopList"
 import About from "./About"
-import DownloadButton from "./DownloadButton"
+import DownLoadButton from "./DownLoadButton"
 import downloadButtonData from "@/data/downloadButton"
 import ManagementBox from "./ManagmentBox"
 
@@ -51,7 +51,7 @@ const GameOverview = ({pageTitle, aboutText, imageOneSrc, imageOneAlt, imageTwoA
           <div className=" mt-4 mb-3 rounded-[10px] bg-foreground sm:mb-6 sm:max-w-[252px] md:max-w-[290px] md:p-2 lg:max-w-[380px] lg:p-3 lg:pt-7 lg:pb-5 xl:max-w-[413px] xl:pl-4">
             <GameLoopList gameLoopText={gameLoopText} />
           </div>
-          <DownloadButton {...downloadButtonData} />
+          <DownLoadButton {...downloadButtonData} />
         </div>
       </div>
     </section>
