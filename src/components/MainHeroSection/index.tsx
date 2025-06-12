@@ -8,7 +8,7 @@ const MainHeroSection = ({firstText, secondText, thirdText}: MainHeroSectionProp
             <Logo image='/img/rosvik_logo.png' alt= 'alt'/>
             <div className="flex flex-row gap-5 lg:gap-15 text-center text-span-text 
                             lg:text-[36px] sm:text-[40px] md:text-[30px] 
-                            font-labrada font-normal lg:mt-[-10px] g:mr-10">
+                            font-labrada font-normal lg:mt-[-10px] ">
                 <span>{firstText}</span>
                 <span>{secondText}</span>
                 <span>{thirdText}</span>
