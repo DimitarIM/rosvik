@@ -4,10 +4,11 @@ export type TeamColumnProps = {
 
 export type SingleMemberProps = {
   name: string;
-  title: string;
-  image: string;
-  quote: string;
-  linkedin: string;
-  website: string;
-  discord: string;
+  title?: string;
+  image?: string;
+  quote?: string;
+  linkedin?: string;
+  website?: string;
+  discord?: string;
+  work?: string[];
 };
