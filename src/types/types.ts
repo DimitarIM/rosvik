@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type GameOverViewProps = {
     bgImageAlt: string;
     pageTitle: string;
@@ -16,6 +18,7 @@ export type DownloadButtonProps = {
     downloadButtonLink: string;
 }
 
+
 export type keyfeaturesProps = {
   keyfeatures: string[];
 };
@@ -33,6 +36,11 @@ export type SingleMemberProps = {
   website: string;
   discord: string;
 };
+
+export type FooterLogoProps = {
+  logo: string;
+  description: string | ReactNode;
+}
 
 export type MainHeroSectionProps = {
     firstText: string
