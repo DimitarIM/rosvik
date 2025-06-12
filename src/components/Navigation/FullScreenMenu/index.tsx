@@ -25,12 +25,12 @@ const FullScreenMenu = ({isOpen, onClose}:FullScreenMenuProps ) => {
             </div>
             {/* centered menu */}
             <div className="absolute top-[200px] left-[135px] ">
-                <Link href="/about-us" onClick={onClose}>
+                <Link href="/about" onClick={onClose}>
                     <Image src={aboutUsImage} alt="About Us" width= {130} height={130}/>
                 </Link>
             </div>
             <div className='absolute top-[286px] left-[106px]'>
-                <Link href="/about-game" onClick={onClose}>
+                <Link href="/game" onClick={onClose}>
                    <Image src={aboutGameImage} alt="About the Game" width= {200} height={200} />
                 </Link>
             </div>

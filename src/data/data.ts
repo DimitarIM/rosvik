@@ -1,5 +1,5 @@
 export const menuItems = [
-    { name:'Game', path:'/'},
+    { name:'Game', path:'/game'},
     {name: 'About Us', path:'/about'},
     {name:'Demo', path:'/demo',}
 ]
