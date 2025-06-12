@@ -16,4 +16,3 @@ export type SingleMemberProps = {
   website: string;
   discord: string;
 };
-
