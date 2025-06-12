@@ -1,4 +1,3 @@
-
 export type keyfeaturesProps = {
   keyfeatures: string[];
 };
@@ -17,3 +16,35 @@ export type SingleMemberProps = {
   discord: string;
 };
 
+export type MainHeroSectionProps = {
+    firstText: string
+    secondText: string
+    thirdText: string
+}
+
+export type DownloadButtonProps = {
+    href: string
+    image: string
+    alt: string
+}
+
+export type LogoProps = {
+    image: string
+    alt: string
+}
+
+export type FullScreenMenuProps = {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+export type HeaderLogoProps = {
+  image: string
+  alt: string
+}
+
+export type LanguageSwitchProps = {
+  isMobile?: boolean; 
+}
+
+ 
