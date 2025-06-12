@@ -10,7 +10,7 @@
   --background-hover: rgba(214, 231, 149, 0.6);
   --font-primary: rgba(215, 211, 205, 1);
   --text-feature: #D7D3CD;
-  
+  --fullscreenbg: #0c100c;
 }
 
  @theme inline {
@@ -23,8 +23,10 @@
   --color-feature: var(--text-feature);
   --color-download-button: var(--color-sunny);
   --color-download-text: var(--color-text-neutral-50);
+  --color-fullscreen-bg: var(--fullscreenbg);   
   --color-span-text: var(--color-span);
- }  
+} 
+
 
 body {
   background: var(--background);
