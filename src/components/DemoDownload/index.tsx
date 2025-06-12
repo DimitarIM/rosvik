@@ -1,12 +1,11 @@
 const Demo = () => {
   return (
     <>
-    <div className="relative min-h-scree font-labrada">
-      <div className="absolute inset-0 bg-[length] bg-center opacity-70"
-        style={{ backgroundImage:`url('/img/forest_bg.png')`}}
+    <div className="relative min-h-screen font-labrada">
+      <div className="absolute inset-0 bg-no-repeat bg-center bg-[url(/img/forest_bg.png)] bg-cover opacity-70"  
       />
       <div className="relative z-10 flex flex-col justify-center h-screen text-center px-4">
-        <div className="font-labrada text-[14px] md:text-[40px] text-feature mb-32 md:mb-32">
+        <div className="font-labrada text-[14px] md:text-[40px] text-feature mb-24 md:mb-16">
           <h3>Do you think you could survive?</h3>
         </div>
         <h1 className="text-3xl lg:text-8xl md:text-6xl font-light text-feature">

@@ -1,9 +1,9 @@
-import Demo from "@/components/Demo"
+import DemoDownload from "@/components/DemoDownload"
 
 const DemoPage = () => {
   return (
     <div>
-      <Demo />
+      <DemoDownload />
     </div>
   )
 }
