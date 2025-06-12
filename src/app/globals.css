@@ -19,8 +19,8 @@
   --color-button-hover: var(--background-hover);
   --color-color-primary: var(--font-primary);
   --font-labrada: var(--font-labrada);
-  --color-fullscreen-bg: var(--fullscreenbg)   
-
+  --color-fullscreen-bg: var(--fullscreenbg);   
+  --color-span-text: var(--color-span);
 } 
 
 
