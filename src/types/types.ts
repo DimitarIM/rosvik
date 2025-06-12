@@ -1,4 +1,3 @@
-import LanguageSwitch from "@/components/LanguageSwitch";
 
 export type TeamColumnProps = {
   team: string;
