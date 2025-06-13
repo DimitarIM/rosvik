@@ -13,8 +13,7 @@ export default function Home() {
         thirdText="Survive"
       />
       <MediaTrailer />
+      <KeyFeatures keyfeatures={keyfeaturesData} />
     </>
   );
-
-  <MediaTrailer />
 }
