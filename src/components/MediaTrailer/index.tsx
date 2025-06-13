@@ -142,7 +142,7 @@ const MediaTrailer = () => {
                 </h2>
 
                 <div className="max-w-4xl mx-auto px-4">
-                    <div className="bg-[#7C8386] bg-opacity-90 grid grid-cols-1 md:grid-cols-3 gap-4 p-6 rounded-lg shadow-lg">
+                    <div className="bg-gray-500 bg-opacity-90 grid grid-cols-1 md:grid-cols-3 gap-4 p-6 rounded-lg shadow-lg">
                         <div className="feature text-center font-bold text-white"> 
                             Scavenge & survive
                         </div>
