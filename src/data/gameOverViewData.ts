@@ -4,9 +4,9 @@ export const gameOverViewData: GameOverViewProps = {
     bgImageAlt: "Bg Image",
     pageTitle: "About the game",
     aboutText: [
-        "Røsvik is a first-person survival game set in a harsh, remote Northern European town, blending elements of fantasy, mythology, and exploration. ",
-        'Players assume the role of a surveyor from Den Norske Turistforening, tasked with investigating the abandoned, off-grid settlement of Røsvik — once home to outcasts, faith-healers, and pagan holdouts. Officially, the settlement was abandoned due to “unstable terrain,” but the locals talk of something far more sinister. ', 
-        "The gameplay centers around scavenging for resources, unlocking mystical powers, and interacting with an atmospheric, dangerous, and emergent environment. ", 
+        "Røsvik is a first-person survival game set in a harsh, remote Northern European town, blending elements of fantasy, mythology, and exploration.",
+        'Players assume the role of a surveyor from Den Norske Turistforening, tasked with investigating the abandoned, off-grid settlement of Røsvik — once home to outcasts, faith-healers, and pagan holdouts. Officially, the settlement was abandoned due to “unstable terrain,” but the locals talk of something far more sinister.', 
+        "The gameplay centers around scavenging for resources, unlocking mystical powers, and interacting with an atmospheric, dangerous, and emergent environment.", 
         "As players uncover ancient relics, geological samples, and lost equipment, they will gradually gain access to supernatural abilities, and be forced to navigate the cursed landscape — while avoiding mythological threats lurking in the dark."
     ],
     imageOneSrc: "/img/DescriptionPageCartoonMan.png",
