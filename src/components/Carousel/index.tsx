@@ -6,7 +6,7 @@ import { SingleMemberProps } from '@/types/types';
 
 function Carousel({ work }: SingleMemberProps) {
     // if (work === undefined || work.length === 0) return null;
-
+    work = [];
     //Placeholder Image Array    
     const images = ["/img/slideshow-img_1.png", "/img/slideshow-img_2.png","/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png"];
 
@@ -59,8 +59,8 @@ function Carousel({ work }: SingleMemberProps) {
     else {
         //SetPositions    
         positions = ["center"];
-        let positions_left: string[] = [];
-        let positions_right: string[] = [];
+        const positions_left: string[] = [];
+        const positions_right: string[] = [];
 
         for (let i = 0; i < workSize - 1; i++) {
             if (i % 2 === 0) positions_right.push("right" + positions_right.length)
