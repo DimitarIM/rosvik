@@ -5,8 +5,10 @@ import { motion } from 'framer-motion';
 import { SingleMemberProps } from '@/types/types';
 
 function Carousel({ work }: SingleMemberProps) {
-    // if (work === undefined || work.length === 0) return null;    
-    const images = ["/img/slideshow-img_1.png", "/img/slideshow-img_2.png","/img/slideshow-img_3.png","/img/slideshow-img_4.png"];
+    // if (work === undefined || work.length === 0) return null;
+
+    //Placeholder Image Array    
+    const images = ["/img/slideshow-img_1.png", "/img/slideshow-img_2.png","/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png"];
 
     const workSize = images.length;
     let positions: string[] = [];
@@ -92,23 +94,25 @@ function Carousel({ work }: SingleMemberProps) {
     console.log(positions);
 
     return (
-        
-        <div className="relative overflow-hidden flex items-center flex-col justify-center w-full h-full">
+        <div className='flex flex-col gap-10 justify-center items-center'>  
             <h3 className='text-5xl'>Portfolio</h3>
-            {images.map((image, index) => (
-                <motion.img
-                    key={index}
-                    src={image}
-                    alt={image}
-                    className="rounded-[12px]"
-                    initial="center"
-                    animate={positions[posIndexes[index]]}
-                    variants={imageVariants}
-                    transition={{ duration: 0.2 }}
-                    style={{ width: "40%", position: "absolute" }}
-                />
-            ))}
-            <div className="mt-[300px] sm:mt-[400px] md:mt-[400px] lg:mt-[600px] xl:mt-[1000px] flex flex-row gap-3 ">
+            <div className="relative overflow-hidden flex items-center flex-col justify-center w-full h-full">
+                <img className='w-full sm:w-[40%] invisible' src={images[0]} alt="" />
+                {images.map((image, index) => (
+                    <motion.img
+                        key={index}
+                        src={image}
+                        alt={image}
+                        className="rounded-[12px] w-full sm:w-[40%]"
+                        initial="center"
+                        animate={positions[posIndexes[index]]}
+                        variants={imageVariants}
+                        transition={{ duration: 0.2 }}
+                        style={{position: "absolute" }}
+                    />
+                ))}
+            </div>
+            <div className="flex flex-row gap-3 justify-center">
                 {
                     isLower ? null :
                         <>
@@ -122,6 +126,8 @@ function Carousel({ work }: SingleMemberProps) {
                 }
             </div>
         </div>
+
+
     );
 }
 
