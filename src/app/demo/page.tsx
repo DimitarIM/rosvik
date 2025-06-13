@@ -6,6 +6,7 @@ const DemoPage = () => {
       <DemoDownload />
     </div>
   )
+  
 }
 
 export default DemoPage

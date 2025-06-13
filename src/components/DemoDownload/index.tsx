@@ -1,6 +1,9 @@
+import DemoExpectedCriteria from "@/components/DemoExpectedCriteria"
+
 const Demo = () => {
   return (
     <>
+    <DemoExpectedCriteria />
     <div className="relative min-h-screen font-labrada">
       <div className="bg-no-repeat md:bg-center md:bg-cover bg-bottom bg-[url(/img/forest_bg.png)] opacity-150 bg-[length:100%_100%] ">
       <div className="relative z-10 flex flex-col justify-start text-center h-screen px-8 pt-40 md:pt-50">
