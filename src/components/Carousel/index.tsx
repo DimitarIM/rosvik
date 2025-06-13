@@ -5,16 +5,15 @@ import { motion } from 'framer-motion';
 import { SingleMemberProps } from '@/types/types';
 
 function Carousel({ work }: SingleMemberProps) {
-    // if (work === undefined || work.length === 0) return null;
-    work = ["string"];
-    //Placeholder Image Array    
-    const images = ["/img/slideshow-img_1.png", "/img/slideshow-img_2.png","/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png"];
+    //Placeholder Image Array  
+    work = ["/img/slideshow-img_1.png", "/img/slideshow-img_2.png", "/img/slideshow-img_3.png", "/img/slideshow-img_4.png", "/img/slideshow-img_5.png"];
+    if (work === undefined || work.length === 0) return null;
 
-    const workSize = images.length;
+    const workSize = work.length;
     let positions: string[] = [];
     let imageVariants: Record<string, any> = {}
 
-    const [posIndexes, setPosIndexes] = useState(images.map((_, index) => index));
+    const [posIndexes, setPosIndexes] = useState(work.map((_, index) => index));
     const [isLower] = useState<boolean>(workSize < 3)
 
     //Button logic
@@ -97,8 +96,8 @@ function Carousel({ work }: SingleMemberProps) {
         <div className='flex flex-col gap-10 justify-center items-center'>  
             <h3 className='text-5xl'>Portfolio</h3>
             <div className="relative overflow-hidden flex items-center flex-col justify-center w-full h-full">
-                <img className='w-full sm:w-[40%] invisible' src={images[0]} alt="" />
-                {images.map((image, index) => (
+                <img className='w-full sm:w-[40%] invisible' src={work[0]} alt="" />
+                {work.map((image, index) => (
                     <motion.img
                         key={index}
                         src={image}
