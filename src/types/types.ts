@@ -2,6 +2,24 @@ export type keyfeaturesProps = {
   keyfeatures: string[];
 };
 
+export type GameOverViewProps = {
+    bgImageAlt: string;
+    pageTitle: string;
+    aboutText: string[];
+    imageOneSrc: string;
+    imageOneAlt: string;
+    imageTwoSrc: string;
+    imageTwoAlt: string;
+    gameLoopTitle: string;
+    gameLoopText: string[];
+    managementBoxText:string[];
+}
+
+export type DownLoadButtonProps = {
+    downloadButtonText: string;
+    downloadButtonLink: string;
+}
+
 export type TeamColumnProps = {
   team: string;
 };
@@ -46,5 +64,3 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
-
- 
