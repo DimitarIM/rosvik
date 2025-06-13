@@ -13,7 +13,7 @@ const AboutPage = () => {
       
       <div className="min-h-screen lg:p-25 flex justify-center items-center">
       <FooterLogoSection
-        logo="/img/ftrgames_logo.png"
+        logo="/img/team_fg_img.png"
         description={
           <div className="text-left p-2 lg:p-32 md:p-4">
           <p className="flex flex-col text-base">Something about the team and/or about GP3
