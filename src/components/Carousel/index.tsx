@@ -6,7 +6,7 @@ import { SingleMemberProps } from '@/types/types';
 
 function Carousel({ work }: SingleMemberProps) {
     // if (work === undefined || work.length === 0) return null;
-    work = [];
+    work = ["string"];
     //Placeholder Image Array    
     const images = ["/img/slideshow-img_1.png", "/img/slideshow-img_2.png","/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png"];
 
