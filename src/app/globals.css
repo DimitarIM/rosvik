@@ -24,6 +24,7 @@
   --color-button-hover: var(--background-hover);
   --color-color-primary: var(--font-primary);
   --font-labrada: var(--font-labrada);
+  --color-feature: var(--text-feature);
   --color-button-color: var(--button-color);
   --color-pageTitle-color: var(--pageTitle-color)
   --color-feature: var(--text-feature);
@@ -33,10 +34,8 @@
   --color-span-text: var(--color-span);   
 } 
 
-
 body {
   background: var(--background);
   color: var(--font-primary);
   font-family: var(--font-labrada);
-  
 }

@@ -13,11 +13,10 @@ export type GameOverViewProps = {
     managementBoxText:string[];
 }
 
-export type DownloadButtonProps = {
+export type DownLoadButtonProps = {
     downloadButtonText: string;
     downloadButtonLink: string;
 }
-
 
 export type keyfeaturesProps = {
   keyfeatures: string[];
@@ -72,5 +71,3 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
-
- 
