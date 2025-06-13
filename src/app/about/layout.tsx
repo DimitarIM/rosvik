@@ -7,5 +7,5 @@ export default function AboutPageLayout({
     <div className="w-full min-h-screen bg-[url(/img/bg_2.png)] bg-cover bg-center p-9 pt-21 lg:p-40">
       {children}
     </div>
-  );
+  )
 }
