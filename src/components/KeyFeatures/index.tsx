@@ -8,7 +8,7 @@ const KeyFeatures = ({ keyfeatures }: keyfeaturesProps) => {
       <h2 className="text-[40px] font-labrada text-feature md:text-[40px] mb-8 text-center">
         Key Features
       </h2>
-      <div className="bg-foreground text-feature rounded-xl py-3 md:pt-7 md:pb-10 md:px-20 w-full max-w-[320px] md:w-full md:max-w-6xl">
+      <div className="bg-foreground text-feature rounded-xl py-3 md:py-9 md:px-20 w-full max-w-[320px] md:w-full md:max-w-6xl">
         <div className="flex flex-col items-center md:flex-row text-nowrap justify-center gap-3 md:gap-[2.5vw] lg:gap-15 text-lg md:text-xl text-center md:text-left">
           {keyfeatures.map((feature, index) => (
             <Fragment key={index}>
