@@ -1,4 +1,4 @@
-import SlideShow from "@/components/slideshow";
+import Carousel from "@/components/Carousel";
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
 import { slugify } from "../../../utils/utils";
@@ -27,9 +27,7 @@ const MemberPage = async ({
   return (
     <div className="flex flex-col">
       <SingleMemberInfo {...selectedMember} />
-      <section className="w-full flex flex-col justify-center items-center">
-          <SlideShow/>
-      </section>
+      <Carousel {...selectedMember}/>
     </div>
   )
 };

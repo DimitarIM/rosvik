@@ -4,7 +4,7 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
   const { title, image, name, quote, linkedin, website, discord } = member;
 
   return (
-    <div className="w-full font-labrada flex flex-col items-center">
+    <div className="w-full font-labrada flex flex-col items-center p-9 pt-21 lg:p-25">
       <div className="w-full flex flex-col lg:flex-row justify-center gap-0 lg:gap-15">
         {/* First column box */}
         <div className="w-full flex justify-between items-center lg:justify-start flex-row-reverse lg:flex-col gap-5 lg:gap-10 text-[14px] lg:text-[40px]">
