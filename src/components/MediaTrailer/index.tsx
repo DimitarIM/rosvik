@@ -1,10 +1,11 @@
+
 'use client'
 import Image from "next/image";
 import mainTrailer from "/public/img/main_game_trailer.png";
-import placeholder1 from "/public/img/main_placeholder_1.png";
-import placeholder2 from "/public/img/main_placeholder_2.png";
-import leftArrow from "/public/btn/arrow-btn_left.png";
-import rightArrow from "/public/btn/arrow-btn_right.png";
+import placeholder1 from "../../../public/img/main_placeholder_1.png";
+import placeholder2 from "../../../public/img/main_placeholder_2.png";
+import leftArrow from "../../../public/btn/arrow-btn_left.png";
+import rightArrow from "../../../public/btn/arrow-btn_right.png";
 import { useState } from "react";
 
 const MediaTrailer = () => {
@@ -137,23 +138,7 @@ const MediaTrailer = () => {
                     </div>
                 </div>
 
-                <h2 className="section-title text-2xl font-bold my-8 text-center font-[var(--font-labrada)]">
-                    Key features
-                </h2>
-
-                <div className="max-w-4xl mx-auto px-4">
-                    <div className="bg-[#7C8386] bg-opacity-90 grid grid-cols-1 md:grid-cols-3 gap-4 p-6 rounded-lg shadow-lg">
-                        <div className="feature text-center font-bold text-white"> 
-                            Scavenge & survive
-                        </div>
-                        <div className="feature text-center font-bold text-white">
-                            Navigate wilderness
-                        </div>
-                        <div className="feature text-center font-bold text-white">
-                            Unlock mystical relics
-                        </div>
-                    </div>
-                </div>
+              
             </div>
         </div>
     );
