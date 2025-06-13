@@ -1,4 +1,3 @@
-
 'use client'
 import Image from "next/image";
 import mainTrailer from "/public/img/main_game_trailer.png";
