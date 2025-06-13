@@ -1,3 +1,7 @@
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
+
 export type GameOverViewProps = {
     bgImageAlt: string;
     pageTitle: string;
@@ -60,5 +64,3 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
-
- 
