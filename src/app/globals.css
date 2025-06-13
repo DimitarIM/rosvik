@@ -1,24 +1,42 @@
 @import "tailwindcss";
 
 :root {
+  --color-sunny: #f0ce79;
+  --color-text-neutral-50: #FAFAFA;
+  --color-span:#D7D3CD4D;
   --background: #000000;
   --foreground: rgba(124, 131, 133, 0.2);
   --background-button: rgba(124, 131, 133, 0.5);
   --background-hover: rgba(214, 231, 149, 0.6);
   --font-primary: rgba(215, 211, 205, 1);
+  --button-color: rgba(72, 81, 84, 0.6);
+  --pageTitle-color: rgba(92, 90, 92, 1);
+  --fullscreenbg: #0c100c;
+  --text-feature: #D7D3CD; 
+  --text-feature: #D7D3CD;
+  --fullscreenbg: #0c100c;
 }
 
-@theme inline {
+ @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-button-base: var(--background-button);
   --color-button-hover: var(--background-hover);
   --color-color-primary: var(--font-primary);
   --font-labrada: var(--font-labrada);
-}
+  --color-button-color: var(--button-color);
+  --color-pageTitle-color: var(--pageTitle-color)
+  --color-feature: var(--text-feature);
+  --color-download-button: var(--color-sunny);
+  --color-download-text: var(--color-text-neutral-50);
+  --color-span-text: var(--color-span);
+  --color-fullscreen-bg: var(--fullscreenbg)   
+} 
+
 
 body {
   background: var(--background);
   color: var(--font-primary);
   font-family: var(--font-labrada);
+  
 }
