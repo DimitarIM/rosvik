@@ -1,6 +1,6 @@
-import { DownloadButtonProps } from "@/types/types";
+import { DownLoadButtonProps } from "@/types/types";
 
-const downloadButtonData: DownloadButtonProps = {
+const downloadButtonData: DownLoadButtonProps = {
     downloadButtonLink: "https://futuregames.itch.io/rosvik",
     downloadButtonText: "Download to enter Røsvik"
 }

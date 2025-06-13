@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import { motion } from "framer-motion";
+import {motion} from 'motion/react';
   
 function SlideShow() {
     const [posIndexes, setPosIndexes] = useState([0, 1, 2, 3, 4]);
