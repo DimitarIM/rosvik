@@ -3,12 +3,11 @@ import { keyfeaturesProps } from "@/types/types";
 
 const KeyFeatures = ({ keyfeatures }: keyfeaturesProps) => {
   return (
-    <section className="flex flex-col items-center justify-center py-12 px-4 font-labrada overflow-hidden">
-      
-      <h2 className="text-[40px] text-feature md:text-[40px] font-semibold mb-8 text-center">
+    <section className="relative flex flex-col items-center justify-center pt-15 pb-30 px-4 font-labrada overflow-hidden z-20">
+      <h2 className="text-[40px] font-labrada text-feature md:text-[40px] mb-8 text-center">
         Key Features
       </h2>
-      <div className="bg-foreground text-feature backdrop-blur-sm rounded-xl px-6 py-8 w-full max-w-6xl">
+      <div className="bg-foreground text-feature rounded-xl px-6 py-8 w-full max-w-6xl">
         <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center gap-6 text-lg md:text-xl text-center md:text-left">
           {keyfeatures.map((feature, index) => (
             <div
