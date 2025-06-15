@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { motion } from 'framer-motion';
+import { motion, Variant} from 'motion/react';
 import { SingleMemberProps } from '@/types/types';
 
 function Carousel({ work }: SingleMemberProps) {
@@ -14,7 +14,7 @@ function Carousel({ work }: SingleMemberProps) {
     if (work === undefined || work.length === 0) return null;
 
     let positions: string[] = [];
-    let imageVariants: Record<string, any> = {}
+    let imageVariants: Record<string, Variant> = {}
 
     //Button logic
 
@@ -89,8 +89,6 @@ function Carousel({ work }: SingleMemberProps) {
             }
         }
     }
-    console.log(imageVariants);
-    console.log(positions);
 
     return (
         <div className='flex flex-col gap-10 justify-center items-center'>  
