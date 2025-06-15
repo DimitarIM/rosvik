@@ -1,7 +1,7 @@
 
 'use client'
 import Image from "next/image";
-import mainTrailer from "/public/img/main_game_trailer.png";
+import mainTrailer from "../../../public/img/main_game_trailer.png";
 import placeholder1 from "../../../public/img/main_placeholder_1.png";
 import placeholder2 from "../../../public/img/main_placeholder_2.png";
 import leftArrow from "../../../public/btn/arrow-btn_left.png";
