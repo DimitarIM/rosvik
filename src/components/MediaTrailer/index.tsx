@@ -29,11 +29,8 @@ const MediaTrailer = () => {
               backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 position: 'relative',
-                left: '50%',
-                right: '50%',
-                marginLeft: '-50vw',
-                marginRight: '-50vw',
-                width: '100vw'
+               
+                width: '100%'
             }}
         >
             <div className="absolute inset-0 bg-black/50 z-0"></div>
