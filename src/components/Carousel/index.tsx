@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import { motion, Variant} from 'motion/react';
 import { SingleMemberProps } from '@/types/types';
+import Image from 'next/image';
 
 function Carousel({ work }: SingleMemberProps) {
     //Placeholder Image Array  
@@ -91,10 +92,10 @@ function Carousel({ work }: SingleMemberProps) {
     }
 
     return (
-        <div className='flex flex-col gap-10 justify-center items-center'>  
+        <div className='flex flex-col justify-center items-center'>  
             <h3 className='text-5xl'>Portfolio</h3>
-            <div className="relative overflow-hidden flex items-center flex-col justify-center w-full h-full">
-                <img className='w-full sm:w-[40%] invisible' src={work[0]} alt="" />
+            <div className="relative pt-7 pb-7 overflow-hidden flex items-center flex-col justify-center w-full h-full">
+                <Image className='w-full h-auto sm:w-[50%] invisible' width={0} height={0} src={work[0]} alt={work[0]} />
                 {work.map((image, index) => (
                     <motion.img
                         key={index}
@@ -114,10 +115,10 @@ function Carousel({ work }: SingleMemberProps) {
                     isLower ? null :
                         <>
                             <button onClick={handleBack}>
-                                <img className='w-full h-full' src="/btn/arrow-btn_left.png" alt="" />
+                                <img className='w-full h-full transition ease-in-out duration-[0.15s] hover:translate-y-[-3px]' src="/btn/arrow-btn_left.png" alt="" />
                             </button>
                             <button onClick={handleNext}>
-                                <img src="/btn/arrow-btn_right.png" alt="" />
+                                <img className='w-full h-full transition ease-in-out duration-[0.15s] hover:translate-y-[-3px]' src="/btn/arrow-btn_right.png" alt="" />
                             </button>
                         </>
                 }
