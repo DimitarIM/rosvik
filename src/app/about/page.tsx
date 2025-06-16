@@ -16,7 +16,7 @@ const AboutPage = () => {
         logo="/img/team_fg_img.png"
         description={
           <div className="text-left p-20 lg:p-20 md:p-4">
-          <p className="flex flex-col text-base">Something about the team and/or about GP3
+          <p className="flex flex-col">Something about the team and/or about GP3
             <br />
             <span className="text-[26px] text-color-primary md:text-left">(...)</span>
           </p>
