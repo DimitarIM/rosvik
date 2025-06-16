@@ -14,8 +14,8 @@ const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
           priority
         />
       </div>
-      <div className="hidden md:flex flex-col justify-center bg-foreground text-center text-color-primary mr-8 md:rounded-[10px] lg:w-[627px] md:w-[400px] h-[394px] top-[806px] left-[628px] shadow-lg max-w-xl opacity-90 ">
-        <div className="whitespace-nowrap not-only-of-type:text-center leading-relaxed md:text-[20px] md:text-lg lg:text-xl font-labrada">
+      <div className="hidden md:flex flex-col justify-center bg-foreground text-center text-color-primary mr-8 md:rounded-[10px] lg:w-[627px] md:w-[400px] h-[394px] top-[806px] left-[628px] shadow-lg max-w-xl opacity-90">
+        <div className="whitespace-nowrap not-only-of-type:text-center leading-relaxed md:text-[20px] font-labrada">
           {description}
         </div>
       </div>
