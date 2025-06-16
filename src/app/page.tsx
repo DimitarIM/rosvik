@@ -3,7 +3,6 @@
 import MainHeroSection from "../components/MainHeroSection";
 import MediaTrailer from "@/components/MediaTrailer";
 
-
 export default function Home() {
   return (
     <>
@@ -13,7 +12,6 @@ export default function Home() {
         thirdText="Survive"
       />
       <MediaTrailer />
-
     </>
   );
 }
