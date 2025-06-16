@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import mainTrailer from "/public/img/main_game_trailer.png";
+import mainTrailer from "../../../public/img/main_game_trailer.png";
 import placeholder1 from "../../../public/img/main_placeholder_1.png";
 import placeholder2 from "../../../public/img/main_placeholder_2.png";
 import leftArrow from "../../../public/btn/arrow-btn_left.png";
@@ -36,7 +36,7 @@ const MediaTrailer = () => {
             <div className="absolute inset-0 bg-black/50 z-0"></div>
 
             <div className="relative z-10 max-w-6xl mx-auto px-4 py-8">
-                <h2 className="text-center section-title text-3xl font-bold mb-6 font-[var(--font-labrada)]">
+                <h2 className="text-center section-title text-3xl mb-6 font-[var(--font-labrada)]">
                     Trailer & media
                 </h2>
 

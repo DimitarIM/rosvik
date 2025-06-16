@@ -7,7 +7,7 @@ const Demo = () => {
         <div className="font-labrada text-[14px] md:text-[40px] text-feature mb-20 md:mb-16">
           <h3>Do you think you could survive?</h3>
         </div>
-        <h1 className="text-[20.5px] md:text-[100px] md:text-6xl font-light text-feature">
+        <h1 className="text-[20.5px] md:text-[60px] lg:text-[100px] md:text-6xl font-light text-feature">
           <a href="http://itch.io"
            target="_blank"
            rel="noopener noreferrer" 
