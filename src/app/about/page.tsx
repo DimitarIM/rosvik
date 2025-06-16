@@ -1,3 +1,4 @@
+
 import TeamColumn from "../../components/TeamColumn";
 
 const AboutPage = () => {
@@ -9,6 +10,7 @@ const AboutPage = () => {
         <TeamColumn team="art" />
         <TeamColumn team="programmer" />
       </div>
+    
     </>
   );
 };
