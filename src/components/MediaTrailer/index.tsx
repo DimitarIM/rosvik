@@ -36,7 +36,7 @@ const MediaTrailer = () => {
             <div className="absolute inset-0 bg-black/50 z-0"></div>
             
             <div className="relative z-10 max-w-6xl mx-auto px-4 py-8">
-                <h2 className="text-center section-title text-3xl font-bold mb-6 font-[var(--font-labrada)]">
+                <h2 className="text-center section-title text-3xl mb-6 font-[var(--font-labrada)]">
                     Trailer & media
                 </h2>
 
