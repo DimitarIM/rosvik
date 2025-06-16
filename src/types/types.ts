@@ -1,6 +1,4 @@
-export type keyfeaturesProps = {
-  keyfeatures: string[];
-};
+import { ReactNode } from "react";
 
 export type GameOverViewProps = {
     bgImageAlt: string;
@@ -20,6 +18,11 @@ export type DownLoadButtonProps = {
     downloadButtonLink: string;
 }
 
+
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
+
 export type TeamColumnProps = {
   team: string;
 };
@@ -34,13 +37,18 @@ export type SingleMemberProps = {
   discord: string;
 };
 
+export type FooterLogoProps = {
+  logo: string;
+  description: string | ReactNode;
+}
+
 export type MainHeroSectionProps = {
     firstText: string
     secondText: string
     thirdText: string
 }
 
-export type DownloadButtonProps = {
+export type DownloadButtonHpProps = {
     href: string
     image: string
     alt: string
@@ -64,3 +72,5 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
+
+ 
