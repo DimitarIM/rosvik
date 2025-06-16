@@ -17,7 +17,7 @@ const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
         </div>
       </div>
       <div className="hidden md:flex flex-col justify-center bg-foreground text-center text-color-primary mr-10 md:rounded-[10px] lg:w-[627px] md:w-[400px] h-[394px] shadow-lg max-w-xl opacity-90">
-        <div className="leading-relaxed md:text-[20px] lg:text-[26px] lg:p-8 font-labrada whitespace-normal md:whitespace-nowrap overflow-hidden text-ellipsis ">
+        <div className="leading-relaxed md:text-[20px] lg:text-[26px] lg:p-4 font-labrada whitespace-normal md:whitespace-nowrap overflow-hidden text-ellipsis ">
           {description}
         </div>
       </div>  
