@@ -4,7 +4,7 @@ const GameLowerSection = () => {
     return (
        <div className="relative "> 
         <Image src={bgImage} alt='background image' className="w-full"/>
-        <div className="w-[70%] py-12 my-8 mx-auto bg-foreground text-color-primary rounded-[10px] shadow-lg opacity 30% md:absolute top-12 left-12 md:w-[35%] md:h-[45%]">
+        <div className="w-[70%] py-12 my-8 mx-auto bg-foreground text-color-primary rounded-[10px] shadow-lg opacity 30% md:absolute top-12 left-25 lg:left-43 md:w-[35%] md:h-[45%]">
             <div className='pl-7 '>
                 <p>World & Mythology</p>
                 <p>(...)</p>
