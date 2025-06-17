@@ -1,5 +1,3 @@
-// import KeyFeatures from "@/components/KeyFeatures";
-// import { keyfeaturesData } from "@/data/keyfeaturesdata";
 import MainHeroSection from "../components/MainHeroSection";
 import MediaTrailer from "@/components/MediaTrailer";
 
