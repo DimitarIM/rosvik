@@ -13,16 +13,13 @@ const Navbar = () => {
 
         <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}></button>
 
-        <nav className="hidden md:flex space-x-6 text-white">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-        </nav>
       </div>
 
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 bg-black bg-opacity-80">
-          <Link href="/" className="block text-white py-2">Home</Link>
+          <Link href="/" className="block text-red py-2">Home</Link>
           <Link href="/about" className="block text-white py-2">About</Link>
+          <Link href="/game" className="block text-white py-2">Game</Link>
         </div>
       )}
     </header>
