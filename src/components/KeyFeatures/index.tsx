@@ -6,7 +6,7 @@ const KeyFeatures = ({ keyfeatures }: keyfeaturesProps) => {
   return (
     <section className="flex flex-col items-center justify-center py-12 px-4 font-labrada overflow-hidden">
       
-      <h2 className="text-[26px] text-feature md:text-[40px] font-semibold mb-8 text-center mt-100">
+      <h2 className="text-[26px] text-feature md:text-[40px] font-semibold mb-8 text-center">
         Key Features
       </h2>
       <div className="bg-foreground text-feature rounded-xl py-3 md:py-9 md:px-20 w-full max-w-[320px] md:w-full md:max-w-6xl">
