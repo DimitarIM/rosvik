@@ -1,5 +1,10 @@
 import { ReactNode } from "react";
 
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
+
+
 export type GameOverViewProps = {
     bgImageAlt: string;
     pageTitle: string;
@@ -18,23 +23,19 @@ export type DownLoadButtonProps = {
     downloadButtonLink: string;
 }
 
-
-export type keyfeaturesProps = {
-  keyfeatures: string[];
-};
-
 export type TeamColumnProps = {
   team: string;
 };
 
 export type SingleMemberProps = {
   name: string;
-  title: string;
-  image: string;
-  quote: string;
-  linkedin: string;
-  website: string;
-  discord: string;
+  title?: string;
+  image?: string;
+  quote?: string;
+  linkedin?: string;
+  website?: string;
+  discord?: string;
+  work?: string[];
 };
 
 export type FooterLogoProps = {
