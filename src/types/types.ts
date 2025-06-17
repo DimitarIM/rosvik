@@ -1,3 +1,4 @@
+
 import { ReactNode } from "react";
 
 export type GameOverViewProps = {
@@ -17,7 +18,6 @@ export type DownLoadButtonProps = {
     downloadButtonText: string;
     downloadButtonLink: string;
 }
-
 
 export type keyfeaturesProps = {
   keyfeatures: string[];
@@ -73,5 +73,3 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
-
- 
