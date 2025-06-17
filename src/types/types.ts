@@ -73,3 +73,11 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
+
+export type GameLowerSectionProps = {
+  title: string;
+  description: string;
+
+}
+
+ 

@@ -1,3 +1,4 @@
+
 import TeamColumn from "../../components/TeamColumn";
 import FooterLogoSection from "@/components/FooterLogoSection";
 
@@ -10,8 +11,7 @@ const AboutPage = () => {
         <TeamColumn team="art" />
         <TeamColumn team="programmer" />
       </div>
-      
-      <div className="flex justify-center items-center h-full w-full">
+      <div className="min-h-screen lg:p-25 flex justify-center items-center">
       <FooterLogoSection
         logo="/img/team_fg_img.png"
         description={
