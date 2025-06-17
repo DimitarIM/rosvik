@@ -9,8 +9,8 @@ const GameLowerSection = ({title, description}:GameLowerSectionProps) => {
             <div className='pl-7 '>
                 <p>{title}</p>
                 <p>{description}</p>
-                </div>
-            </div>  
+            </div>
+        </div>  
         </div>
     )
 }
