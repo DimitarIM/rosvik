@@ -4,8 +4,9 @@ import { Fragment } from "react";
 
 const KeyFeatures = ({ keyfeatures }: keyfeaturesProps) => {
   return (
-    <section className="relative flex flex-col items-center justify-center py-12 px-4 font-labrada overflow-hidden z-20">
-      <h2 className="text-[40px] font-labrada text-feature md:text-[40px] mb-8 text-center">
+    <section className="flex flex-col items-center justify-center py-12 px-4 font-labrada overflow-hidden">
+      
+      <h2 className="text-[26px] text-feature md:text-[40px] font-semibold mb-8 text-center mt-100">
         Key Features
       </h2>
       <div className="bg-foreground text-feature rounded-xl py-3 md:py-9 md:px-20 w-full max-w-[320px] md:w-full md:max-w-6xl">

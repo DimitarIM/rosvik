@@ -11,12 +11,12 @@ const AboutPage = () => {
         <TeamColumn team="programmer" />
       </div>
       
-      <div className="min-h-screen lg:p-25 flex justify-center items-center">
+      <div className="flex justify-center items-center h-full w-full">
       <FooterLogoSection
         logo="/img/team_fg_img.png"
         description={
-          <div className="text-left p-2 lg:p-32 md:p-4">
-          <p className="flex flex-col text-base">Something about the team and/or about GP3
+          <div className="text-left lg:p-10 md:p-4">
+          <p className="flex flex-col">Something about the team and/or about GP3
             <br />
             <span className="text-[26px] text-color-primary md:text-left">(...)</span>
           </p>

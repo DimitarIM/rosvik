@@ -1,5 +1,9 @@
-
 import { ReactNode } from "react";
+
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
+
 
 export type GameOverViewProps = {
     bgImageAlt: string;
@@ -18,10 +22,6 @@ export type DownLoadButtonProps = {
     downloadButtonText: string;
     downloadButtonLink: string;
 }
-
-export type keyfeaturesProps = {
-  keyfeatures: string[];
-};
 
 export type TeamColumnProps = {
   team: string;
