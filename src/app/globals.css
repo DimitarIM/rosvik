@@ -31,7 +31,8 @@
   --color-download-button: var(--color-sunny);
   --color-download-text: var(--color-text-neutral-50);
   --color-fullscreen-bg: var(--fullscreenbg);   
-  --color-span-text: var(--color-span);   
+  --color-span-text: var(--color-span);
+  --color-fullscreen-bg: var(--fullscreenbg);   
 } 
 
 body {

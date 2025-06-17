@@ -18,6 +18,7 @@ export type DownLoadButtonProps = {
     downloadButtonLink: string;
 }
 
+
 export type keyfeaturesProps = {
   keyfeatures: string[];
 };
@@ -71,3 +72,5 @@ export type HeaderLogoProps = {
 export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
+
+ 
