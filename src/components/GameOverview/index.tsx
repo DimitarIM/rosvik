@@ -7,7 +7,7 @@ import ManagementBox from "./ManagmentBox"
 
 const GameOverview = ({pageTitle, aboutText, imageOneSrc, imageOneAlt, imageTwoAlt, imageTwoSrc, bgImageAlt, gameLoopTitle, gameLoopText, managementBoxText}: GameOverViewProps) => {
     return (
-    <section className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat w-full min-h-screen sm:py-[120px] lg:py-[164px] xl:pt-[170px]"  aria-label={bgImageAlt}>
+    <section className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat w-full min-h-screen pt-[170px] pb-[120px]"  aria-label={bgImageAlt}>
       <div className="text-color-primary  grid grid-cols-1 justify-items-center sm:hidden" >
           <h1 className="text-pageTitle-color text-xl font-normal text-center ">{pageTitle}</h1>
           <About aboutText={aboutText}/>
