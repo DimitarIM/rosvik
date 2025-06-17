@@ -13,7 +13,6 @@
   --pageTitle-color: rgba(92, 90, 92, 1);
   --fullscreenbg: #0c100c;
   --text-feature: #D7D3CD; 
-  --text-feature: #D7D3CD;
   --fullscreenbg: #0c100c;
 }
 
@@ -27,7 +26,6 @@
   --color-feature: var(--text-feature);
   --color-button-color: var(--button-color);
   --color-pageTitle-color: var(--pageTitle-color);
-  --color-feature: var(--text-feature);
   --color-download-button: var(--color-sunny);
   --color-download-text: var(--color-text-neutral-50);
   --color-fullscreen-bg: var(--fullscreenbg);   
