@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 function Carousel({ work }: SingleMemberProps) {
     //Placeholder Image Array  
-    work = ["/img/slideshow-img_1.png", "/img/slideshow-img_2.png", "/img/slideshow-img_3.png", "/img/slideshow-img_4.png", "/img/slideshow-img_5.png"]; 
+    work = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png", "/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png", ]; 
     const workSize = work.length;
     const [posIndexes, setPosIndexes] = useState(work.map((_, index) => index));
     const [isLower] = useState<boolean>(workSize < 3)
@@ -86,22 +86,23 @@ function Carousel({ work }: SingleMemberProps) {
 
         for (let i = 0; i < positions_right.length; i++) {
             imageVariants[positions_right[i]] = {
-                x: `${(positions_right.length - i) * 100}%`, scale: 0.8, zIndex: positions_right.length - i
+                x: `${(positions_right.length - i) * 100}%`, scale: 0.8, zIndex: 1 + i
             }
         }
     }
+    console.log(imageVariants);
 
     return (
         <div className='flex flex-col justify-center items-center'>  
-            <h3 className='text-5xl'>Portfolio</h3>
-            <div className="relative pt-7 pb-7 overflow-hidden flex items-center flex-col justify-center w-full h-full">
-                <Image className='w-full h-auto sm:w-[50%] invisible' width={0} height={0} src={work[0]} alt={work[0]} />
+            <h3 className='text-4xl sm:text-5xl'>Portfolio</h3>
+            <div className={"relative pt-9 pb-7 overflow-hidden flex items-center flex-col justify-center w-full h-full"}>
+                <Image className={'h-auto  invisible sm:w-[50%]' + (workSize!== 2 ? " w-full" : " w-[40%]")} width={0} height={0} src={work[0]} alt={work[0]} />
                 {work.map((image, index) => (
                     <motion.img
                         key={index}
                         src={image}
                         alt={image}
-                        className="rounded-[12px] w-full sm:w-[40%]"
+                        className={"rounded-[12px] sm:w-[40%] " + (workSize!== 2 ? " w-full" : " w-[50%]")}
                         initial="center"
                         animate={positions[posIndexes[index]]}
                         variants={imageVariants}

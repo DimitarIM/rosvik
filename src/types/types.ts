@@ -1,3 +1,27 @@
+import { ReactNode } from "react";
+
+export type GameOverViewProps = {
+    bgImageAlt: string;
+    pageTitle: string;
+    aboutText: string[];
+    imageOneSrc: string;
+    imageOneAlt: string;
+    imageTwoSrc: string;
+    imageTwoAlt: string;
+    gameLoopTitle: string;
+    gameLoopText: string[];
+    managementBoxText:string[];
+}
+
+export type DownLoadButtonProps = {
+    downloadButtonText: string;
+    downloadButtonLink: string;
+}
+
+
+export type keyfeaturesProps = {
+  keyfeatures: string[];
+};
 
 export type TeamColumnProps = {
   team: string;
@@ -14,13 +38,18 @@ export type SingleMemberProps = {
   work?: string[];
 };
 
+export type FooterLogoProps = {
+  logo: string;
+  description: string | ReactNode;
+}
+
 export type MainHeroSectionProps = {
     firstText: string
     secondText: string
     thirdText: string
 }
 
-export type DownloadButtonProps = {
+export type DownloadButtonHpProps = {
     href: string
     image: string
     alt: string
