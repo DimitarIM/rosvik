@@ -3,7 +3,7 @@ import { FooterLogoProps } from "@/types/types";
 
 const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center lg:gap-6 py-40 max-w-6xl pb-[600px] lg:pb-[200px] -mt-28 lg:-mt-50">
+    <section className="flex flex-col md:flex-row items-center justify-center lg:gap-6 py-40 pt-20 max-w-3xl">
       <div className="w-40 sm:w-50 md:w-84 lg:w-[412px] height-[394px] top-[806px] left-[195px] flex justify-center p-4">
         <Image
           src={logo}
@@ -14,8 +14,8 @@ const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
           priority
         />
       </div>
-      <div className="hidden md:flex flex-col justify-center bg-foreground text-center text-color-primary mr-8 md:rounded-[10px] lg:w-[627px] md:w-[400px] h-[394px] top-[806px] left-[628px] shadow-lg max-w-xl opacity-100">
-        <div className="text-center leading-relaxed text-sm sm:text-[26px] md:text-lg lg:text-xl font-labrada">
+      <div className="hidden md:flex flex-col justify-center bg-foreground text-center text-color-primary mr-8 md:rounded-[10px] lg:w-[627px] md:w-[400px] h-[394px] top-[806px] left-[628px] shadow-lg max-w-xl opacity-90 ">
+        <div className="text-sm whitespace-nowrap not-only-of-type:text-center leading-relaxed sm:text-[26px] md:text-lg lg:text-xl font-labrada">
           {description}
         </div>
       </div>
