@@ -1,3 +1,4 @@
+import Carousel from "@/components/Carousel";
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
 import { slugify } from "../../../utils/utils";
@@ -23,7 +24,12 @@ const MemberPage = async ({
     return <div className="p-2 font-labrada">Member not found</div>;
   }
 
-  return <SingleMemberInfo {...selectedMember} />;
+  return (
+    <div className="flex flex-col">
+      <SingleMemberInfo {...selectedMember} />
+      <Carousel {...selectedMember}/>
+    </div>
+  )
 };
 
 export default MemberPage;

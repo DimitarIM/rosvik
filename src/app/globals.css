@@ -10,6 +10,8 @@
   --background-hover: rgba(214, 231, 149, 0.6);
   --font-primary: rgba(215, 211, 205, 1);
   --text-feature: #D7D3CD;
+  --button-color: rgba(72, 81, 84, 0.6);
+  --pageTitle-color: rgba(92, 90, 92, 1);
   --fullscreenbg: #0c100c;
 }
 
@@ -21,14 +23,16 @@
   --color-color-primary: var(--font-primary);
   --font-labrada: var(--font-labrada);
   --color-feature: var(--text-feature);
+  --color-button-color: var(--button-color);
+  --color-pageTitle-color: var(--pageTitle-color);
+  --color-download-button: var(--color-sunny);
+  --color-download-text: var(--color-text-neutral-50);
   --color-fullscreen-bg: var(--fullscreenbg);   
-  --color-span-text: var(--color-span);
+  --color-span-text: var(--color-span);  
 } 
-
 
 body {
   background: var(--background);
   color: var(--font-primary);
   font-family: var(--font-labrada);
-  
 }
