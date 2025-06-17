@@ -9,8 +9,8 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
         {/* First column box */}
         <div className="w-full flex justify-between items-center lg:justify-start flex-row-reverse lg:flex-col gap-5 lg:gap-10 text-[14px] lg:text-[40px]">
           <div className="flex-1 lg:flex-none">
-            <p>{name}</p>
-            <p>{title}</p>
+            <h1 className="text-[14px] lg:text-[40px]">{name}</h1>
+            <p className="text-[14px] lg:text-[40px]">{title}</p>
           </div>
           <div className="w-[90px] md:w-[150px] lg:w-[290px] aspect-square overflow-hidden rounded-full">
             <img
