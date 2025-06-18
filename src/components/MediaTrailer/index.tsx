@@ -79,8 +79,8 @@ const MediaTrailer = () => {
                 </div>
 
                 <div className="md:hidden relative w-full max-w-4xl mx-auto">
-                    <div className="relative aspect-video">
-                        <a href="https://www.youtube.com/watch?v=gQwgbpyIuEc" target="_blank" rel="noopener noreferrer" className="block relative group">
+                    <div className="relative aspect-video w-full h-[300px]">
+                        <a href="" target="_blank" rel="noopener noreferrer" className="block relative group">
                             <Image
                                 src={slides[currentSlide]}
                                 alt={`Slide ${currentSlide + 1}`}
