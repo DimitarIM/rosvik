@@ -6,7 +6,8 @@ const Game = () => {
     return (
         <>
         <GameOverview {...gameOverViewData}/>
-        <GameLowerSection title={'World & Mythology'} description={'(...)'}/>
+        <GameLowerSection/>
+        {/* title={'World & Mythology'} description={'(...)'} */}
         </>
     )
 }

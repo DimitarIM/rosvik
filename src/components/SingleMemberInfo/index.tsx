@@ -3,7 +3,7 @@ import { SingleMemberProps } from "../../types/types";
 
 const SingleMemberInfo = (member: SingleMemberProps) => {
   const { title, image, name, quote } = member;
-
+  //, linkedin, website, discord
   return (
     <div className="w-full font-labrada flex flex-col items-center p-9 pt-10 lg:p-25 ">
       <div className="w-full flex flex-col lg:flex-row justify-center gap-10 lg:gap-15">
@@ -30,6 +30,19 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
           <div className="lg:mt-[170px] p-5 lg:p-[55px] flex-1 bg-foreground rounded-[10px] text-[14px] lg:text-[26px]">
             <span>{quote}</span>
           </div>
+          {/* <div className="underline flex justify-start items-center gap-4 lg:gap-15 p-4">
+            <a href={linkedin} target="_blank">
+              LinkedIn
+            </a>
+            <br />
+            <a href={website} target="_blank">
+              Website
+            </a>
+            <br />
+            <a href={discord} target="_blank">
+              Discord
+            </a>
+          </div> */}
         </section>
       </div>
     </div>
