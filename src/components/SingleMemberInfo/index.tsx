@@ -1,7 +1,7 @@
 import { SingleMemberProps } from "../../types/types";
 
 const SingleMemberInfo = (member: SingleMemberProps) => {
-  const { title, image, name, quote, linkedin, website, discord } = member;
+  const { title, image, name, quote } = member;
 
   return (
     <div className="w-full font-labrada flex flex-col items-center p-9 pt-10 lg:p-25 ">
