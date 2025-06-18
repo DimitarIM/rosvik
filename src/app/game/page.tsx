@@ -6,7 +6,6 @@ const Game = () => {
     return (
         <>
         <GameOverview {...gameOverViewData}/>
-        <Footer />
         </>
     )
 }

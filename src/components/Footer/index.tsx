@@ -1,7 +1,3 @@
-'use client'
-import Link from "next/link"
-import { footerMedia} from "@/data/footerData"
-import Image from "next/image"
 import ContactDetails from "./ContactDetails"
 import KeyFacts from "./KeyFacts"
 import FooterLinks from "./FooterLinks"
