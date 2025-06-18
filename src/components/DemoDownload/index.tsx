@@ -9,7 +9,7 @@ const Demo = () => {
         </div>
         <h1 className="text-[20.5px] md:text-[60px] lg:text-[100px] md:text-6xl font-light text-feature">
           <a href="https://futuregames.itch.io/rosvik"
-           target="_blank"
+           target="_self"
            rel="noopener noreferrer" 
            className="inline-block border-b-2 border-white transition">
             Download to enter Røsvik

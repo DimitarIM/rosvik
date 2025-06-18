@@ -3,9 +3,9 @@ import { FooterLogoProps } from "@/types/types";
 
 const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center gap-6 py-15 max-w-screen mx-auto">
+    <section className="flex flex-col md:flex-row items-center justify-center gap-6 py-10 max-w-screen mx-auto">
       <div className="flex justify-center">
-        <div className="w-full flex justify-center">
+        <div className="w-[60%] md:w-full flex justify-center">
           <Image
             src={logo}
             alt="ftrgames_logo"
