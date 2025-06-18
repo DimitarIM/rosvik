@@ -1,5 +1,4 @@
 import { DownloadButtonHpProps } from "@/types/types";
-import Image from "next/image";
 import Link from "next/link";
 
 const DownloadButton = ({image, alt, href}: DownloadButtonHpProps) => {
