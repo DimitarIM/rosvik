@@ -25,10 +25,10 @@ const MemberPage = async ({
   }
 
   return (
-    <div className="flex flex-col">
+    <h1 className="flex flex-col">
       <SingleMemberInfo {...selectedMember} />
       <Carousel {...selectedMember}/>
-    </div>
+    </h1>
   )
 };
 
