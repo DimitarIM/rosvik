@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SingleMemberProps } from "../../types/types";
 
 const SingleMemberInfo = (member: SingleMemberProps) => {
@@ -8,7 +9,7 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
       <div className="w-full flex flex-col lg:flex-row justify-center gap-10 lg:gap-15">
          
         {/* First column box */}
-        <div className="w-full flex justify-between items-center lg:justify-start flex-row-reverse lg:flex-col gap-5 lg:gap-10 text-[18px] lg:text-[24px]">
+        <div className="w-full flex justify-between items-center lg:justify-start flex-row-reverse lg:flex-col gap-5 lg:gap-10 text-[12px] md:text-[18px] lg:text-[24px]">
           <div className="flex-1 lg:flex-none">
             <p className="text-2xl lg:text-4xl">{name}</p>
             <p>{title}</p>
@@ -21,7 +22,7 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
               height={100}
               className="w-full h-full object-cover object-center"
             />
-            <a href="/about"><p className="absolute left-[-10%] top-[-40%] lg:top-[-80%] text-[20px] md:text-[30px] lg:text-[50px] text-[var(--name-color)] hover:text-shadow-[0_0_5px_rgb(182_169_112)]"><span className="pr-2">&#10523;</span>Back</p></a>
+            <Link href="/about"><p className="absolute left-[-10%] top-[-40%] lg:top-[-80%] text-[20px] md:text-[30px] lg:text-[50px] text-[var(--name-color)] hover:text-shadow-[0_0_5px_rgb(182_169_112)]"><span className="pr-2">&#10523;</span>Back</p></Link>
           </div>
         </div>
         {/* Second column box */}
