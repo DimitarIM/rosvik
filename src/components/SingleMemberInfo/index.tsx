@@ -27,19 +27,6 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
           <div className="lg:mt-[170px] p-5 lg:p-[55px] flex-1 bg-foreground rounded-[10px] text-[14px] lg:text-[26px]">
             <span>{quote}</span>
           </div>
-          <div className="underline flex justify-start items-center gap-4 lg:gap-15 p-4">
-            <a href={linkedin} target="_blank">
-              LinkedIn
-            </a>
-            <br />
-            <a href={website} target="_blank">
-              Website
-            </a>
-            <br />
-            <a href={discord} target="_blank">
-              Discord
-            </a>
-          </div>
         </section>
       </div>
     </div>

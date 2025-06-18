@@ -19,16 +19,4 @@ const MainHeroSection = ({firstText, secondText, thirdText}: MainHeroSectionProp
         </div>   
     );
 }
-// .overlay {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     background: var(--red);
-//     z-index: 1;
-//     mix-blend-mode: overlay;
-// }
-//#0C100C Shadow Color
-//
 export default MainHeroSection;
