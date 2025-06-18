@@ -4,7 +4,7 @@ export default function AboutPageLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="w-full min-h-screen bg-[url(/img/bg_2.png)] bg-cover bg-center pt-[170px]">
+    <div className="w-full min-h-screen bg-[url(/img/bg_2.png)] bg-cover bg-center pt-[130px] md:pt-[170px]">
       {children}
     </div>
   )
