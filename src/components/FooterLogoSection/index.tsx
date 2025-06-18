@@ -3,9 +3,9 @@ import { FooterLogoProps } from "@/types/types";
 
 const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center lg:gap-2 sm:gap-2 py-8 max-w-7xl mx-auto">
-      <div className="flex justify-center p-4">
-        <div className="w-40 sm:w-52 md:w-84 lg:w-[412px] lg:h-[394px] flex justify-center p-4">
+    <section className="flex flex-col md:flex-row items-center justify-center gap-6 py-15 max-w-screen mx-auto">
+      <div className="flex justify-center">
+        <div className="w-full flex justify-center">
           <Image
             src={logo}
             alt="ftrgames_logo"
@@ -16,8 +16,8 @@ const FooterLogoSection = ({ logo, description }: FooterLogoProps) => {
           />
         </div>
       </div>
-      <div className="hidden md:flex flex-col justify-center bg-foreground text-center text-color-primary mr-10 md:rounded-[10px] lg:w-[627px] md:w-[400px] h-[394px] shadow-lg max-w-xl opacity-90">
-        <div className="leading-relaxed md:text-[20px] lg:text-[26px] lg:p-4 font-labrada whitespace-normal md:whitespace-nowrap overflow-hidden text-ellipsis ">
+      <div className="hidden md:flex flex-col justify-center bg-foreground text-center text-color-primary w-full max-w-[60%] h-auto rounded-[10px] shadow-lg opacity-90">
+        <div className="leading-relaxed md:text-[20px] lg:text-[26px] lg:p-4 font-labrada whitespace-normal text-ellipsis ">
           {description}
         </div>
       </div>  

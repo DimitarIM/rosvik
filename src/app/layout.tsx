@@ -18,10 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-   <html lang="en" className={`h-screen ${labrada.variable}`}>
-   
+    <html lang="en" className={`h-screen ${labrada.variable}`}>
+
       <body>
-        <Header/>
+        <Header />
         {children}
       </body>
     </html>
