@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --color-sunny: #f0ce79;
+  --color-sunny: rgb(240, 206, 121);
   --color-text-neutral-50: #FAFAFA;
   --color-span:#D7D3CD4D;
   --background: #000000;
@@ -13,6 +13,10 @@
   --button-color: rgba(72, 81, 84, 0.6);
   --pageTitle-color: rgba(92, 90, 92, 1);
   --fullscreenbg: #0c100c;
+  --title-color:rgb(0, 0, 0);
+  --name-color:rgb(206, 191, 157);
+  --role-color: rgb(246, 245, 247);
+  --test: rgb(182, 169, 112);
 }
 
  @theme inline {
@@ -28,8 +32,8 @@
   --color-download-button: var(--color-sunny);
   --color-download-text: var(--color-text-neutral-50);
   --color-fullscreen-bg: var(--fullscreenbg);   
-  --color-span-text: var(--color-span);  
-} 
+  --color-span-text: var(--color-span);
+}   
 
 body {
   background: var(--background);

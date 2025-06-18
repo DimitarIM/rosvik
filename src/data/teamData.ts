@@ -12,7 +12,7 @@ export const ManagementTeamData= [
     work: [],
   },
   {
-    title: "Project manager",
+    title: "Project Manager",
     name: "Camilla Rengbrand",
     linkedin: "linkedin",
     discord: "discord",
@@ -24,7 +24,7 @@ export const ManagementTeamData= [
     work: [],
   },
   {
-    title: "Release manager",
+    title: "Release Manager",
     name: "Daniel Zangger Borch",
     linkedin: "linkedin",
     discord: "discord",
@@ -39,7 +39,7 @@ export const ManagementTeamData= [
 
 export const DesignTeamData = [
   {
-    title: "PO/Gameplay & Tech designer",
+    title: "PO/Gameplay & Tech Designer",
     name: "Daniel Karlberg",
     linkedin: "linkedin",
     discord: "discord",
@@ -51,7 +51,7 @@ export const DesignTeamData = [
     work: [],
   },
   {
-    title: "Generalist designer",
+    title: "Generalist Designer",
     name: "Sebastian Wallin",
     linkedin: "linkedin",
     discord: "discord",
@@ -63,7 +63,7 @@ export const DesignTeamData = [
     work: [],
   },
   {
-    title: "Gameplay & Level designer",
+    title: "Gameplay & Level Designer",
     name: "Marcus Lindberg",
     linkedin: "linkedin",
     discord: "discord",
@@ -78,7 +78,7 @@ export const DesignTeamData = [
 
 export const ArtTeamData = [
   {
-    title: "Art director",
+    title: "Art Director",
     name: `Andreas "Ato" Holewa`,
     linkedin: "linkedin",
     discord: "discord",
@@ -90,7 +90,7 @@ export const ArtTeamData = [
     work: [],
   },
   {
-    title: "Environment artist",
+    title: "Environment Artist",
     name: "Judith Gammelli",
     linkedin: "linkedin",
     discord: "discord",
@@ -102,7 +102,7 @@ export const ArtTeamData = [
     work: [],
   },
   {
-    title: "Prop & Character artist",
+    title: "Prop & Character Artist",
     name: "Finn Mazur",
     linkedin: "linkedin",
     discord: "discord",
@@ -114,7 +114,7 @@ export const ArtTeamData = [
     work: [],
   },
   {
-    title: "General game artist",
+    title: "General Game Artist",
     name: "Wera Skoglund",
     linkedin: "linkedin",
     discord: "discord",
@@ -126,7 +126,7 @@ export const ArtTeamData = [
     work: [],
   },
   {
-    title: "VFX artist",
+    title: "VFX Artist",
     name: "Antonia Mertes",
     linkedin: "linkedin",
     discord: "discord",
@@ -189,10 +189,84 @@ export const ProgrammerTeamData = [
     work: [],
   },
 ];
+export const WebDeveloper= [
+  {
+    title: "Web Developer",
+    name: "Dimitar Manastirski",
+    linkedin: "linkedin",
+    discord: "discord",
+    website: "website",
+    games: [],
+    team: "Frontend",
+    image: "/img/team-members/profile.png",
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
+  },
+  {
+    title: "Web Developer",
+    name: "May Sunktong",
+    linkedin: "linkedin",
+    discord: "discord",
+    website: "website",
+    games: [],
+    team: "Frontend",
+    image: "/img/team-members/profile.png",
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
+  },
+  {
+    title: "Web Developer",
+    name: "Saifelislam Eisa",
+    linkedin: "linkedin",
+    discord: "discord",
+    website: "website",
+    games: [],
+    team: "Frontend",
+    image: "/img/team-members/profile.png",
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
+  },{
+    title: "Web Developer",
+    name: "Srilatha Potnuru",
+    linkedin: "linkedin",
+    discord: "discord",
+    website: "website",
+    games: [],
+    team: "Frontend",
+    image: "/img/team-members/profile.png",
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
+  },
+  {
+    title: "Web Developer",
+    name: "Bushra Rauf",
+    linkedin: "linkedin",
+    discord: "discord",
+    website: "website",
+    games: [],
+    team: "Frontend",
+    image: "/img/team-members/profile.png",
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
+  },
+  {
+    title: "Web Developer",
+    name: "Lava Sharif",
+    linkedin: "linkedin",
+    discord: "discord",
+    website: "website",
+    games: [],
+    team: "Frontend",
+    image: "/img/team-members/profile.png",
+    quote: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum dolorum rerum, illo atque non nemo ipsam nisi nam recusandae esse obcaecati voluptates quia placeat excepturi magni quos reprehenderit",
+    work: [],
+  },
+];
 
 export const allMembers = [
   ...ManagementTeamData,
   ...DesignTeamData,
   ...ArtTeamData,
   ...ProgrammerTeamData,
+  ...WebDeveloper
 ];
