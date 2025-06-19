@@ -74,7 +74,6 @@ export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
 
-
 export type FooterLinks = {
   links: { 
     id: number;
@@ -87,7 +86,14 @@ export type FooterLinks = {
 export type FooterMedia = {
   developers: {
     title: string;
-    names: {id: number; name: string; linkedin: string; icon: string;}[];
+    names: {
+      id: number; 
+      name: string; 
+      linkedin?: string; 
+      github?: string; 
+      icon?: string; 
+      giticon?:string
+    }[];
   }
 }
 
@@ -95,11 +101,6 @@ export type FooterContactDetails = {
   title: string;
   phone: string;
   email: string;
-}
-
-export type FooterKeyFacts = {
-  title: string;
-  facts: string[];
 }
 
 export type FooterCopyright = {

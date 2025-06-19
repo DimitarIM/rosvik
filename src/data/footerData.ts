@@ -1,4 +1,4 @@
-import { FooterContactDetails, FooterLinks, FooterKeyFacts, FooterMedia, FooterCopyright } from "@/types/types";
+import { FooterContactDetails, FooterLinks, FooterMedia, FooterCopyright } from "@/types/types";
 
 export const footerLinks: FooterLinks= {
     links: [
@@ -13,12 +13,42 @@ export const footerMedia: FooterMedia = {
     developers: {
         title: "Developers",
         names: [
-            {id: 1, name:'Lava Sharif', linkedin: "", icon:"/btn/linkedin.png"},
-            {id: 2, name:'Bushra ----', linkedin: "", icon:"/btn/linkedin.png"},
-            {id: 3, name:'May ----', linkedin: "", icon:"/btn/linkedin.png"},
-            {id: 4, name:'Dimitar ---', linkedin: "", icon:"/btn/linkedin.png"},
-            {id: 5, name:'Saif ----', linkedin: "", icon:"/btn/linkedin.png"},
-            {id: 6, name:'Srilata ----', linkedin: "", icon:"/btn/linkedin.png"},
+            {id: 1, 
+                name:'Lava Sharif', 
+                linkedin: "https://www.linkedin.com/in/lava-sharif-24a400323/", 
+                icon:"/btn/linkedin.png", 
+                github: "https://github.com/Lvhacker1", 
+                giticon: "/btn/github.png"},
+            {id: 2, 
+                name:'Sirilatha Potnuru', 
+                linkedin: "https://www.linkedin.com/in/srilatha-potnuru-229b80215/", 
+                icon:"/btn/linkedin.png", 
+                github: "https://github.com/potnurusrilatha", 
+                giticon: "/btn/github.png"},
+            {id: 3,
+                name:'May Sunktong', 
+                linkedin: "", 
+                icon:"/btn/linkedin.png", 
+                github: "https://github.com/maysunktong", 
+                giticon: "/btn/github.png"},
+            {id: 4, 
+                name:'Saifelislam Eisa', 
+                linkedin: "", 
+                icon:"/btn/linkedin.png", 
+                github: "https://github.com/SSSpac", 
+                giticon: "/btn/github.png"},
+            {id: 5, 
+                name:'Bushra Rauf', 
+                linkedin: "", 
+                icon:"/btn/linkedin.png",                
+                github: "https://github.com/SSSpac", 
+                giticon: "/btn/github.png",},
+            {id: 6, 
+                name:'Dimitar Manastirski', 
+                linkedin: "https://www.linkedin.com/in/dimitar-manastirski-89638b303/?originalSubdomain=se", 
+                icon:"/btn/linkedin.png", 
+                github: "https://github.com/DimitarIM", 
+                giticon: "/btn/github.png"},
     ]},
 }
 
@@ -26,16 +56,6 @@ export const footerContactDetails: FooterContactDetails = {
     title: "Connect with Us",
     phone: "08-33 60 16",
     email: "info@futuregames.se"
-}
-
-export const footerKeyFacts: FooterKeyFacts = {
-    title: "Key Facts",
-    facts: [
-        "Genre: Survival | Exploration | Mystic",
-        "Developer: Futuregames",
-        "Beta versions available",
-        "Controls: WASD movement, crafting, mystical powers",
-    ]
 }
 
 export const footerCopyright: FooterCopyright = {

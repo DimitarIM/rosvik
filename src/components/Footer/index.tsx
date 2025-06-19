@@ -1,24 +1,22 @@
 import ContactDetails from "./ContactDetails"
-import KeyFacts from "./KeyFacts"
 import FooterLinks from "./FooterLinks"
 import FooterCopyright from "./Copyright"
 import FooterMedia from "./MediaLinks"
-
+import FooterLink from "./FooterLink"
 
 const Footer = () => {
     return (
-        <footer className="m-7 lg:p-7 bg-fullscreen-bg ">
-            <div className="grid grid-cols-2 gap-7 text-sm items-center place-items-center sm:text-[16px] md:grid-cols-4 md:items-start md:gap-3 lg:text-[20px] ">
+        <footer className="w-full p-3 sm:p-0 lg:p-7 bg-fullscreen-bg ">
+            <div className="grid grid-cols-2 gap-3 sm:gap-5 text-sm items-center place-items-center sm:text-[16px] md:grid-cols-4 md:items-start md:gap-3 lg:text-[20px] ">
+                <div>
+                   <FooterLink />
+                </div>
                 <div>
                     <FooterLinks />
                 </div>
                 <div>
-                    <KeyFacts />
-                </div>
-                <div>
                     <FooterMedia />
                 </div>
-
                 <div>
                     <ContactDetails />
                 </div>
