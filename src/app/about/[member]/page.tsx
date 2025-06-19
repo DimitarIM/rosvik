@@ -2,6 +2,7 @@ import Carousel from "@/components/Carousel";
 import SingleMemberInfo from "../../../components/SingleMemberInfo";
 import { allMembers } from "../../../data/teamData";
 import { slugify } from "../../../utils/utils";
+import Inner from "@/components/Layout/Inner";
 
 /* Nextjs requires generateStaticParams */
 export async function generateStaticParams() {
@@ -25,10 +26,12 @@ const MemberPage = async ({
   }
 
   return (
-    <div className="flex flex-col">
-      <SingleMemberInfo {...selectedMember} />
-      <Carousel {...selectedMember}/>
-    </div>
+    <Inner>
+      <h1 className="relative flex flex-col z-20">
+        <SingleMemberInfo {...selectedMember} />
+        <Carousel {...selectedMember} />
+      </h1>
+    </Inner>
   )
 };
 

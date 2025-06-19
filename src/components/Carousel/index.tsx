@@ -7,12 +7,13 @@ import Image from 'next/image';
 
 function Carousel({ work }: SingleMemberProps) {
     //Placeholder Image Array  
-    work = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png", "/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png", ]; 
-    const workSize = work.length;
-    const [posIndexes, setPosIndexes] = useState(work.map((_, index) => index));
+    // work = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png", "/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png", ]; 
+    const workSize = work ? work.length : 0;
+    const [posIndexes, setPosIndexes] = useState(work ? work.map((_, index) => index) : []);
     const [isLower] = useState<boolean>(workSize < 3)
 
     if (work === undefined || work.length === 0) return null;
+
 
     let positions: string[] = [];
     let imageVariants: Record<string, Variant> = {}
@@ -90,7 +91,6 @@ function Carousel({ work }: SingleMemberProps) {
             }
         }
     }
-    console.log(imageVariants);
 
     return (
         <div className='flex flex-col justify-center items-center'>  
