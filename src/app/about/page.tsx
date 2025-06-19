@@ -15,7 +15,7 @@ const AboutPage = () => {
           <TeamColumn team="frontend" />
         </h1>
 
-        <div className="flex justify-center items-center h-full w-full">
+        <div className="relative flex justify-center items-center h-full w-full z-20">
           <FooterLogoSection
             logo="/img/team_fg_img.png"
             description={

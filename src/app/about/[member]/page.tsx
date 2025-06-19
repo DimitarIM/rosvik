@@ -27,7 +27,7 @@ const MemberPage = async ({
 
   return (
     <Inner>
-      <h1 className="flex flex-col">
+      <h1 className="relative flex flex-col z-20">
         <SingleMemberInfo {...selectedMember} />
         <Carousel {...selectedMember} />
       </h1>

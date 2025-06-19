@@ -8,7 +8,7 @@ export default function MemberPageLayout({
   return (
     <>
       <Inner>
-        <div className="pt-[]">
+        <div className="">
         {children}
         </div>
       </Inner>
