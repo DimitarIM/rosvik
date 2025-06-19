@@ -7,7 +7,7 @@ import ManagementBox from "./ManagmentBox"
 
 const GameOverview = ({pageTitle, aboutText, imageOneSrc, imageOneAlt, imageTwoAlt, imageTwoSrc, bgImageAlt, gameLoopTitle, gameLoopText, managementBoxText}: GameOverViewProps) => {
     return (
-    <section className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat w-full min-h-screen pt-[170px] pb-[120px]"  aria-label={bgImageAlt}>
+    <section className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat w-full min-h-screen pt-[35px] pb-[120px]"  aria-label={bgImageAlt}>
       <div className="text-color-primary  grid grid-cols-1 justify-items-center sm:hidden" >
           <h1 className="text-pageTitle-color text-xl font-normal text-center ">{pageTitle}</h1>
           <About aboutText={aboutText}/>
@@ -18,10 +18,12 @@ const GameOverview = ({pageTitle, aboutText, imageOneSrc, imageOneAlt, imageTwoA
           <div className="mx-[50px] mt-4 mb-3 rounded-[10px] bg-foreground ">
             <GameLoopList gameLoopText={gameLoopText} />
           </div>
-          <div className="my-12 ">
-              <img className="w-[264px] h-[152px] m-auto opacity-70" src={imageTwoSrc} alt={imageTwoAlt}></img>
+          <div className="my-12 max-w-[455px]">
+              <img className="px-7 m-auto opacity-70" src={imageTwoSrc} alt={imageTwoAlt}></img>
           </div>
+          <div className="w-full px-[50px]">
           <ManagementBox managementBoxText={managementBoxText} />
+          </div>
       </div>
 
 
@@ -31,7 +33,7 @@ const GameOverview = ({pageTitle, aboutText, imageOneSrc, imageOneAlt, imageTwoA
           <h1 className="text-color-primary sm:text-2xl font-normal text-center 
           xl:text-[40px]">{pageTitle}</h1>
           <About aboutText={aboutText}/>
-          <div className=" ">
+          <div>
               <img className="min-w-[264px] h-[152px] m-auto opacity-70
               sm:max-w-[340px] sm:h-auto
               md:min-w-[370px] 
