@@ -4,8 +4,6 @@
 @font-face {
   font-family: 'Norse';
   src: url('/font/Norse.otf') format('opentype');
-  /* Or format('woff2') if it's a WOFF2 file */
-  /* Add other properties like font-weight and font-style if needed */
 }
 :root {
   --color-sunny: rgb(240, 206, 121);
