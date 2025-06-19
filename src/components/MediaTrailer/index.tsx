@@ -23,9 +23,8 @@ const MediaTrailer = () => {
 
     return (
         <div
-            className="media-container w-screen relative"
+            className="media-container w-screen relative md:bg-[url('/img/bg_1.png')]"
             style={{
-                backgroundImage: "url('/img/bg_1.png')",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -33,7 +32,13 @@ const MediaTrailer = () => {
                 width: '100%'
             }}
         >
-            <div className="absolute inset-0 bg-black/50 z-0"></div>
+
+            <div className="absolute bottom-[60%] top-[-1px] w-full h-[40%] bg-linear-180 from-[#0c100c] from-0 to-[#0c100c00)]  z-[10] mix-blend-overlay"></div>
+            <div className="hidden md:block absolute bottom-0 top-[70%] w-full h-[30%] bg-linear-0 from-[#0c100c] from-0 to-[#0c100c00]  z-1 mix-blend-overlay"></div>
+
+            <div className="hidden md:block absolute inset-0 bg-black/50 z-9"></div>
+            {/* Dark background on mobile */}
+            <div className="md:hidden block absolute bottom-0 top-0 bg-[#0c100c] z-0"></div>
 
             <div className="relative z-10 max-w-6xl mx-auto px-4 py-8">
                 <h2 className="text-center section-title text-3xl mb-6 font-[var(--font-labrada)]">
@@ -42,7 +47,7 @@ const MediaTrailer = () => {
 
                 <div className="hidden md:block">
                     <div className="main-trailer w-full max-w-4xl mx-auto cursor-pointer">
-                        <a href="https://changemakereducation-my.sharepoint.com/personal/andreas_holewa_edu_futuregames_se/_layouts/15/stream.aspx?id=%2Fpersonal%2Fandreas%5Fholewa%5Fedu%5Ffuturegames%5Fse%2FDocuments%2FDocuments%2FGP3%2FEXPORT%2FTESTGREJER%2FFogstyle%5Ftest%5F4%5Fhigh%5F2%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E822cf7be%2Db8a4%2D4bdd%2Dac31%2D218587e91148" target="_blank" rel="noopener noreferrer">
+                        <a href="https://youtu.be/fFivSyjpuHA" target="_blank" rel="noopener noreferrer">
                             <div className="relative group">
                                 <Image
                                     src={mainTrailer}
@@ -79,12 +84,12 @@ const MediaTrailer = () => {
                 </div>
 
                 <div className="md:hidden relative w-full max-w-4xl mx-auto">
-                    <div className="relative aspect-video">
-                        <a href="https://www.youtube.com/watch?v=gQwgbpyIuEc" target="_blank" rel="noopener noreferrer" className="block relative group">
+                    <div className="relative aspect-video w-full h-[200px]">
+                        <a href="https://youtu.be/fFivSyjpuHA" target="_blank" rel="noopener noreferrer" className="block relative group">
                             <Image
                                 src={slides[currentSlide]}
                                 alt={`Slide ${currentSlide + 1}`}
-                                className="w-full h-auto rounded-lg shadow-lg transition-opacity group-hover:opacity-90"
+                                className="w-full h-[200px] rounded-lg shadow-lg transition-opacity group-hover:opacity-90"
                                 placeholder="blur"
                             />
                             {currentSlide === 0 && (
