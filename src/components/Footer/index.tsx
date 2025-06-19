@@ -7,7 +7,7 @@ import FooterMedia from "./MediaLinks"
 
 const Footer = () => {
     return (
-        <footer className="m-7 lg:p-7">
+        <footer className="m-7 lg:p-7 bg-fullscreen-bg ">
             <div className="grid grid-cols-2 gap-7 text-sm items-center place-items-center sm:text-[16px] md:grid-cols-4 md:items-start md:gap-3 lg:text-[20px] ">
                 <div>
                     <FooterLinks />
