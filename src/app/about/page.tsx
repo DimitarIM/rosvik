@@ -7,13 +7,14 @@ const AboutPage = () => {
   return (
     <>
       <Inner>
-        <h1 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10 h-full p-15 ">
+        <h1 className="relative top-[-11vh] md:hidden text-pageTitle-color text-2xl font-normal text-center ">About Us</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10 h-full p-15 ">
           <TeamColumn team="management" />
           <TeamColumn team="design" />
           <TeamColumn team="art" />
           <TeamColumn team="programmer" />
           <TeamColumn team="frontend" />
-        </h1>
+        </div>
 
         <div className="relative flex justify-center items-center h-full w-full z-20">
           <FooterLogoSection
