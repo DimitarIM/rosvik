@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
-import { motion } from 'motion/react';
+import { motion, Variants } from 'motion/react';
 
 export default function Inner({children}: Readonly<{children: React.ReactNode;}>) {
-    const anim = (variants:any) => {
+    const anim = (variants:Variants) => {
         return {
             initial: "initial",
             animate: "enter",
