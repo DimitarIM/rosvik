@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Labrada } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale } from "next-intl/server";
 
 const labrada = Labrada({
   variable: "--font-labrada",
@@ -12,17 +14,20 @@ export const metadata: Metadata = {
   description: "GP3",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en" className={`h-screen ${labrada.variable}`}>
+  const locale = await getLocale();
 
+  return (
+    <html lang={locale} className={`h-screen ${labrada.variable}`}>
       <body>
-        <Header />
-        {children}
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
