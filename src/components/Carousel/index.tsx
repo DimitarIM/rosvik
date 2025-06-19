@@ -90,7 +90,6 @@ function Carousel({ work }: SingleMemberProps) {
             }
         }
     }
-    console.log(imageVariants);
 
     return (
         <div className='flex flex-col justify-center items-center'>  

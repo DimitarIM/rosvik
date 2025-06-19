@@ -1,13 +1,16 @@
 import GameLowerSection from "@/components/GameLowerSection"
 import GameOverview from "@/components/GameOverview"
-import {gameOverViewData}  from "@/data/gameOverViewData"
+import Inner from "@/components/Layout/Inner"
+import { gameOverViewData } from "@/data/gameOverViewData"
 
 const Game = () => {
     return (
         <>
-        <GameOverview {...gameOverViewData}/>
-        <GameLowerSection/>
-        {/* title={'World & Mythology'} description={'(...)'} */}
+            <Inner>
+                <GameOverview {...gameOverViewData} />
+                <GameLowerSection />
+                {/* title={'World & Mythology'} description={'(...)'} */}
+            </Inner>
         </>
     )
 }

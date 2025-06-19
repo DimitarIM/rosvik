@@ -22,7 +22,6 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
               height={100}
               className="w-full h-full object-cover object-center"
             />
-            <Link href="/about"><p className="absolute left-[-10%] top-[-40%] lg:top-[-80%] text-[20px] md:text-[30px] lg:text-[50px] text-[var(--name-color)] hover:text-shadow-[0_0_5px_rgb(182_169_112)]"><span className="pr-2">&#10523;</span>Back</p></Link>
           </div>
         </div>
         {/* Second column box */}
