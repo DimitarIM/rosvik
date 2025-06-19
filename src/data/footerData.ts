@@ -20,14 +20,14 @@ export const footerMedia: FooterMedia = {
                 github: "https://github.com/Lvhacker1", 
                 giticon: "/btn/github.png"},
             {id: 2, 
-                name:'Sirilatha Potnuru', 
+                name:'Srilatha Potnuru', 
                 linkedin: "https://www.linkedin.com/in/srilatha-potnuru-229b80215/", 
                 icon:"/btn/linkedin.png", 
                 github: "https://github.com/potnurusrilatha", 
                 giticon: "/btn/github.png"},
             {id: 3,
                 name:'May Sunktong', 
-                linkedin: "", 
+                linkedin: "https://www.linkedin.com/in/may-sunktong-276b53143/", 
                 icon:"/btn/linkedin.png", 
                 github: "https://github.com/maysunktong", 
                 giticon: "/btn/github.png"},
@@ -59,5 +59,5 @@ export const footerContactDetails: FooterContactDetails = {
 }
 
 export const footerCopyright: FooterCopyright = {
-    copyright: '©2025 | Røsvik Team | All rights reserved'
+    copyright: '© 2025 | Røsvik Team | All rights reserved'
 }
