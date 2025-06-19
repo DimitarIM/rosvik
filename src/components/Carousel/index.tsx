@@ -7,12 +7,13 @@ import Image from 'next/image';
 
 function Carousel({ work }: SingleMemberProps) {
     //Placeholder Image Array  
-    work = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png", "/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png", ]; 
+    // work = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png", "/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png", ]; 
+    if (work === undefined || work.length === 0) return null;
+    
     const workSize = work.length;
     const [posIndexes, setPosIndexes] = useState(work.map((_, index) => index));
     const [isLower] = useState<boolean>(workSize < 3)
 
-    if (work === undefined || work.length === 0) return null;
 
     let positions: string[] = [];
     let imageVariants: Record<string, Variant> = {}

@@ -11,7 +11,7 @@ const MainHeroSection = ({firstText, secondText, thirdText}: MainHeroSectionProp
                 <span>{secondText}</span>
                 <span>{thirdText}</span>
             </h1>
-            <div className="mt-10 z-10">
+            <div className="mt-10 z-10 ">
                 <DownloadButton image="/btn/main_btn_download.png" alt="Download Button" href="https://futuregames.itch.io/rosvik" />
             </div>
             {/* Overlay */}
