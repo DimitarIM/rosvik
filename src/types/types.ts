@@ -81,3 +81,35 @@ export type GameLowerSectionProps = {
 }
 
  
+export type FooterLinks = {
+  links: { 
+    id: number;
+    label?: string;
+    href: string;
+    logo?: string;
+  }[];
+}
+
+export type FooterMedia = {
+  developers: {
+    title: string;
+    names: {
+      id: number; 
+      name: string; 
+      linkedin?: string; 
+      github?: string; 
+      icon?: string; 
+      giticon?:string
+    }[];
+  }
+}
+
+export type FooterContactDetails = {
+  title: string;
+  phone: string;
+  email: string;
+}
+
+export type FooterCopyright = {
+  copyright: string;
+}
