@@ -8,7 +8,7 @@ export type keyfeaturesProps = {
 export type GameOverViewProps = {
     bgImageAlt: string;
     pageTitle?: string;
-    aboutText?: string[];
+    aboutText: string[];
     imageOneSrc: string;
     imageOneAlt: string;
     imageTwoSrc: string;
