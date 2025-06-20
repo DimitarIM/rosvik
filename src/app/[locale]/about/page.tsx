@@ -10,7 +10,7 @@ const AboutPage = () => {
     <>
       <Inner>
         <h1 className="relative top-[-11vh] md:hidden text-pageTitle-color text-2xl font-normal text-center ">
-          About Us
+          {t("header")}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10 h-full p-15 ">
           <TeamColumn team="management" />
