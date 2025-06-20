@@ -39,13 +39,12 @@ const GameOverview = ({
 
   return (
     <section
-      className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat bg-fixed w-full min-h-screen pt-[170px] pb-[120px]"
+      className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-fixed bg-no-repeat w-full min-h-screen pt-[35px] pb-[120px] sm:pb-[120px] sm:pt-[164px] lg:py-[164px] xl:pt-[170px]"
       aria-label={bgImageAlt}
     >
-      <div className="text-color-primary grid grid-cols-1 justify-items-center sm:hidden">
+      <div className="text-color-primary  grid grid-cols-1 justify-items-center sm:hidden">
         <h1 className="text-pageTitle-color text-xl font-normal text-center ">
-          {t("pageTitle")}
-        </h1>
+          {t("pageTitle")}</h1>
         <About aboutText={tAboutText} />
         <div className="">
           <img
@@ -60,17 +59,19 @@ const GameOverview = ({
         <div className="mx-[50px] mt-4 mb-3 rounded-[10px] bg-foreground ">
           <GameLoopList gameLoopText={tGameLoopText} />
         </div>
-        <div className="my-12 ">
+        <div className="my-12 max-w-[455px]">
           <img
-            className="w-[264px] h-[152px] m-auto opacity-70"
+            className="px-7 m-auto opacity-70"
             src={imageTwoSrc}
             alt={imageTwoAlt}
           ></img>
         </div>
-        <ManagementBox managementBoxText={tManagementBoxText} />
+        <div className="w-full px-[50px]">
+          <ManagementBox managementBoxText={tManagementBoxText} />
+        </div>
       </div>
 
-      <div className="hidden sm:text-text-color sm:flex justify-self-center">
+      <div className="hidden sm:text-text-color sm:flex justify-self-center ">
         <div className="sm:max-w-fit lg:mr-[10px]">
           <h1
             className="text-color-primary sm:text-2xl font-normal text-center 
@@ -79,7 +80,7 @@ const GameOverview = ({
             {t("pageTitle")}
           </h1>
           <About aboutText={tAboutText} />
-          <div className=" ">
+          <div>
             <img
               className="min-w-[264px] h-[152px] m-auto opacity-70
               sm:max-w-[340px] sm:h-auto
