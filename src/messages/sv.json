@@ -1,4 +1,8 @@
 {
+  "LocaleSwitcher": {
+    "label": "Språk",
+    "locale": "{locale, select, sv {🇸🇪 Swedish} en {🇺🇸 English} other {Unknown}}"
+  },
   "menu": {
     "game": "Spel",
     "aboutus": "Om Oss",

@@ -1,6 +1,6 @@
 import HeaderLogo from '../../HeaderLogo'
 import NavigationItems from '../NavigationItems'
-import LanguageSwitch from '../../LanguageSwitch'
+import LocaleSwitcher from '../../LocaleSwitcher'
 
 const DesktopNavigation = () => {
     return(
@@ -10,7 +10,7 @@ const DesktopNavigation = () => {
            </div>
            <div className='flex justify-end space-x-6 ml-auto'>           
             <NavigationItems/>
-            <LanguageSwitch/>
+            <LocaleSwitcher/>
            </div>
         </nav>
     )
