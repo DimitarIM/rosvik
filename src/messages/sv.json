@@ -16,8 +16,8 @@
     },
     "keyfeatures": {
       "header": "Nyckelfunktioner",
-      "content1": "Samla & överlev",
-      "content2": "Navigera vildmarken",
+      "content1": "Samla resurser & överlev",
+      "content2": "Navigera genom vildmarken",
       "content3": "Lås upp mystiska reliker"
     }
   },
@@ -48,7 +48,7 @@
     "lowerSection": "Värld & Mytologi"
   },
   "about": {
-    "lowerSection": "Ett team av ambitiösa studenter dedikerade till att skapa utmanande, komplexa eller tekniskt ambitiösa projekt. Vårt arbete präglas ofta av kreativitet, motståndskraft och en passion för att tänja på gränserna för interaktiv underhållning."
+    "lowerSection": "Ett team av ambitiösa studenter dedikerade till att skapa utmanande, komplexa eller tekniskt ambitiösa projekt. Vårt arbete präglas av kreativitet, motståndskraft och en passion för att tänja på gränserna för interaktiv underhållning."
   },
   "demo": {
     "mainText": "Tror du att du skulle kunna överleva?",
