@@ -12,7 +12,6 @@ const GameOverview = ({
   imageTwoAlt,
   imageTwoSrc,
   bgImageAlt,
-  managementBoxText,
 }: GameOverViewProps) => {
   const t = useTranslations("game");
   const tAboutText: string[] = [

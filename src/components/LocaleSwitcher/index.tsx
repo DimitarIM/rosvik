@@ -1,7 +1,6 @@
 "use client";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
-import { useTransition } from "react";
 import Image from "next/image";
 import svImage from "../../../public/btn/sv-btn.png";
 import enMobileImage from "../../../public/btn/lang_btn_mobile.png";
@@ -11,7 +10,7 @@ export default function LocaleSwitcher() {
   const currentLocale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-  const [isPending, startTransition] = useTransition();
+
 
   const getNextLocale = (): string => {
     return currentLocale === "en" ? "sv" : "en";
@@ -22,9 +21,7 @@ export default function LocaleSwitcher() {
     const segments = pathname.split("/");
     segments[1] = nextLocale;
     const newPath = segments.join("/");
-    startTransition(() => {
       router.replace(newPath);
-    });
   };
 
   const nextLocaleToDisplay = getNextLocale();
