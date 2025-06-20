@@ -1,11 +1,15 @@
+import { useTranslations } from "next-intl";
+
 const Demo = () => {
+  const t = useTranslations("demo");
+
   return (
     <>
       <div className="relative min-h-screen font-labrada ">
         <div className="bg-no-repeat md:bg-center md:bg-cover bg-bottom bg-[url(/img/forest_bg.png)] opacity-150 bg-[length:100%_100%] ">
           <div className="relative z-10 flex flex-col justify-start text-center h-screen px-8 pt-40 md:pt-50">
             <div className="text-[14px] md:text-[40px] text-feature mb-20 md:mb-16">
-              <h1>Do you think you could survive?</h1>
+              <h1>{t("mainText")}</h1>
             </div>
             <h1 className="text-[20.5px] md:text-[60px] lg:text-[100px] md:text-6xl font-light text-feature">
               <a href="https://futuregames.itch.io/rosvik"

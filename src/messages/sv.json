@@ -1,0 +1,59 @@
+{
+  "LocaleSwitcher": {
+    "label": "Språk",
+    "locale": "{locale, select, sv {🇸🇪 Swedish} en {🇺🇸 English} other {Unknown}}"
+  },
+  "menu": {
+    "game": "Spel",
+    "aboutus": "Om Oss",
+    "demo": "Demo"
+  },
+  "home": {
+    "main": {
+      "firstText": "Utforska",
+      "secondText": "Undvik",
+      "thirdText": "Överlev"
+    },
+    "keyfeatures": {
+      "header": "Nyckelfunktioner",
+      "content1": "Samla resurser & överlev",
+      "content2": "Navigera genom vildmarken",
+      "content3": "Lås upp mystiska reliker"
+    }
+  },
+  "game": {
+    "pageTitle": "Om spelet",
+    "aboutText": {
+      "paragraph1": "Røsvik är ett överlevnadsspel i förstapersonsperspektiv som utspelar sig i en barsk, avlägsen nordeuropeisk stad, och blandar element av fantasi, mytologi och utforskning.",
+      "paragraph2": "Spelare antar rollen som en lantmätare från Den Norske Turistforening, med uppgift att undersöka den övergivna, avlägsna bosättningen Røsvik —  en gång hem för utstötta, naturläkare och hedniska motståndare. Officiellt övergavs bosättningen på grund av ”ostabil terräng”, men lokalbefolkningen talar om något mycket mer olycksbådande.",
+      "paragraph3": "Spelet kretsar kring att samla resurser, låsa upp mystiska krafter och interagera med en atmosfärisk, farlig och framväxande miljö.",
+      "paragraph4": "När spelare upptäcker gamla reliker, geologiska prover och förlorad utrustning kommer de gradvis att få tillgång till övernaturliga förmågor och tvingas navigera i det förbannade landskapet —  samtidigt som de undviker mytologiska hot som lurar i mörkret."
+    },
+    "gameLoopTitle": "Spelslinga",
+    "gameLoopText": {
+      "paragraph1": "Hitta resurser",
+      "paragraph2": "Tillverka ny utrustning i lägret",
+      "paragraph3": "Ge dig ut i nya områden med din nygjorda utrustning",
+      "paragraph4": "Möta olika typer av monster",
+      "paragraph5": "Spänningsbaserat beslutsfattande (fly eller fäkta)",
+      "paragraph6": "Få mystiska krafter",
+      "paragraph7": "Låsa upp nya områden med dina krafter",
+      "paragraph8": "Dö och återupplivas i din runcirkel, i baslägret"
+    },
+    "managementBoxText": {
+      "paragraph1": "Spelinformation, kontroller + teknisk info?",
+      "paragraph2": "(...)"
+    },
+    "downloadButtonText": "Ladda ner för att komma in i Røsvik",
+    "lowerSection": "Värld & Mytologi"
+  },
+  "about": {
+    "header": "Om oss",
+    "lowerSection": "Ett team av ambitiösa studenter dedikerade till att skapa utmanande, komplexa eller tekniskt ambitiösa projekt. Vårt arbete präglas av kreativitet, motståndskraft och en passion för att tänja på gränserna för interaktiv underhållning."
+  },
+  "demo": {
+    "mainText": "Tror du att du skulle kunna överleva?",
+    "downloadLink": "Ladda ner för att komma in i Røsvik",
+    "underText": "Du kommer att omdirigeras till itch.io."
+  }
+}

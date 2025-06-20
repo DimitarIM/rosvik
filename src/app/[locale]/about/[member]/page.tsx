@@ -1,7 +1,7 @@
 import Carousel from "@/components/Carousel";
-import SingleMemberInfo from "../../../components/SingleMemberInfo";
-import { allMembers } from "../../../data/teamData";
-import { slugify } from "../../../utils/utils";
+import SingleMemberInfo from "@/components/SingleMemberInfo";
+import { allMembers } from "@/data/teamData";
+import { slugify } from "@/utils/utils";
 import Inner from "@/components/Layout/Inner";
 
 /* Nextjs requires generateStaticParams */
@@ -32,7 +32,7 @@ const MemberPage = async ({
         <Carousel {...selectedMember} />
       </h1>
     </Inner>
-  )
+  );
 };
 
 export default MemberPage;
