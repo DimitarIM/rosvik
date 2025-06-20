@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 
 const NavigationItems = () => {
   const pathname = usePathname();
+  
   const t = useTranslations("menu");
   const tMenuItems: { name: string; path: string }[] = [
     { name: t("game"), path: "/game" },

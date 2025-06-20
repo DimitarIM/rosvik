@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Labrada } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header";
+import Inner from "@/components/Layout/Inner";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
@@ -31,8 +32,10 @@ export default async function RootLayout({
     <html lang={locale} className={`h-screen ${labrada.variable}`}>
       <body>
         <NextIntlClientProvider>
-          <Header />
-          {children}
+          <Inner>
+            <Header />
+            {children}
+          </Inner>
         </NextIntlClientProvider>
       </body>
     </html>
