@@ -12,27 +12,42 @@ const GameOverview = ({
   imageTwoAlt,
   imageTwoSrc,
   bgImageAlt,
-  gameLoopTitle,
-  gameLoopText,
   managementBoxText,
 }: GameOverViewProps) => {
   const t = useTranslations("game");
-  const aboutTextTranslated: string[] = [
+  const tAboutText: string[] = [
     t("aboutText.paragraph1"),
     t("aboutText.paragraph2"),
     t("aboutText.paragraph3"),
     t("aboutText.paragraph4"),
   ];
+
+  const tGameLoopText: string[] = [
+    t("gameLoopText.paragraph1"),
+    t("gameLoopText.paragraph2"),
+    t("gameLoopText.paragraph3"),
+    t("gameLoopText.paragraph4"),
+    t("gameLoopText.paragraph5"),
+    t("gameLoopText.paragraph6"),
+    t("gameLoopText.paragraph7"),
+    t("gameLoopText.paragraph8"),
+  ];
+
+  const tManagementBoxText: string[] = [
+    t("managementBoxText.paragraph1"),
+    t("managementBoxText.paragraph2"),
+  ];
+
   return (
     <section
-      className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat w-full min-h-screen pt-[170px] pb-[120px]"
+      className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat bg-fixed w-full min-h-screen pt-[170px] pb-[120px]"
       aria-label={bgImageAlt}
     >
-      <div className="text-color-primary  grid grid-cols-1 justify-items-center sm:hidden">
+      <div className="text-color-primary grid grid-cols-1 justify-items-center sm:hidden">
         <h1 className="text-pageTitle-color text-xl font-normal text-center ">
           {t("pageTitle")}
         </h1>
-        <About aboutText={aboutTextTranslated} />
+        <About aboutText={tAboutText} />
         <div className="">
           <img
             className="w-[235px] h-[374px] m-auto"
@@ -41,10 +56,10 @@ const GameOverview = ({
           ></img>
         </div>
         <h2 className="text-xl font-normal text-center mt-12 ">
-          {gameLoopTitle}
+          {t("gameLoopTitle")}
         </h2>
         <div className="mx-[50px] mt-4 mb-3 rounded-[10px] bg-foreground ">
-          <GameLoopList gameLoopText={gameLoopText} />
+          <GameLoopList gameLoopText={tGameLoopText} />
         </div>
         <div className="my-12 ">
           <img
@@ -53,10 +68,10 @@ const GameOverview = ({
             alt={imageTwoAlt}
           ></img>
         </div>
-        <ManagementBox managementBoxText={managementBoxText} />
+        <ManagementBox managementBoxText={tManagementBoxText} />
       </div>
 
-      <div className="hidden sm:text-text-color sm:flex justify-self-center ">
+      <div className="hidden sm:text-text-color sm:flex justify-self-center">
         <div className="sm:max-w-fit lg:mr-[10px]">
           <h1
             className="text-color-primary sm:text-2xl font-normal text-center 
@@ -64,7 +79,7 @@ const GameOverview = ({
           >
             {t("pageTitle")}
           </h1>
-          <About aboutText={aboutTextTranslated} />
+          <About aboutText={tAboutText} />
           <div className=" ">
             <img
               className="min-w-[264px] h-[152px] m-auto opacity-70
@@ -76,7 +91,7 @@ const GameOverview = ({
               alt={imageTwoAlt}
             ></img>
           </div>
-          <ManagementBox managementBoxText={managementBoxText} />
+          <ManagementBox managementBoxText={tManagementBoxText} />
         </div>
 
         <div className="sm:max-w-fit sm:flex sm:flex-col sm:items-center sm:mr-5">
@@ -90,10 +105,10 @@ const GameOverview = ({
             ></img>
           </div>
           <h2 className="text-xl font-normal text-center mt-12 sm:text-2xl sm:w-fit mx-0 sm:mt-15 md:mt-20 xl:text-[40px] xl:mt-22">
-            {gameLoopTitle}
+            {t("gameLoopTitle")}
           </h2>
           <div className=" mt-4 mb-3 rounded-[10px] bg-foreground sm:mb-6 sm:max-w-[252px] md:max-w-[290px] md:p-2 lg:max-w-[380px] lg:p-3 lg:pt-7 lg:pb-5 xl:max-w-[413px] xl:pl-4">
-            <GameLoopList gameLoopText={gameLoopText} />
+            <GameLoopList gameLoopText={tGameLoopText} />
           </div>
           <GameOverviewButton {...downloadButtonData} />
         </div>

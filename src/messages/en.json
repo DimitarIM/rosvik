@@ -30,17 +30,20 @@
       "paragraph4": "As players uncover ancient relics, geological samples, and lost equipment, they will gradually gain access to supernatural abilities, and be forced to navigate the cursed landscape — while avoiding mythological threats lurking in the dark."
     },
     "gameLoopTitle": "Gameplay loop",
-    "gameLoopText": [
-      "Finding resources",
-      "Crafting new gear in the camp",
-      "Going out into new areas with your newly crafted gear",
-      "Encountering a different types of monsters",
-      "Tension based decision making (fight or flight)",
-      "Gaining mystical powers",
-      "Unlocking new areas with your powers",
-      "Dying and respawning in your rune-circle, in basecamp"
-    ],
-    "managementBoxText": "Play info, controls + tech info?",
+    "gameLoopText": {
+      "paragraph1": "Finding resources",
+      "paragraph2": "Crafting new gear in the camp",
+      "paragraph3": "Going out into new areas with your newly crafted gear",
+      "paragraph4": "Encountering a different types of monsters",
+      "paragraph5": "Tension based decision making (fight or flight)",
+      "paragraph6": "Gaining mystical powers",
+      "paragraph7": "Unlocking new areas with your powers",
+      "paragraph8": "Dying and respawning in your rune-circle, in basecamp"
+    },
+    "managementBoxText": {
+      "paragraph1": "Play info, controls + tech info?",
+      "paragraph2": "(...)"
+    },
     "downloadButtonText": "Download to enter Røsvik",
     "lowerSection": "World & Mythology"
   },
