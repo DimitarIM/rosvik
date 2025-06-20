@@ -1,10 +1,13 @@
 import DemoDownload from "@/components/DemoDownload"
+import Inner from "@/components/Layout/Inner"
 
 const DemoPage = () => {
   return (
-    <div>
-      <DemoDownload />
-    </div>
+    <>
+      <Inner>
+        <DemoDownload />
+      </Inner>
+    </>
   )
 }
 

@@ -33,7 +33,7 @@ export type SingleMemberProps = {
   image?: string;
   quote?: string;
   linkedin?: string;
-  website?: string;
+  github?: string;
   discord?: string;
   work?: string[];
 };

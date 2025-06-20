@@ -17,7 +17,7 @@ const LanguageSwitch = ({isMobile = false}:LanguageSwitchProps ) => {
     : language === languages.en ? enMobileImage : svImage
 
     return(
-     <button type="button" onClick={switchLanguage} className='justify-center'>
+     <button onClick={switchLanguage} className='hidden justify-center'>
         <Image 
            src={imageSrc}
            alt= {language}
