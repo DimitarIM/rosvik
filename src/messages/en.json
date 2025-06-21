@@ -40,9 +40,15 @@
       "paragraph7": "Unlocking new areas with your powers",
       "paragraph8": "Dying and respawning in your rune-circle, in basecamp"
     },
-    "managementBoxText": {
-      "paragraph1": "Play info, controls + tech info?",
-      "paragraph2": "(...)"
+    "managementBox": {
+      "header": "Controls:",
+      "paragraph1": "WASD - to move",
+      "paragraph2": "Ctrl - to crouch",
+      "paragraph3": "Shift - to run",
+      "paragraph4": "E - to pick up objects",
+      "paragraph5": "Space - to jump",
+      "paragraph6": "Left click - to use power",
+      "paragraph7": "Right click - to change power"
     },
     "downloadButtonText": "Download to enter Røsvik",
     "lowerSection": "World & Mythology"

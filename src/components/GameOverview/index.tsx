@@ -32,19 +32,26 @@ const GameOverview = ({
     t("gameLoopText.paragraph8"),
   ];
 
-  const tManagementBoxText: string[] = [
-    t("managementBoxText.paragraph1"),
-    t("managementBoxText.paragraph2"),
+  const tManagementBox: string[] = [
+    t("managementBox.header"),
+    t("managementBox.paragraph1"),
+    t("managementBox.paragraph2"),
+    t("managementBox.paragraph3"),
+    t("managementBox.paragraph4"),
+    t("managementBox.paragraph5"),
+    t("managementBox.paragraph6"),
+    t("managementBox.paragraph7"),
   ];
 
   return (
     <section
-      className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-fixed bg-no-repeat w-full min-h-screen pt-[35px] pb-[120px] sm:pb-[120px] sm:pt-[164px] lg:py-[164px] xl:pt-[170px]"
+      className="bg-[url(/img/DescriptionPageBgImage.png)] bg-cover bg-no-repeat w-full min-h-screen pt-[35px] pb-[120px] sm:pb-[120px] sm:pt-[164px] lg:py-[164px] xl:pt-[170px]"
       aria-label={bgImageAlt}
     >
       <div className="text-color-primary  grid grid-cols-1 justify-items-center sm:hidden">
         <h1 className="text-pageTitle-color text-xl font-normal text-center ">
-          {t("pageTitle")}</h1>
+          {t("pageTitle")}
+        </h1>
         <About aboutText={tAboutText} />
         <div className="">
           <img
@@ -67,7 +74,7 @@ const GameOverview = ({
           ></img>
         </div>
         <div className="w-full px-[50px]">
-          <ManagementBox managementBoxText={tManagementBoxText} />
+          <ManagementBox managementBoxText={tManagementBox} />
         </div>
       </div>
 
@@ -91,7 +98,7 @@ const GameOverview = ({
               alt={imageTwoAlt}
             ></img>
           </div>
-          <ManagementBox managementBoxText={tManagementBoxText} />
+          <ManagementBox managementBoxText={tManagementBox} />
         </div>
 
         <div className="sm:max-w-fit sm:flex sm:flex-col sm:items-center sm:mr-5">

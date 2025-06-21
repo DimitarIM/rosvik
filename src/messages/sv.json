@@ -40,9 +40,15 @@
       "paragraph7": "Låsa upp nya områden med dina krafter",
       "paragraph8": "Dö och återupplivas i din runcirkel, i baslägret"
     },
-    "managementBoxText": {
-      "paragraph1": "Spelinformation, kontroller + teknisk info?",
-      "paragraph2": "(...)"
+    "managementBox": {
+      "header": "Kontroller:",
+      "paragraph1": "WASD - för att röra sig",
+      "paragraph2": "Ctrl - för att huka",
+      "paragraph3": "Shift - för att springa",
+      "paragraph4": "E - för att plocka upp föremål",
+      "paragraph5": "Mellanslag - för att hoppa",
+      "paragraph6": "Vänsterklick - för att använda kraft",
+      "paragraph7": "Högerklick - för att byta kraft"
     },
     "downloadButtonText": "Ladda ner för att komma in i Røsvik",
     "lowerSection": "Värld & Mytologi"
