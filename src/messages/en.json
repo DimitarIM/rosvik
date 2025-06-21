@@ -1,0 +1,65 @@
+{
+  "LocaleSwitcher": {
+    "label": "lang",
+    "locale": "{locale, select, sv {🇸🇪 Swedish} en {🇺🇸 English} other {Unknown}}"
+  },
+  "menu": {
+    "game": "Game",
+    "aboutus": "About Us",
+    "demo": "Demo"
+  },
+  "home": {
+    "main": {
+      "firstText": "Explore",
+      "secondText": "Avoid",
+      "thirdText": "Survive"
+    },
+    "keyfeatures": {
+      "header": "Key Features",
+      "content1": "Scavenge & survive",
+      "content2": "Navigate wilderness",
+      "content3": "Unlock mystical relics"
+    }
+  },
+  "game": {
+    "pageTitle": "About the game",
+    "aboutText": {
+      "paragraph1": "Røsvik is a first-person survival game set in a harsh, remote Northern European town, blending elements of fantasy, mythology, and exploration.",
+      "paragraph2": "Players assume the role of a surveyor from Den Norske Turistforening, tasked with investigating the abandoned, off-grid settlement of Røsvik — once home to outcasts, faith-healers, and pagan holdouts. Officially, the settlement was abandoned due to “unstable terrain,” but the locals talk of something far more sinister.",
+      "paragraph3": "The gameplay centers around scavenging for resources, unlocking mystical powers, and interacting with an atmospheric, dangerous, and emergent environment.",
+      "paragraph4": "As players uncover ancient relics, geological samples, and lost equipment, they will gradually gain access to supernatural abilities, and be forced to navigate the cursed landscape — while avoiding mythological threats lurking in the dark."
+    },
+    "gameLoopTitle": "Gameplay loop",
+    "gameLoopText": {
+      "paragraph1": "Finding resources",
+      "paragraph2": "Crafting new gear in the camp",
+      "paragraph3": "Going out into new areas with your newly crafted gear",
+      "paragraph4": "Encountering a different types of monsters",
+      "paragraph5": "Tension based decision making (fight or flight)",
+      "paragraph6": "Gaining mystical powers",
+      "paragraph7": "Unlocking new areas with your powers",
+      "paragraph8": "Dying and respawning in your rune-circle, in basecamp"
+    },
+    "managementBox": {
+      "header": "Controls:",
+      "paragraph1": "WASD - to move",
+      "paragraph2": "Ctrl - to crouch",
+      "paragraph3": "Shift - to run",
+      "paragraph4": "E - to pick up objects",
+      "paragraph5": "Space - to jump",
+      "paragraph6": "Left click - to use power",
+      "paragraph7": "Right click - to change power"
+    },
+    "downloadButtonText": "Download to enter Røsvik",
+    "lowerSection": "World & Mythology"
+  },
+  "about": {
+    "header": "About Us",
+    "lowerSection": "A team of students dedicated to creating challenging, complex, or technically ambitious projects. Our work is often marked by creativity, resilience, and a passion for pushing the limits of interactive entertainment."
+  },
+  "demo": {
+    "mainText": "Do you think you could survive?",
+    "downloadLink": "Download to enter Røsvik",
+    "underText": "You'll be redirected to itch.io."
+  }
+}
