@@ -6,8 +6,9 @@ import { SingleMemberProps } from '@/types/types';
 import Image from 'next/image';
 
 function Carousel({ work }: SingleMemberProps) {
-    //Placeholder Image Array  
-    // work = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png", "/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png", ]; 
+    // Placeholder Image Array  
+    // work = ["/img/slideshow-img_1.png","/img/slideshow-img_2.png", "/img/slideshow-img_3.png","/img/slideshow-img_4.png", "/img/slideshow-img_5.png",]; 
+
     const workSize = work ? work.length : 0;
     const [posIndexes, setPosIndexes] = useState(work ? work.map((_, index) => index) : []);
     const [isLower] = useState<boolean>(workSize < 3)
