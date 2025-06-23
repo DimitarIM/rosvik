@@ -13,11 +13,11 @@ const AboutPage = () => {
           {t("header")}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10 h-full p-15 ">
-          <TeamColumn team="management" />
-          <TeamColumn team="design" />
-          <TeamColumn team="art" />
-          <TeamColumn team="programmer" />
-          <TeamColumn team="frontend" />
+          <TeamColumn team="management" translatedTeamName={t("teams.management")} />
+          <TeamColumn team="design" translatedTeamName={t("teams.design")} />
+          <TeamColumn team="art" translatedTeamName={t("teams.art")} />
+          <TeamColumn team="programmer" translatedTeamName={t("teams.programmer")} />
+          <TeamColumn team="frontend" translatedTeamName={t("teams.frontend")} />
         </div>
 
         <div className="relative flex justify-center items-center h-full w-full z-20">
