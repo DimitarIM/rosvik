@@ -67,6 +67,6 @@
   "demo": {
     "mainText": "Do you think you could survive?",
     "downloadLink": "Download to enter Røsvik",
-    "underText": "You'll be redirected to itch.io."
+    "lowerText": "You'll be redirected to itch.io."
   }
 }
