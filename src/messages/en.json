@@ -55,11 +55,18 @@
   },
   "about": {
     "header": "About Us",
-    "lowerSection": "A team of students dedicated to creating challenging, complex, or technically ambitious projects. Our work is often marked by creativity, resilience, and a passion for pushing the limits of interactive entertainment."
+    "lowerSection": "A team of students dedicated to creating challenging, complex, or technically ambitious projects. Our work is often marked by creativity, resilience, and a passion for pushing the limits of interactive entertainment.",
+    "teams": {
+      "management": "Management",
+      "design": "Design",
+      "art": "Art",
+      "programmer": "Programmer",
+      "frontend": "Frontend"
+    }
   },
   "demo": {
     "mainText": "Do you think you could survive?",
     "downloadLink": "Download to enter Røsvik",
-    "underText": "You'll be redirected to itch.io."
+    "lowerText": "You'll be redirected to itch.io."
   }
 }

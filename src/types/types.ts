@@ -25,6 +25,7 @@ export type DownLoadButtonProps = {
 
 export type TeamColumnProps = {
   team: string;
+  translatedTeamName: string;
 };
 
 export type SingleMemberProps = {

@@ -35,7 +35,7 @@
       "paragraph2": "Tillverka ny utrustning i lägret",
       "paragraph3": "Ge dig ut i nya områden med din nygjorda utrustning",
       "paragraph4": "Möta olika typer av monster",
-      "paragraph5": "Spänningsbaserat beslutsfattande (fly eller fäkta)",
+      "paragraph5": "Fatta spänningsbaserade beslut (fly eller fäkta)",
       "paragraph6": "Få mystiska krafter",
       "paragraph7": "Låsa upp nya områden med dina krafter",
       "paragraph8": "Dö och återupplivas i din runcirkel, i baslägret"
@@ -55,11 +55,18 @@
   },
   "about": {
     "header": "Om Oss",
-    "lowerSection": "Ett team av ambitiösa studenter dedikerade till att skapa utmanande, komplexa eller tekniskt ambitiösa projekt. Vårt arbete präglas av kreativitet, motståndskraft och en passion för att tänja på gränserna för interaktiv underhållning."
+    "lowerSection": "Ett team av ambitiösa studenter dedikerade till att skapa utmanande, komplexa eller tekniskt ambitiösa projekt. Vårt arbete präglas av kreativitet, motståndskraft och en passion för att tänja på gränserna för interaktiv underhållning.",
+    "teams": {
+      "management": "Ledning",
+      "design": "Design",
+      "art": "Konst",
+      "programmer": "Programmerare",
+      "frontend": "Frontendutvecklare"
+    }
   },
   "demo": {
     "mainText": "Tror du att du skulle kunna överleva?",
     "downloadLink": "Ladda ner för att komma in i Røsvik",
-    "underText": "Du kommer att omdirigeras till itch.io."
+    "lowerText": "Du kommer att omdirigeras till itch.io."
   }
 }

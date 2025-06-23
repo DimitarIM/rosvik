@@ -80,12 +80,12 @@ const GameOverview = ({
 
       <div className="hidden sm:text-text-color sm:flex justify-self-center ">
         <div className="sm:max-w-fit lg:mr-[10px]">
-          <h1
+          <p
             className="text-color-primary sm:text-2xl font-normal text-center 
           xl:text-[40px]"
           >
             {t("pageTitle")}
-          </h1>
+          </p>
           <About aboutText={tAboutText} />
           <div>
             <img
