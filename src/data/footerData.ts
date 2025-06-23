@@ -1,17 +1,19 @@
 import { FooterContactDetails, FooterLinks, FooterMedia, FooterCopyright } from "@/types/types";
 
 export const footerLinks: FooterLinks= {
+    quickLinks: {
+        title: "Quick Links",
     links: [
         {id: 1, logo: "/btn/logo_3.png", href: "/", },
         {id: 2, label: "Game", href: "/game", },
         {id: 3, label: "About", href: "/about", },
         {id: 4, label: "Demo", href: "/demo", },
-    ],
+    ]},
 }
 
 export const footerMedia: FooterMedia = {
     developers: {
-        title: "Developers",
+        title: "Web Developers",
         names: [
             {id: 1, 
                 name:'Lava Sharif', 
@@ -41,7 +43,7 @@ export const footerMedia: FooterMedia = {
                 name:'Bushra Rauf', 
                 linkedin: "", 
                 icon:"/btn/linkedin.png",                
-                github: "https://github.com/SSSpac", 
+                github: "https://github.com/bushra-rauf", 
                 giticon: "/btn/github.png",},
             {id: 6, 
                 name:'Dimitar Manastirski', 
