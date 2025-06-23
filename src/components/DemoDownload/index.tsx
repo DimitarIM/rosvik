@@ -18,7 +18,7 @@ const Demo = () => {
                 Download to enter Røsvik
               </a>
             </h1>
-            <p className="mt-2 text-xs font-light text-feature text-[10px] md:text-[26px] p-3">You’ll be redirected to itch.io.</p>
+            <p className="mt-2 text-xs font-light text-feature text-[10px] md:text-[26px] p-3">{t("lowerText")}</p>
           </div>
         </div>
       </div>
