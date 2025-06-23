@@ -7,7 +7,7 @@ import leftArrow from "../../../public/btn/arrow-btn_left.png";
 import rightArrow from "../../../public/btn/arrow-btn_right.png";
 import { useState } from "react";
 import KeyFeatures from "../KeyFeatures";
-import { keyfeaturesData } from "@/data/keyfeaturesdata";
+import { useTranslations } from "next-intl";
 
 const MediaTrailer = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -20,6 +20,14 @@ const MediaTrailer = () => {
     const prevSlide = () => {
         setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
     };
+
+    const t = useTranslations("home");
+
+    const tKeyfeaturesData: string[] = [
+        t("keyfeatures.content1"),
+        t("keyfeatures.content2"),
+        t("keyfeatures.content3"),
+    ];
 
     return (
         <div
@@ -141,7 +149,7 @@ const MediaTrailer = () => {
 
 
             </div>
-            <KeyFeatures keyfeatures={keyfeaturesData} />
+            <KeyFeatures keyfeatures={tKeyfeaturesData} />
         </div>
     );
 };

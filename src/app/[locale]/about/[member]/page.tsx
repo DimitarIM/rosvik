@@ -1,8 +1,8 @@
 import Carousel from "@/components/Carousel";
-import SingleMemberInfo from "../../../components/SingleMemberInfo";
-import { allMembers } from "../../../data/teamData";
-import { slugify } from "../../../utils/utils";
 import Inner from "@/components/Layout/Inner";
+import SingleMemberInfo from "../../../../components/SingleMemberInfo";
+import { allMembers } from "../../../../data/teamData";
+import { slugify } from "../../../../utils/utils";
 
 /* Nextjs requires generateStaticParams */
 export async function generateStaticParams() {
@@ -27,12 +27,12 @@ const MemberPage = async ({
 
   return (
     <Inner>
-      <h1 className="relative flex flex-col z-20">
+      <div className="relative flex flex-col z-20">
         <SingleMemberInfo {...selectedMember} />
         <Carousel {...selectedMember} />
-      </h1>
+      </div>
     </Inner>
-  )
+  );
 };
 
 export default MemberPage;

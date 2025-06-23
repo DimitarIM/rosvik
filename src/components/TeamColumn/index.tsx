@@ -3,7 +3,7 @@ import { allMembers } from "../../data/teamData";
 import { TeamColumnProps } from "../../types/types";
 import { slugify } from "../../utils/utils";
 
-const TeamColumn = ({ team }: TeamColumnProps) => {
+const TeamColumn = ({ team, translatedTeamName }: TeamColumnProps) => {
   const filteredTeam = allMembers.filter(
     (person) => person.team.toLowerCase() === team.toLowerCase()
   );
@@ -12,7 +12,7 @@ const TeamColumn = ({ team }: TeamColumnProps) => {
     <div className="flex relative flex-col items-center h-full font-labrada space-y-2 w-full
     md:last:col-span-2 md:last:w-[50%] lg:last:w-[30%] md:last:left-[50%] md:last:translate-x-[-50%] md:last:text-center lg:last:col-span-4 lg:last:text-center">
       <h2 className="text-[20px] md:text-[40px] text-center">
-        {team.charAt(0).toUpperCase() + team.slice(1)}
+        {translatedTeamName.charAt(0).toUpperCase() + translatedTeamName.slice(1)}
       </h2>
       <div className="flex-1 space-y-6 md:space-y-8 p-7 pt-4 pb-4 bg-foreground rounded-[10px] w-full max-w-[236px] md:max-w-[300px] lg:max-w-full text-[var(--role-color)]">
         {filteredTeam.map((member, index) => (
