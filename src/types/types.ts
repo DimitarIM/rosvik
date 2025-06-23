@@ -83,12 +83,15 @@ export type GameLowerSectionProps = {
 
  
 export type FooterLinks = {
-  links: { 
-    id: number;
-    label?: string;
-    href: string;
-    logo?: string;
-  }[];
+  quickLinks: {
+    title: string;
+    links: { 
+      id: number;
+      label?: string;
+      href: string;
+      logo?: string;
+    }[];
+  }
 }
 
 export type FooterMedia = {

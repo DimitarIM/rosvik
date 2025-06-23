@@ -5,12 +5,12 @@ import Link from "next/link"
 const FooterLink = () => {
     return (
         <div>
-        {footerLinks.links.map(link => (
+        {footerLinks.quickLinks.links.map(link => (
         <div key={link.id}>
             {link.logo && (
                 <Link href={link.href}>
                 <span>
-                    <Image src={link.logo} width={300} height={350} alt="" />
+                    <Image src={link.logo} width={280} height={280} alt="logo" />
                 </span>
                 </Link>
             )}

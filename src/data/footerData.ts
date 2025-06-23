@@ -1,17 +1,19 @@
 import { FooterContactDetails, FooterLinks, FooterMedia, FooterCopyright } from "@/types/types";
 
 export const footerLinks: FooterLinks= {
+    quickLinks: {
+        title: "Quick Links",
     links: [
         {id: 1, logo: "/btn/logo_3.png", href: "/", },
         {id: 2, label: "Game", href: "/game", },
         {id: 3, label: "About", href: "/about", },
         {id: 4, label: "Demo", href: "/demo", },
-    ],
+    ]},
 }
 
 export const footerMedia: FooterMedia = {
     developers: {
-        title: "Developers",
+        title: "Web Developers",
         names: [
             {id: 1, 
                 name:'Lava Sharif', 
@@ -20,14 +22,14 @@ export const footerMedia: FooterMedia = {
                 github: "https://github.com/Lvhacker1", 
                 giticon: "/btn/github.png"},
             {id: 2, 
-                name:'Sirilatha Potnuru', 
+                name:'Srilatha Potnuru', 
                 linkedin: "https://www.linkedin.com/in/srilatha-potnuru-229b80215/", 
                 icon:"/btn/linkedin.png", 
                 github: "https://github.com/potnurusrilatha", 
                 giticon: "/btn/github.png"},
             {id: 3,
                 name:'May Sunktong', 
-                linkedin: "", 
+                linkedin: "https://www.linkedin.com/in/may-sunktong-276b53143/", 
                 icon:"/btn/linkedin.png", 
                 github: "https://github.com/maysunktong", 
                 giticon: "/btn/github.png"},
@@ -41,7 +43,7 @@ export const footerMedia: FooterMedia = {
                 name:'Bushra Rauf', 
                 linkedin: "", 
                 icon:"/btn/linkedin.png",                
-                github: "https://github.com/SSSpac", 
+                github: "https://github.com/bushra-rauf", 
                 giticon: "/btn/github.png",},
             {id: 6, 
                 name:'Dimitar Manastirski', 
@@ -59,5 +61,5 @@ export const footerContactDetails: FooterContactDetails = {
 }
 
 export const footerCopyright: FooterCopyright = {
-    copyright: '©2025 | Røsvik Team | All rights reserved'
+    copyright: '© 2025 | Røsvik Team | All rights reserved'
 }
