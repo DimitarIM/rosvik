@@ -14,9 +14,9 @@ export async function generateStaticParams() {
 const MemberPage = async ({
   params,
 }: {
-  params: Promise<{ member: string }>;
+  params: Promise<{ locale:string, member: string }>;
 }) => {
-  const { member } = await params;
+  const { locale, member } = await params;
   const selectedMember = allMembers.find(
     (person) => slugify(person.name) === member
   );
