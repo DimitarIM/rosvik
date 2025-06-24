@@ -25,7 +25,13 @@ export const gameOverViewData: GameOverViewProps = {
     imageTwoSrc: "/img/DescriptionPageSowilo.png",
     imageTwoAlt: "Sowilo",
     managementBoxText: [
-        "Play info, controls + tech info?",
-        "(...)"
+        "Controls:",
+        "WASD - to move",
+        "Ctrl - to crouch",
+        "Shift  - to run",
+        "E - to pick up objects",
+        "Space - to jump",
+        "Left click - to use power",
+        "Right click -  to change power",
     ]
 }

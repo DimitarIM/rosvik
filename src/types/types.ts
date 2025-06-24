@@ -25,6 +25,7 @@ export type DownLoadButtonProps = {
 
 export type TeamColumnProps = {
   team: string;
+  translatedTeamName: string;
 };
 
 export type SingleMemberProps = {
@@ -33,7 +34,7 @@ export type SingleMemberProps = {
   image?: string;
   quote?: string;
   linkedin?: string;
-  website?: string;
+  github?: string;
   discord?: string;
   work?: string[];
 };
@@ -109,3 +110,10 @@ export type FooterContactDetails = {
 export type FooterCopyright = {
   copyright: string;
 }
+export type GameLowerSectionProps = {
+  title: string;
+  description: string;
+
+}
+
+ 
