@@ -1,3 +1,5 @@
+'use client'
+
 import Inner from "@/components/Layout/Inner";
 import MainHeroSection from "../../components/MainHeroSection";
 import MediaTrailer from "@/components/MediaTrailer";
