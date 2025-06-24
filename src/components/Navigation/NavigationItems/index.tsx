@@ -15,7 +15,8 @@ const NavigationItems = () => {
   return (
     <div className="flex  space-x-6 text-white">
       {tMenuItems.map((item, index) => {
-        const isActive = pathname === item.path;
+        console.log(pathname);
+        const isActive = pathname === `/en${item.path}` || pathname === `/sv${item.path}`
 
         return (
           <Link
