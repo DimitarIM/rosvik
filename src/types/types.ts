@@ -75,6 +75,41 @@ export type LanguageSwitchProps = {
   isMobile?: boolean; 
 }
 
+export type FooterLinks = {
+  quickLinks: {
+    title: string;
+    links: { 
+      id: number;
+      label?: string;
+      href: string;
+      logo?: string;
+    }[];
+  }
+}
+
+export type FooterMedia = {
+  developers: {
+    title: string;
+    names: {
+      id: number; 
+      name: string; 
+      linkedin?: string; 
+      github?: string; 
+      icon?: string; 
+      giticon?:string
+    }[];
+  }
+}
+
+export type FooterContactDetails = {
+  title: string;
+  phone: string;
+  email: string;
+}
+
+export type FooterCopyright = {
+  copyright: string;
+}
 export type GameLowerSectionProps = {
   title: string;
   description: string;
