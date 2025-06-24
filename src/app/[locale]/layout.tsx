@@ -32,13 +32,12 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`h-screen ${labrada.variable}`}>
       <body>
-        <NextIntlClientProvider>
-          <Inner>
+        <Inner>
+          <NextIntlClientProvider>
             <Header />
             {children}
-            <Footer />
-          </Inner>
-        </NextIntlClientProvider>
+          </NextIntlClientProvider>
+        </Inner>
       </body>
     </html>
   );

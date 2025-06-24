@@ -1,12 +1,15 @@
+'use client'
 import Link from "next/link";
 import { allMembers } from "../../data/teamData";
 import { TeamColumnProps } from "../../types/types";
 import { slugify } from "../../utils/utils";
+import { usePathname } from "next/navigation";
 
 const TeamColumn = ({ team, translatedTeamName }: TeamColumnProps) => {
   const filteredTeam = allMembers.filter(
     (person) => person.team.toLowerCase() === team.toLowerCase()
   );
+  const pathname = usePathname();
 
   return (
     <div className="flex relative flex-col items-center h-full font-labrada space-y-2 w-full
@@ -18,7 +21,7 @@ const TeamColumn = ({ team, translatedTeamName }: TeamColumnProps) => {
         {filteredTeam.map((member, index) => (
           <div key={index}>
             <p className="text-[14px] md:text-[20px] font-medium">{member.title}</p>
-            <Link href={`/about/${slugify(member.name)}`}
+            <Link href={`${pathname}/${slugify(member.name)}`}
               className="text-[14px] md:text-[20px] text-[var(--name-color)] cursor-pointer transition 
               hover:text-shadow-[0_0_5px_rgb(182_169_112)] "
             >
