@@ -4,28 +4,24 @@ import SingleMemberInfo from "../../../../components/SingleMemberInfo";
 import { allMembers } from "../../../../data/teamData";
 import { slugify } from "../../../../utils/utils";
 
-/* Nextjs requires generateStaticParams */
-export async function generateStaticParams() {
-  return allMembers.map((member) => ({
-    member: slugify(member.name),
-  }));
-}
+// /* Nextjs requires generateStaticParams */
+// export async function generateStaticParams() {
+//   return allMembers.map((member) => ({
+//     member: slugify(member.name),
+//   }));
+// }
 
-
-interface PageProps {
-  params: {
-    locale: string;
-    member: string;
-  };
-}
-
-const MemberPage = async ({ params }: PageProps) => {
-  const { member } = params;
+const MemberPage = async ({
+  params,
+}: {
+  params: Promise<{ locale:string, member: string }>;
+}) => {
+  const { locale, member } = await params;
   const selectedMember = allMembers.find(
     (person) => slugify(person.name) === member
   );
 
-  if (!selectedMember) {
+  if (!selectedMember || !locale) {
     return <div className="p-2 font-labrada">Member not found</div>;
   }
 
