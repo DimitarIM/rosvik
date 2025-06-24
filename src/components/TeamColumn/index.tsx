@@ -10,7 +10,6 @@ const TeamColumn = ({ team, translatedTeamName }: TeamColumnProps) => {
     (person) => person.team.toLowerCase() === team.toLowerCase()
   );
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <div className="flex relative flex-col items-center h-full font-labrada space-y-2 w-full
