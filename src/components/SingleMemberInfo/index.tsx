@@ -9,7 +9,7 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
         <div className="w-full flex justify-between items-center flex-col gap-5 lg:gap-10 
         text-[12px] md:text-[22px] lg:text-[34px]">
           <div className="flex-1 lg:flex-none">
-            <p className="text-2xl md:text-4xl lg:text-6xl">{name}</p>
+            <h1 className="text-2xl md:text-4xl lg:text-6xl">{name}</h1>
             <p>{title}</p>
           </div>
           <div className="shadow-2xl relative w-[70%] max-w-[25rem] aspect-square overflow-hidden rounded-full">
@@ -54,7 +54,7 @@ const SingleMemberInfo = (member: SingleMemberProps) => {
         lg:flex-col gap-5 lg:gap-10 
         text-[12px] md:text-[18px] lg:text-[24px]">
             <div className="flex-1 lg:flex-none">
-              <p className="text-2xl lg:text-4xl">{name}</p>
+              <h1 className="text-2xl lg:text-4xl">{name}</h1>
               <p>{title}</p>
             </div>
             <div className="shadow-2xl relative w-[90px] md:w-[150px] lg:w-[290px] aspect-square overflow-hidden rounded-full">
