@@ -5,7 +5,6 @@ import { TeamColumnProps } from "../../types/types";
 import { slugify } from "../../utils/utils";
 import { usePathname } from "next/navigation";
 
-
 const TeamColumn = ({ team, translatedTeamName }: TeamColumnProps) => {
   const filteredTeam = allMembers.filter(
     (person) => person.team.toLowerCase() === team.toLowerCase()
