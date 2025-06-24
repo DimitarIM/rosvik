@@ -12,17 +12,20 @@ export async function generateStaticParams() {
 }
 
 
-const MemberPage = async ({
-  params,
-}: {
-  params: {locale:string,  member: string };
-}) => {
-  const { locale, member } =  params;
+interface PageProps {
+  params: {
+    locale: string;
+    member: string;
+  };
+}
+
+const MemberPage = async ({ params }: PageProps) => {
+  const { member } = params;
   const selectedMember = allMembers.find(
     (person) => slugify(person.name) === member
   );
 
-  if (!selectedMember || !locale) {
+  if (!selectedMember) {
     return <div className="p-2 font-labrada">Member not found</div>;
   }
 
