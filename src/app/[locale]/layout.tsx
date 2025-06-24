@@ -6,9 +6,7 @@ import Inner from "@/components/Layout/Inner";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
-// Assuming you have a file like `i18n.ts` at your project root or similar
-// that exports a default `getRequestConfig` function.
-import getMessages from '../../i18n'; // Adjust path as per your i18n config file
+import { getMessages } from "next-intl/server";
 
 const labrada = Labrada({
   variable: "--font-labrada",
@@ -35,7 +33,6 @@ export default async function RootLayout({
 
   let messages;
   try {
-
     messages = (await getMessages({ locale })).messages;
   } catch (error) {
     console.error("Failed to load messages:", error);
