@@ -1,9 +1,12 @@
 import { SingleMemberProps } from "../../types/types";
+import Header from "../Header";
 
 const SingleMemberInfo = (member: SingleMemberProps) => {
   const { title, image, name, quote, linkedin, github, discord } = member;
   if (!quote) return (
+    
     <div className="w-full font-labrada flex flex-col items-center p-9 pt-10 lg:p-25">
+      <Header />
       <div className="w-full flex flex-col lg:flex-row justify-center gap-10 lg:gap-15">
         {/* First column box */}
         <div className="w-full flex justify-between items-center flex-col gap-5 lg:gap-10 
