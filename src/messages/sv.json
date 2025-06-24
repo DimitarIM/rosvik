@@ -24,10 +24,10 @@
   "game": {
     "pageTitle": "Om spelet",
     "aboutText": {
-      "paragraph1": "Røsvik är ett överlevnadsspel i förstapersonsperspektiv som utspelar sig i en barsk, avlägsen nordeuropeisk stad, och blandar element av fantasi, mytologi och utforskning.",
-      "paragraph2": "Spelare antar rollen som en lantmätare från Den Norske Turistforening, med uppgift att undersöka den övergivna, avlägsna bosättningen Røsvik —  en gång hem för utstötta, naturläkare och hedniska motståndare. Officiellt övergavs bosättningen på grund av ”ostabil terräng”, men lokalbefolkningen talar om något mycket mer olycksbådande.",
-      "paragraph3": "Spelet kretsar kring att samla resurser, låsa upp mystiska krafter och interagera med en atmosfärisk, farlig och framväxande miljö.",
-      "paragraph4": "När spelare upptäcker gamla reliker, geologiska prover och förlorad utrustning kommer de gradvis att få tillgång till övernaturliga förmågor och tvingas navigera i det förbannade landskapet —  samtidigt som de undviker mytologiska hot som lurar i mörkret."
+   "paragraph1": "Røsvik är ett förstapersonsöverlevnadsspel som utspelar sig i en karg, avlägsen stad i norra Europa, där fantasy, mytologi och utforskning blandas.",
+  "paragraph2": "Spelaren är en besiktningsman från Den Norske Turistforening, som ska undersöka den övergivna, off-grid bosättningen Røsvik — en gång hem för utstötta, helare och hedniska motståndare. Officiellt övergavs bosättningen på grund av instabil mark, men lokalbefolkningen talar om något mer illavarslande.",
+  "paragraph3": "Spelupplägget kretsar kring att samla resurser, låsa upp mystiska krafter och interagera med en atmosfärisk, farlig och dynamisk miljö.",
+  "paragraph4": "När spelaren upptäcker gamla reliker, geologiska prover och förlorad utrustning får spelaren gradvis övernaturliga förmågor och tvingas navigera i det förbannade landskapet – samtidigt som spelaren undviker mytologiska hot som lurar i mörkret."
     },
     "gameLoopTitle": "Spelslinga",
     "gameLoopText": {

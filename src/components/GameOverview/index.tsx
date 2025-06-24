@@ -57,8 +57,9 @@ const GameOverview = ({
           <img
             className="w-[235px] h-[374px] m-auto"
             src={imageOneSrc}
-            alt={imageOneAlt}
-          ></img>
+            alt={imageOneAlt}>
+
+            </img>
         </div>
         <h2 className="text-xl font-normal text-center mt-12 ">
           {t("gameLoopTitle")}
@@ -106,7 +107,7 @@ const GameOverview = ({
             <img
               className="w-[235px] h-[374px] 
             sm:mt-20 lg:mt-25 lg:w-[300px] lg:h-[473px]
-            xl:mt-30.5 xl:w-[359px] xl:h-[572px]"
+            xl:mt-35 xl:w-[359px] xl:h-[572px]"
               src={imageOneSrc}
               alt={imageOneAlt}
             ></img>
@@ -114,7 +115,7 @@ const GameOverview = ({
           <h2 className="text-xl font-normal text-center mt-12 sm:text-2xl sm:w-fit mx-0 sm:mt-15 md:mt-20 xl:text-[40px] xl:mt-22">
             {t("gameLoopTitle")}
           </h2>
-          <div className=" mt-4 mb-3 rounded-[10px] bg-foreground sm:mb-6 sm:max-w-[252px] md:max-w-[290px] md:p-2 lg:max-w-[380px] lg:p-3 lg:pt-7 lg:pb-5 xl:max-w-[413px] xl:pl-4">
+          <div className=" mt-4 mb-3 rounded-[10px] bg-foreground sm:mb-5 sm:max-w-[252px] md:max-w-[290px] md:p-2 lg:max-w-[380px] lg:p-3 lg:pt-7 lg:pb-5 xl:mb-7 xl:max-w-[413px] xl:pl-4">
             <GameLoopList gameLoopText={tGameLoopText} />
           </div>
           <GameOverviewButton {...downloadButtonData} />
