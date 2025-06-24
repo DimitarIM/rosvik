@@ -6,6 +6,7 @@ import Inner from "@/components/Layout/Inner";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
+import Footer from "@/components/Footer";
 
 const labrada = Labrada({
   variable: "--font-labrada",

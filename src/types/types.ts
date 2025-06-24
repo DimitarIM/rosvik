@@ -78,10 +78,8 @@ export type LanguageSwitchProps = {
 export type GameLowerSectionProps = {
   title: string;
   description: string;
-
 }
 
- 
 export type FooterLinks = {
   quickLinks: {
     title: string;
