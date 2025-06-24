@@ -5,11 +5,11 @@ import { allMembers } from "../../../../data/teamData";
 import { slugify } from "../../../../utils/utils";
 
 /* Nextjs requires generateStaticParams */
-export async function generateStaticParams() {
-  return allMembers.map((member) => ({
-    member: slugify(member.name),
-  }));
-}
+// export async function generateStaticParams() {
+//   return allMembers.map((member) => ({
+//     member: slugify(member.name),
+//   }));
+// }
 
 const MemberPage = async ({
   params,
