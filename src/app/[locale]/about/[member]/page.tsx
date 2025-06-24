@@ -1,3 +1,4 @@
+'use client'
 import Carousel from "@/components/Carousel";
 import Inner from "@/components/Layout/Inner";
 import SingleMemberInfo from "../../../../components/SingleMemberInfo";
