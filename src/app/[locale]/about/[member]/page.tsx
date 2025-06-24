@@ -5,24 +5,24 @@ import { allMembers } from "../../../../data/teamData";
 import { slugify } from "../../../../utils/utils";
 
 /* Nextjs requires generateStaticParams */
-/*export async function generateStaticParams() {
+export async function generateStaticParams() {
   return allMembers.map((member) => ({
     member: slugify(member.name),
   }));
 }
-*/
+
 
 const MemberPage = async ({
   params,
 }: {
-  params: { member: string };
+  params: {locale:string,  member: string };
 }) => {
-  const { member } =  params;
+  const { locale, member } =  params;
   const selectedMember = allMembers.find(
     (person) => slugify(person.name) === member
   );
 
-  if (!selectedMember) {
+  if (!selectedMember || !locale) {
     return <div className="p-2 font-labrada">Member not found</div>;
   }
 
