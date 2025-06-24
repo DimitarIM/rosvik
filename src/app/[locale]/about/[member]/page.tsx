@@ -17,12 +17,11 @@ const MemberPage = async ({
   params: Promise<{ locale:string, member: string }>;
 }) => {
   const { locale, member } = await params;
-  locale === locale;
   const selectedMember = allMembers.find(
     (person) => slugify(person.name) === member
   );
 
-  if (!selectedMember) {
+  if (!selectedMember || !locale) {
     return <div className="p-2 font-labrada">Member not found</div>;
   }
 
