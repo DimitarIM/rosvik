@@ -8,7 +8,7 @@ const Header = () => {
   const pathName = usePathname();
   const router = useRouter();
 
-  if(pathName.split("/").length === 4) {
+  if(pathName.split("/").length === 3) {
     return (
       <header className="absolute z-50 top:0 left:0 w-full flex top-0 bg-transparent px-6 py-4" >
         <button type="button" onClick={() => router.back()} className="cursor-pointer">

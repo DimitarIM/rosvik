@@ -61,9 +61,9 @@ const GameOverview = ({
 
             </img>
         </div>
-        <h2 className="text-xl font-normal text-center mt-12 ">
+        <h3 className="text-xl font-normal text-center mt-12 ">
           {t("gameLoopTitle")}
-        </h2>
+        </h3>
         <div className="mx-[50px] mt-4 mb-3 rounded-[10px] bg-foreground ">
           <GameLoopList gameLoopText={tGameLoopText} />
         </div>
@@ -81,12 +81,12 @@ const GameOverview = ({
 
       <div className="hidden sm:text-text-color sm:flex justify-self-center ">
         <div className="sm:max-w-fit lg:mr-[10px]">
-          <p
+          <h2
             className="text-color-primary sm:text-2xl font-normal text-center 
           xl:text-[40px]"
           >
             {t("pageTitle")}
-          </p>
+          </h2>
           <About aboutText={tAboutText} />
           <div>
             <img
@@ -112,10 +112,10 @@ const GameOverview = ({
               alt={imageOneAlt}
             ></img>
           </div>
-          <h2 className="text-xl font-normal text-center mt-12 sm:text-2xl sm:w-fit mx-0 sm:mt-15 md:mt-20 xl:text-[40px] xl:mt-22">
+          <h3 className="text-xl font-normal text-center mt-12 sm:text-2xl sm:w-fit mx-0 sm:mt-15 md:mt-20 xl:text-[40px] xl:mt-22">
             {t("gameLoopTitle")}
-          </h2>
-          <div className=" mt-4 mb-3 rounded-[10px] bg-foreground sm:mb-5 sm:max-w-[252px] md:max-w-[290px] md:p-2 lg:max-w-[380px] lg:p-3 lg:pt-7 lg:pb-5 xl:mb-7 xl:max-w-[413px] xl:pl-4">
+          </h3>
+          <div className=" mt-4 mb-3 rounded-[10px] bg-foreground sm:mb-6 sm:max-w-[252px] md:max-w-[290px] md:p-2 lg:max-w-[380px] lg:p-3 lg:pt-7 lg:pb-5 xl:max-w-[413px] xl:pl-4">
             <GameLoopList gameLoopText={tGameLoopText} />
           </div>
           <GameOverviewButton {...downloadButtonData} />
