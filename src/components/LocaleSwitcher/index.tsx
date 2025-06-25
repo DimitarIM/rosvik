@@ -33,12 +33,12 @@ export default function LocaleSwitcher() {
       : t("locale", { locale: "sv" });
 
   return (
-    <div className="flex justify-center items-center p-1 rounded-lg">
+    <div className="md:absolute md:right-8 md:top-50% md:translate-y-[50%] flex justify-center items-center pr-2 rounded-lg">
       <button
         type="button"
         onClick={handleLocaleChange}
         className={`
-          px-3 py-2 rounded-md font-medium text-sm
+          rounded-md font-medium text-sm
           relative overflow-hidden flex items-center justify-center cursor-pointer
         `}
       >
