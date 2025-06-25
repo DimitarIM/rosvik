@@ -1,10 +1,10 @@
 import Inner from "@/components/Layout/Inner";
 import MainHeroSection from "../../components/MainHeroSection";
 import MediaTrailer from "@/components/MediaTrailer";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
-export default async function Home() {
-  const t = await getTranslations("home");
+export default function Home() {
+  const t = useTranslations("home");
 
   return (
     <>
