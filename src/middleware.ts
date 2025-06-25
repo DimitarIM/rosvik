@@ -1,8 +1,21 @@
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 
-export default createMiddleware(routing);
+const nextIntlMiddleware = createMiddleware(routing);
+
+export default async function middleware(req: any) {
+
+  const response = await nextIntlMiddleware(req);
+
+  return response;
+}
 
 export const config = {
-  matcher: ['/((?!api|_next|.*\\..*).*)']
+
+  matcher: [
+    '/',
+    '/en/:path*',
+    '/sv/:path*',
+    '/((?!api|_next|favicon.ico|.*\\..*).*)',
+  ],
 };
