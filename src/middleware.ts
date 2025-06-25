@@ -5,7 +5,7 @@ const nextIntlMiddleware = createMiddleware(routing);
 
 export default async function middleware(req: any) {
 
-  const response = await nextIntlMiddleware(req);
+  const response = nextIntlMiddleware(req);
 
   return response;
 }
