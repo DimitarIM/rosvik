@@ -4,5 +4,6 @@ export const routing = defineRouting({
   locales: ["en", "sv"],
   defaultLocale: "en",
   localeCookie: false,
-  localePrefix: 'as-needed'
+  localePrefix: 'as-needed',
+  localeDetection: true,
 });
