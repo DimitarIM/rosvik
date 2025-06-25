@@ -57,8 +57,9 @@ const GameOverview = ({
           <img
             className="w-[235px] h-[374px] m-auto"
             src={imageOneSrc}
-            alt={imageOneAlt}
-          ></img>
+            alt={imageOneAlt}>
+
+            </img>
         </div>
         <h3 className="text-xl font-normal text-center mt-12 ">
           {t("gameLoopTitle")}
@@ -106,7 +107,7 @@ const GameOverview = ({
             <img
               className="w-[235px] h-[374px] 
             sm:mt-20 lg:mt-25 lg:w-[300px] lg:h-[473px]
-            xl:mt-30.5 xl:w-[359px] xl:h-[572px]"
+            xl:mt-35 xl:w-[359px] xl:h-[572px]"
               src={imageOneSrc}
               alt={imageOneAlt}
             ></img>
